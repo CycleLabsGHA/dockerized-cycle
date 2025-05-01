@@ -30,7 +30,7 @@ jobs:
           $secretNames = @(
             'PW-AZURESQL', 'PW-DB2', 'PW-MOCA', 'PW-MYSQL', 'PW-OPENSSH',
             'PW-ORACLE-DB', 'PW-SQL-DB', 'PW-SQL14-DB', 'PW-TELNET',
-            'UN-AZURESQL', 'MAPS_API_KEY'
+            'UN-AZURESQL'
           )
 
           $envFile = "secrets.env"
