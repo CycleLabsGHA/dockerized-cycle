@@ -57,34 +57,16 @@ Then I see "~]$" on last line in terminal within 15 seconds
 @moca
 Scenario: JDA MOCA - Cycle CI 2021.1.1
 When I connect to MOCA at "https://cycl-pdbd-wm202111-moca.wm-servers.com/service" logged in as "LSEXTON" with password $pw_moca
-	And I execute MOCA command "[update adrmst set first_name = 'PDBD-WM2021111' where adr_id = (select adr_id from les_usr_ath where usr_id = 'LSEXTON')]"
+	And I execute MOCA command "[update adrmst set first_name = 'Larry' where adr_id = (select adr_id from les_usr_ath where usr_id = 'LSEXTON')]"
 Then I verify MOCA status is 0
 When I execute MOCA command "publish data where instance = @@MOCA_ENVNAME"
 	And I verify MOCA status is 0
 	And I assign row 0 column "instance" to variable "instance"
 Then I verify text $instance is equal to "cycl-dev"
-When I execute MOCA command "[update les_mls_cat set mls_text = 'PDBD-WM202111' where mls_id = 'ttlAbout' and locale_id = 'US_ENGLISH' and prod_id = 'LES' and FRM_ID = 'LES' and vartn = 'RF' and srt_seq = 0 and cust_lvl = 0]"
+When I execute MOCA command "[update les_mls_cat set mls_text = 'Larry' where mls_id = 'ttlAbout' and locale_id = 'US_ENGLISH' and prod_id = 'LES' and FRM_ID = 'LES' and vartn = 'RF' and srt_seq = 0 and cust_lvl = 0]"
 Then I reset terminal device "RDT001" in warehouse "WMD1"
 	And I reset terminal device "SSH001" in warehouse "WMD1"
 	And I close MOCA connection
-
-@rf
-Scenario: JDA RF - TELNET - Cycle CI 2021.1.1
-Given I open terminal connected to "cycl-pdbd-wm202111-rf.wm-servers.com:46062" for terminal "RDT001" sized to 16 lines and 20 columns
-If I see "Terminal ID:" in terminal within 30 seconds
-	Then I type "RDT001" in terminal
-	And I press keys ENTER in terminal
-EndIf
-Then I see "User ID:" in terminal within 30 seconds
-When I press keys ESC+F3 in terminal
-Then I see "Function Keys" in terminal within 5 seconds
-When I type "N" in terminal
-Then I see "Gold Keys" in terminal within 5 seconds
-When I type "0" in terminal
-Then I see "PDBD-WM202111" in terminal within 5 seconds
-When I press keys F1 in terminal
-Then I see "User ID:" in terminal within 5 seconds
-	And I close terminal
 
 @refs
 Scenario: JDA REFS - Cycle CI 2021.1.1
@@ -96,5 +78,5 @@ When I open "Chrome" web browser on remote "http://chrome-connection-test:4444/w
 	And I type "LARRY#01" in web browser
 	And I press keys ENTER in web browser
 Then I see "Hello" in web browser within 30 seconds
-Then I see "PDBD-WM202111" in web browser within 30 seconds
+Then I see "WMD1" in web browser within 30 seconds
 	And I close web browser

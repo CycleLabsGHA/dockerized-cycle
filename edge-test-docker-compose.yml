@@ -1,6 +1,7 @@
 services:
   cycle-browser-test-edge:
-    image: "cycledev.azurecr.io/cycledev/cycle:20241210.1"
+    image: "cyclelabs/cycle-cli:latest"
+    #image: "cycledev.azurecr.io/cycledev/cycle:latest"
     shm_size: 2g
     volumes:
       - .:/code
@@ -8,7 +9,6 @@ services:
       - "edge"
     command: ["--clientid", "${DOCKERIZED_CYCLE_APP_ID}", "--client-credential", "${DOCKERIZED_CYCLE_APP_SECRET}", "-p", "/code", "combined/grocerio-browser-test-edge.feature"]
     environment:
-      WAIT_HOSTS: chrome:4444
       PW_ORACLE_DB: ${PW_ORACLE_DB}
       PW_SQL_DB: ${PW_SQL_DB}
       PW_DB2: ${PW_DB2}
@@ -17,6 +17,7 @@ services:
       PW_TELNET: ${PW_TELNET}
       PW_MOCA: ${PW_MOCA}
       PW_AZURESQL: ${PW_AZURESQL}
+      UN_AZURESQL: ${UN_AZURESQL}
       PW_OPENSSH: ${PW_OPENSSH}
       AUTH_TOKEN: ${AUTH_TOKEN}
       MAPS_API_KEY: ${MAPS_API_KEY}
