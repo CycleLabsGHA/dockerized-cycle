@@ -1,0 +1,40 @@
+services:
+
+  cycle-browser-test-chrome:
+    image: "cycledev.azurecr.io/cycledev/cycle:20241210.1"
+    shm_size: 2g
+    volumes:
+      - .:/code
+    depends_on:
+      - "chrome"
+    #command: "/wait && /home/cycle/cycle-cli --token ${AUTH_TOKEN} -p /code combined/grocerio-browser-test-chrome.feature"
+    command: ["--clientid", "${DOCKERIZED_CYCLE_APP_ID}", "--client-credential", "${DOCKERIZED_CYCLE_APP_SECRET}", "-p", "/code", "combined/grocerio-browser-test-chrome.feature"]
+    environment:
+      WAIT_HOSTS: chrome:4444
+      PW_ORACLE_DB: ${PW_ORACLE_DB}
+      PW_SQL_DB: ${PW_SQL_DB}
+      PW_DB2: ${PW_DB2}
+      PW_MYSQL: ${PW_MYSQL}
+      PW_SQL14_DB: ${PW_SQL14_DB}
+      PW_TELNET: ${PW_TELNET}
+      PW_MOCA: ${PW_MOCA}
+      PW_AZURESQL: ${PW_AZURESQL}
+      PW_OPENSSH: ${PW_OPENSSH}
+      AUTH_TOKEN: ${AUTH_TOKEN}
+      MAPS_API_KEY: ${MAPS_API_KEY}
+      DOCKERIZED_CYCLE_APP_ID: ${DOCKERIZED_CYCLE_APP_ID}
+      DOCKERIZED_CYCLE_APP_SECRET: ${DOCKERIZED_CYCLE_APP_SECRET}
+
+  chrome:
+    image: "selenium/standalone-chrome"
+    environment:
+      - CHROME_OPTS=--no-sandbox --disable-dev-shm-usage --headless
+    volumes:
+      - /dev/shm:/dev/shm
+    # Used for M1 procs
+    #image: "seleniarm/standalone-chromium"
+    ports:
+      - "4444:4444"
+    hostname: chrome
+    privileged: true
+    shm_size: 2g
