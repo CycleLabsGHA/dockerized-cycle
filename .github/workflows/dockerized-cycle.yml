@@ -1,0 +1,86 @@
+name: Run Dockerized Cycle Tests
+
+on:
+  schedule:
+    - cron: '0 */4 * * *'  # Every 4 hours
+  workflow_dispatch:
+
+jobs:
+  cycle-tests:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v3
+
+      - name: Log in to Azure
+        uses: azure/login@v1
+        with:
+          creds: ${{ secrets.AZURE_CREDENTIALS }}
+
+      - name: Install PowerShell (if not present)
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y powershell
+        shell: bash
+
+      - name: Retrieve Secrets from Azure Key Vault
+        shell: pwsh
+        run: |
+          $secretNames = @(
+            'PW-AZURESQL', 'PW-DB2', 'PW-MOCA', 'PW-MYSQL', 'PW-OPENSSH',
+            'PW-ORACLE-DB', 'PW-SQL-DB', 'PW-SQL14-DB', 'PW-TELNET', 'UN-AZURESQL'
+          )
+
+          $envFile = "secrets.env"
+          if (Test-Path $envFile) { Remove-Item $envFile }
+
+          foreach ($secretName in $secretNames) {
+              $safeSecretName = $secretName -replace '-', '_'
+              $secretValue = az keyvault secret show `
+                  --vault-name "${{ secrets.DEV_KV_NAME }}" `
+                  --name $secretName `
+                  --query "value" -o tsv
+
+              "::add-mask::$secretValue" | Out-Host
+              "$safeSecretName=$secretValue" | Out-File -FilePath $envFile -Append -Encoding utf8
+              Write-Output "Retrieved secret: $safeSecretName"
+          }
+
+      - name: Export secrets to environment
+        shell: pwsh
+        run: |
+          Get-Content secrets.env | ForEach-Object {
+              $parts = $_ -split '=', 2
+              $name = $parts[0]
+              $value = $parts[1]
+              "::add-mask::$value"
+              "$name=$value" | Out-File -FilePath $env:GITHUB_ENV -Append -Encoding utf8
+          }
+
+      - name: Run Cycle Connection Test
+        run: |
+          docker compose -f connection-test-docker-compose.yml up --attach cycle-connection-test --abort-on-container-exit || true
+          docker compose -f connection-test-docker-compose.yml down
+        shell: bash
+
+      - name: Run Cycle API Test
+        run: |
+          docker compose -f api-test-docker-compose.yml up --attach cycle-api-test --abort-on-container-exit || true
+          docker compose -f api-test-docker-compose.yml down
+        shell: bash
+
+      - name: Run Cycle Browser Test - Chrome
+        run: |
+          docker compose -f chrome-test-docker-compose.yml up --attach cycle-browser-test-chrome --abort-on-container-exit || true
+          docker compose -f chrome-test-docker-compose.yml down
+        shell: bash
+
+      - name: Run Cycle Browser Test - Edge
+        run: |
+          docker compose -f edge-test-docker-compose.yml up --attach cycle-browser-test-edge --abort-on-container-exit || true
+          docker compose -f edge-test-docker-compose.yml down
+        shell: bash
+
+      - name: Clean up Docker Containers
+        run: docker container prune -f
