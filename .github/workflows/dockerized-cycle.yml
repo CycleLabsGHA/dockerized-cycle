@@ -24,7 +24,7 @@ jobs:
           sudo apt-get install -y powershell
         shell: bash
 
-      - name: Retrieve Secrets from Azure Key Vault
+      - name: Retrieve Secrets and Export to GITHUB_ENV
         shell: pwsh
         run: |
           $secretNames = @(
@@ -32,82 +32,77 @@ jobs:
             'PW-ORACLE-DB', 'PW-SQL-DB', 'PW-SQL14-DB', 'PW-TELNET', 'UN-AZURESQL'
           )
 
-          $envFile = "./secrets.env"
-          if (Test-Path $envFile) { Remove-Item $envFile }
-          New-Item -Path $envFile -ItemType File -Force | Out-Null
-
           foreach ($secretName in $secretNames) {
             $safeName = $secretName -replace '-', '_'
             $secretValue = az keyvault secret show --vault-name "${{ secrets.DEV_KV_NAME }}" --name $secretName --query 'value' -o tsv
-            Add-Content -Path $envFile -Value "$safeName=$secretValue"
             Write-Output "::add-mask::$secretValue"
-            Write-Output "Retrieved secret for $safeName"
+            "$safeName=$secretValue" | Out-File -FilePath $env:GITHUB_ENV -Append -Encoding utf8
+            Write-Host "✅ Set $safeName in GITHUB_ENV"
           }
 
-          # Adding in Github Actions secret variables into ENV variables
-          Add-Content -Path $envFile -Value "CI_CYCLE_AUTH=${{ secrets.CI_CYCLE_AUTH }}"
-          Add-Content -Path $envFile -Value "CI_CYCLE_AUTH_SECRET=${{ secrets.CI_CYCLE_AUTH_SECRET }}"
-
-      - name: Save secrets as environment variables
-        shell: pwsh
-        run: |
-          Get-Content ./secrets.env | ForEach-Object {
-            $name, $value = $_ -split '=', 2
-            Write-Output "::add-mask::$value"
-            Add-Content -Path $env:GITHUB_ENV -Value "$name=$value"
-          }
+          # Add CI secrets from GitHub directly
+          Write-Output "::add-mask::${{ secrets.CI_CYCLE_AUTH }}"
+          Write-Output "::add-mask::${{ secrets.CI_CYCLE_AUTH_SECRET }}"
+          "CI_CYCLE_AUTH=${{ secrets.CI_CYCLE_AUTH }}" | Out-File -FilePath $env:GITHUB_ENV -Append -Encoding utf8
+          "CI_CYCLE_AUTH_SECRET=${{ secrets.CI_CYCLE_AUTH_SECRET }}" | Out-File -FilePath $env:GITHUB_ENV -Append -Encoding utf8
+          Write-Host "✅ Set CI_CYCLE_AUTH and CI_CYCLE_AUTH_SECRET in GITHUB_ENV"
 
       - name: Debug secrets
-        shell: pwsh
         run: |
-          echo "CI_CYCLE_AUTH: $env:CI_CYCLE_AUTH"
-          echo "CI_CYCLE_AUTH_SECRET: $env:CI_CYCLE_AUTH_SECRET"
+          echo "CI_CYCLE_AUTH is set: ${CI_CYCLE_AUTH:+yes}"
+          echo "CI_CYCLE_AUTH_SECRET is set: ${CI_CYCLE_AUTH_SECRET:+yes}"
+        shell: bash
 
-      # - name: Retrieve secrets and create dotenv file
+
+      # - name: Retrieve Secrets from Azure Key Vault
       #   shell: pwsh
       #   run: |
       #     $secretNames = @(
       #       'PW-AZURESQL', 'PW-DB2', 'PW-MOCA', 'PW-MYSQL', 'PW-OPENSSH',
-      #       'PW-ORACLE-DB', 'PW-SQL-DB', 'PW-SQL14-DB', 'PW-TELNET',
-      #       'UN-AZURESQL'
+      #       'PW-ORACLE-DB', 'PW-SQL-DB', 'PW-SQL14-DB', 'PW-TELNET', 'UN-AZURESQL'
       #     )
 
-      #     $envFile = "secrets.env"
+      #     $envFile = "./secrets.env"
+      #     if (Test-Path $envFile) { Remove-Item $envFile }
       #     New-Item -Path $envFile -ItemType File -Force | Out-Null
 
       #     foreach ($secretName in $secretNames) {
-      #         $safeName = $secretName -replace '-', '_'
-      #         $value = az keyvault secret show --vault-name ${{ secrets.DEV_KV_NAME }} --name $secretName --query 'value' -o tsv
-      #         Add-Content -Path $envFile -Value "$safeName=$value"
-      #         Write-Output "::add-mask::$value"
+      #       $safeName = $secretName -replace '-', '_'
+      #       $secretValue = az keyvault secret show --vault-name "${{ secrets.DEV_KV_NAME }}" --name $secretName --query 'value' -o tsv
+      #       Add-Content -Path $envFile -Value "$safeName=$secretValue"
+      #       Write-Output "::add-mask::$secretValue"
+      #       Write-Output "Retrieved secret for $safeName"
       #     }
 
-      #     # Add app ID and secret from GitHub Actions secrets
-      #     Add-Content -Path $envFile -Value "DOCKERIZED_CYCLE_APP_ID=${{ secrets.DOCKERIZED_CYCLE_APP_ID }}"
-      #     Add-Content -Path $envFile -Value "DOCKERIZED_CYCLE_APP_SECRET=${{ secrets.DOCKERIZED_CYCLE_APP_SECRET }}"
+      #     # Adding in Github Actions secret variables into ENV variables
+      #     Add-Content -Path $envFile -Value "CI_CYCLE_AUTH=${{ secrets.CI_CYCLE_AUTH }}"
+      #     Add-Content -Path $envFile -Value "CI_CYCLE_AUTH_SECRET=${{ secrets.CI_CYCLE_AUTH_SECRET }}"
+
+      # - name: Save secrets as environment variables
+      #   shell: pwsh
+      #   run: |
+      #     Get-Content ./secrets.env | ForEach-Object {
+      #       $name, $value = $_ -split '=', 2
+      #       Write-Output "::add-mask::$value"
+      #       Add-Content -Path $env:GITHUB_ENV -Value "$name=$value"
+      #     }
+
+      # - name: Debug secrets
+      #   shell: pwsh
+      #   run: |
+      #     echo "CI_CYCLE_AUTH: $env:CI_CYCLE_AUTH"
+      #     echo "CI_CYCLE_AUTH_SECRET: $env:CI_CYCLE_AUTH_SECRET"
 
       # - name: Export secrets to environment
       #   shell: pwsh
       #   run: |
       #     Get-Content secrets.env | ForEach-Object {
-      #       $parts = $_ -split '=', 2
-      #       $name = $parts[0]
-      #       $value = $parts[1]
-      #       "::add-mask::$value"
-      #       "$name=$value" | Out-File -FilePath $env:GITHUB_ENV -Append -Encoding utf8
+      #         $parts = $_ -split '=', 2
+      #         $name = $parts[0]
+      #         $value = $parts[1]
+      #         "::add-mask::$value"
+      #         "$name=$value" | Out-File -FilePath $env:GITHUB_ENV -Append -Encoding utf8
       #     }
-
-
-      - name: Export secrets to environment
-        shell: pwsh
-        run: |
-          Get-Content secrets.env | ForEach-Object {
-              $parts = $_ -split '=', 2
-              $name = $parts[0]
-              $value = $parts[1]
-              "::add-mask::$value"
-              "$name=$value" | Out-File -FilePath $env:GITHUB_ENV -Append -Encoding utf8
-          }
 
       - name: Run Cycle Connection Test
         run: |
