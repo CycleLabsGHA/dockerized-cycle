@@ -53,8 +53,8 @@ jobs:
         run: |
           Get-Content ./secrets.env | ForEach-Object {
             $name, $value = $_ -split '=', 2
-            "::add-mask::$value"
-            "$name=$value" | Out-File -FilePath $env:GITHUB_ENV -Append -Encoding utf8
+            Write-Output "::add-mask::$value"
+            "$name=$value" | Set-Content -Path $env:GITHUB_ENV -Append -Encoding utf8
           }
 
       - name: Debug secrets
