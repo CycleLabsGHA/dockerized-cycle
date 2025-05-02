@@ -1,0 +1,100 @@
+name: Run Dockerized Cycle Tests (different jobs)
+
+on:
+  schedule:
+    - cron: '0 */4 * * *'  # Every 4 hours
+  workflow_dispatch:
+
+jobs:
+  setup:
+    runs-on: ubuntu-latest
+    outputs:
+      env-cache-key: ${{ steps.cache-key.outputs.key }}
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v3
+
+      - name: Log in to Azure
+        uses: azure/login@v1
+        with:
+          creds: ${{ secrets.AZURE_CREDENTIALS }}
+
+      - name: Install PowerShell
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y powershell
+        shell: bash
+
+      - name: Retrieve Secrets and Export to GITHUB_ENV
+        id: export-secrets
+        shell: pwsh
+        run: |
+          $secretNames = @(
+            'PW-AZURESQL', 'PW-DB2', 'PW-MOCA', 'PW-MYSQL', 'PW-OPENSSH',
+            'PW-ORACLE-DB', 'PW-SQL-DB', 'PW-SQL14-DB', 'PW-TELNET', 'UN-AZURESQL'
+          )
+
+          foreach ($secretName in $secretNames) {
+            $safeName = $secretName -replace '-', '_'
+            $secretValue = az keyvault secret show --vault-name "${{ secrets.DEV_KV_NAME }}" --name $secretName --query 'value' -o tsv
+            Write-Output "::add-mask::$secretValue"
+            "$safeName=$secretValue" | Out-File -FilePath $env:GITHUB_ENV -Append -Encoding utf8
+            Write-Host "✅ Set $safeName in GITHUB_ENV"
+          }
+
+          Write-Output "::add-mask::${{ secrets.CI_CYCLE_AUTH }}"
+          Write-Output "::add-mask::${{ secrets.CI_CYCLE_AUTH_SECRET }}"
+          "CI_CYCLE_AUTH=${{ secrets.CI_CYCLE_AUTH }}" | Out-File -FilePath $env:GITHUB_ENV -Append -Encoding utf8
+          "CI_CYCLE_AUTH_SECRET=${{ secrets.CI_CYCLE_AUTH_SECRET }}" | Out-File -FilePath $env:GITHUB_ENV -Append -Encoding utf8
+          Write-Host "✅ Set CI_CYCLE_AUTH and CI_CYCLE_AUTH_SECRET in GITHUB_ENV"
+
+  api-test:
+    needs: setup
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Run Cycle API Test
+        run: |
+          docker compose -f api-test-docker-compose.yml up --attach cycle-api-test --abort-on-container-exit || true
+          docker compose -f api-test-docker-compose.yml down
+
+  chrome-test:
+    needs: setup
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Run Cycle Browser Test - Chrome
+        run: |
+          docker compose -f chrome-test-docker-compose.yml up --attach cycle-browser-test-chrome --abort-on-container-exit || true
+          docker compose -f chrome-test-docker-compose.yml down
+
+  edge-test:
+    needs: setup
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Run Cycle Browser Test - Edge
+        run: |
+          docker compose -f edge-test-docker-compose.yml up --attach cycle-browser-test-edge --abort-on-container-exit || true
+          docker compose -f edge-test-docker-compose.yml down
+
+  connection-test:
+    needs: setup
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Run Cycle Connection Test
+        run: |
+          docker compose -f connection-test-docker-compose.yml up --attach cycle-connection-test --abort-on-container-exit || true
+          docker compose -f connection-test-docker-compose.yml down
+
+  cleanup:
+    needs: [api-test, chrome-test, edge-test, connection-test]
+    runs-on: ubuntu-latest
+    steps:
+      - name: Clean up Docker Containers
+        run: docker container prune -f
