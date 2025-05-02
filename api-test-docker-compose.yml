@@ -4,7 +4,7 @@ services:
     shm_size: 2g
     volumes:
       - .:/code
-    command: ["--clientid", "${DOCKERIZED_CYCLE_APP_ID}", "--client-credential", "${DOCKERIZED_CYCLE_APP_SECRET}", "-p", "/code", "combined/api-test.feature"]
+    command: ["--clientid", "${CI_CYCLE_AUTH}", "--client-credential", "${CI_CYCLE_AUTH_SECRET}", "-p", "/code", "combined/api-test.feature"]
     environment:
       PW_ORACLE_DB: ${PW_ORACLE_DB}
       PW_SQL_DB: ${PW_SQL_DB}
@@ -18,5 +18,5 @@ services:
       PW_OPENSSH: ${PW_OPENSSH}
       AUTH_TOKEN: ${AUTH_TOKEN}
       MAPS_API_KEY: ${MAPS_API_KEY}
-      DOCKERIZED_CYCLE_APP_ID: ${CI_CYCLE_AUTH}
-      DOCKERIZED_CYCLE_APP_SECRET: ${CI_CYCLE_AUTH_SECRET}
+      CI_CYCLE_AUTH: ${CI_CYCLE_AUTH}
+      CI_CYCLE_AUTH_SECRET: ${CI_CYCLE_AUTH_SECRET}
