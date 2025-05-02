@@ -57,6 +57,12 @@ jobs:
             "$name=$value" | Out-File -FilePath $env:GITHUB_ENV -Append -Encoding utf8
           }
 
+      - name: Debug secrets
+        shell: pwsh
+        run: |
+          echo "CI_CYCLE_AUTH: $env:CI_CYCLE_AUTH"
+          echo "CI_CYCLE_AUTH_SECRET: $env:CI_CYCLE_AUTH_SECRET"
+
       # - name: Retrieve secrets and create dotenv file
       #   shell: pwsh
       #   run: |
