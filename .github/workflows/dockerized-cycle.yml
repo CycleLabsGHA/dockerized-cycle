@@ -46,6 +46,12 @@ jobs:
           "CI_CYCLE_AUTH=${{ secrets.CI_CYCLE_AUTH }}" | Out-File -FilePath $env:GITHUB_ENV -Append -Encoding utf8
           "CI_CYCLE_AUTH_SECRET=${{ secrets.CI_CYCLE_AUTH_SECRET }}" | Out-File -FilePath $env:GITHUB_ENV -Append -Encoding utf8
           Write-Host "✅ Set CI_CYCLE_AUTH and CI_CYCLE_AUTH_SECRET in GITHUB_ENV"
+      
+      - name: Pre-pull images (quietly)
+        run: |
+          docker compose -f api-test-docker-compose.yml pull > /dev/null 2>&1
+          docker compose -f chrome-test-docker-compose.yml pull > /dev/null 2>&1
+          docker compose -f edge-test-docker-compose.yml pull > /dev/nukk 2>&1
 
       - name: Run Cycle API Test
         run: |
@@ -64,12 +70,13 @@ jobs:
           docker compose -f edge-test-docker-compose.yml up --attach cycle-browser-test-edge --abort-on-container-exit || true
           docker compose -f edge-test-docker-compose.yml down
         shell: bash
-        
-      - name: Run Cycle Connection Test
-        run: |
-          docker compose -f connection-test-docker-compose.yml up --attach cycle-connection-test --abort-on-container-exit || true
-          docker compose -f connection-test-docker-compose.yml down
-        shell: bash
+
+      # Need to use an Azure Container instance on our VNet to get this test to work due to private endpoints  
+      # - name: Run Cycle Connection Test
+      #   run: |
+      #     docker compose -f connection-test-docker-compose.yml up --attach cycle-connection-test --abort-on-container-exit || true
+      #     docker compose -f connection-test-docker-compose.yml down
+      #   shell: bash
 
       - name: Clean up Docker Containers
         run: docker container prune -f
