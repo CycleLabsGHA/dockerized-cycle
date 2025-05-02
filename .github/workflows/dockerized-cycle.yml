@@ -51,7 +51,7 @@ jobs:
         run: |
           docker compose -f api-test-docker-compose.yml pull > /dev/null 2>&1
           docker compose -f chrome-test-docker-compose.yml pull > /dev/null 2>&1
-          docker compose -f edge-test-docker-compose.yml pull > /dev/nukk 2>&1
+          docker compose -f edge-test-docker-compose.yml pull > /dev/null 2>&1
 
       - name: Run Cycle API Test
         run: |
