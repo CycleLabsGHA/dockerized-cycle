@@ -18,11 +18,12 @@ services:
       UN_AZURESQL: ${UN_AZURESQL}
       PW_OPENSSH: ${PW_OPENSSH}
       AUTH_TOKEN: ${AUTH_TOKEN}
-      DOCKERIZED_CYCLE_APP_ID: ${CI_CYCLE_AUTH}
-      DOCKERIZED_CYCLE_APP_SECRET: ${CI_CYCLE_AUTH_SECRET}
+      CI_CYCLE_AUTH: ${CI_CYCLE_AUTH}
+      CI_CYCLE_AUTH_SECRET: ${CI_CYCLE_AUTH_SECRET}
+
     depends_on:
       - "chrome-connection-test"
-    command: ["--clientid", "${DOCKERIZED_CYCLE_APP_ID}", "--client-credential", "${DOCKERIZED_CYCLE_APP_SECRET}", "-p", "/code", "combined/conf-file-cycle-connection-test.feature"]
+    command: ["--clientid", "${CI_CYCLE_AUTH}", "--client-credential", "${CI_CYCLE_AUTH_SECRET}", "-p", "/code", "combined/conf-file-cycle-connection-test.feature"]
 
 
   chrome-connection-test:
