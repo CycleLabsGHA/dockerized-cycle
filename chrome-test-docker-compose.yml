@@ -9,21 +9,23 @@ services:
     depends_on:
       - "chrome"
     command: ["--clientid", "${CI_CYCLE_AUTH}", "--client-credential", "${CI_CYCLE_AUTH_SECRET}", "-p", "/code", "combined/grocerio-browser-test-chrome.feature"]
-    environment:
-      PW_ORACLE_DB: ${PW_ORACLE_DB}
-      PW_SQL_DB: ${PW_SQL_DB}
-      PW_DB2: ${PW_DB2}
-      PW_MYSQL: ${PW_MYSQL}
-      PW_SQL14_DB: ${PW_SQL14_DB}
-      PW_TELNET: ${PW_TELNET}
-      PW_MOCA: ${PW_MOCA}
-      PW_AZURESQL: ${PW_AZURESQL}
-      UN_AZURESQL: ${UN_AZURESQL}
-      PW_OPENSSH: ${PW_OPENSSH}
-      AUTH_TOKEN: ${AUTH_TOKEN}
-      MAPS_API_KEY: ${MAPS_API_KEY}
-      CI_CYCLE_AUTH: ${CI_CYCLE_AUTH}
-      CI_CYCLE_AUTH_SECRET: ${CI_CYCLE_AUTH_SECRET}
+    env_file:
+      - secrets.env
+    # environment:
+    #   PW_ORACLE_DB: ${PW_ORACLE_DB}
+    #   PW_SQL_DB: ${PW_SQL_DB}
+    #   PW_DB2: ${PW_DB2}
+    #   PW_MYSQL: ${PW_MYSQL}
+    #   PW_SQL14_DB: ${PW_SQL14_DB}
+    #   PW_TELNET: ${PW_TELNET}
+    #   PW_MOCA: ${PW_MOCA}
+    #   PW_AZURESQL: ${PW_AZURESQL}
+    #   UN_AZURESQL: ${UN_AZURESQL}
+    #   PW_OPENSSH: ${PW_OPENSSH}
+    #   AUTH_TOKEN: ${AUTH_TOKEN}
+    #   MAPS_API_KEY: ${MAPS_API_KEY}
+    #   CI_CYCLE_AUTH: ${CI_CYCLE_AUTH}
+    #   CI_CYCLE_AUTH_SECRET: ${CI_CYCLE_AUTH_SECRET}
 
   chrome:
     image: "selenium/standalone-chrome"
