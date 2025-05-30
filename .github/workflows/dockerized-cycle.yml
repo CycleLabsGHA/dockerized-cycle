@@ -124,7 +124,7 @@ jobs:
           fi
 
           # Move to .env to make sure Docker can load them
-          mv "$GITHUB_WORKSPACE/secrets.env" "$GITHUB_WORKSPACE/.env"
+          cp "$GITHUB_WORKSPACE/secrets.env" "$GITHUB_WORKSPACE/.env"
 
       - name: 🧪 Run Cycle API Test
         run: |
