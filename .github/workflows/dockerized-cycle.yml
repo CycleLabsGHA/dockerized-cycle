@@ -25,7 +25,7 @@ jobs:
           sudo apt-get install -y powershell
         shell: bash
 
-      - name: 🧪 Retrieve Secrets and Export to GITHUB_ENV
+      - name: 🧪 Retrieve Secrets and Export to secrets.env
         shell: pwsh
         run: |
           $ErrorActionPreference = "Stop"
@@ -35,11 +35,11 @@ jobs:
             'PW-OPENSSH', 'PW-ORACLE-DB', 'PW-SQL-DB',
             'PW-SQL14-DB', 'PW-TELNET', 'GOOGLE-MAPS-API-KEY', 'UN-AZURESQL'
           )
-          
-          $envFile = "secrets.env"
+      
+          $envFile = "$env:GITHUB_WORKSPACE/secrets.env"
           Remove-Item -Path $envFile -ErrorAction Ignore
           New-Item -Path $envFile -ItemType File -Force | Out-Null
-          
+      
           foreach ($secretName in $secretNames) {
               $safeName = $secretName -replace '-', '_'
               $secretValue = az keyvault secret show --vault-name "${{ secrets.DEV_KV_NAME }}" --name $secretName --query 'value' -o tsv
@@ -47,8 +47,8 @@ jobs:
               "$safeName=$secretValue" | Out-File -FilePath $envFile -Append -Encoding utf8
               Write-Host "✅ Set $safeName in secrets.env"
           }
-          
-          # Also add CI_CYCLE_AUTH and CI_CYCLE_AUTH_SECRET to secrets.env
+      
+          # Also add CI_CYCLE_AUTH and CI_CYCLE_AUTH_SECRET
           Write-Output "::add-mask::${{ secrets.CI_CYCLE_AUTH }}"
           Write-Output "::add-mask::${{ secrets.CI_CYCLE_AUTH_SECRET }}"
           "CI_CYCLE_AUTH=${{ secrets.CI_CYCLE_AUTH }}" | Out-File -FilePath $envFile -Append -Encoding utf8
