@@ -57,6 +57,9 @@ jobs:
 
       - name: 🧪 Run Cycle API Test
         run: |
+          ls -la
+          echo "--- secrets.env ---"
+          cat secrets.env || echo "❌ secrets.env not found"
           docker compose -f api-test-docker-compose.yml pull --quiet
           docker compose -f api-test-docker-compose.yml up --attach cycle-api-test --abort-on-container-exit || true
           docker compose -f api-test-docker-compose.yml down
