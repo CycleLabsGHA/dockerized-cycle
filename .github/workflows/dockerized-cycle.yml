@@ -24,12 +24,12 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y powershell
         shell: bash
-
+      
       - name: 🧪 Retrieve Secrets and Export to secrets.env
         shell: pwsh
         run: |
           $ErrorActionPreference = "Stop"
-          
+      
           $secretNames = @(
             'PW-AZURESQL', 'PW-DB2', 'PW-MOCA', 'PW-MYSQL',
             'PW-OPENSSH', 'PW-ORACLE-DB', 'PW-SQL-DB',
@@ -43,17 +43,35 @@ jobs:
           foreach ($secretName in $secretNames) {
               $safeName = $secretName -replace '-', '_'
               $secretValue = az keyvault secret show --vault-name "${{ secrets.DEV_KV_NAME }}" --name $secretName --query 'value' -o tsv
-              Write-Output "::add-mask::$secretValue"
-              "$safeName=$secretValue" | Out-File -FilePath $envFile -Append -Encoding utf8
-              Write-Host "✅ Set $safeName in secrets.env"
+      
+              if (-not [string]::IsNullOrWhiteSpace($secretValue)) {
+                  Write-Output "::add-mask::$secretValue"
+                  "$safeName=$secretValue" | Out-File -FilePath $envFile -Append -Encoding utf8
+                  Write-Host "✅ Set $safeName in secrets.env"
+              } else {
+                  Write-Host "⚠️ Warning: $secretName returned an empty or null value and will not be written to secrets.env"
+              }
           }
       
-          # Also add CI_CYCLE_AUTH and CI_CYCLE_AUTH_SECRET
-          Write-Output "::add-mask::${{ secrets.CI_CYCLE_AUTH }}"
-          Write-Output "::add-mask::${{ secrets.CI_CYCLE_AUTH_SECRET }}"
-          "CI_CYCLE_AUTH=${{ secrets.CI_CYCLE_AUTH }}" | Out-File -FilePath $envFile -Append -Encoding utf8
-          "CI_CYCLE_AUTH_SECRET=${{ secrets.CI_CYCLE_AUTH_SECRET }}" | Out-File -FilePath $envFile -Append -Encoding utf8
-          Write-Host "✅ Set CI_CYCLE_AUTH and CI_CYCLE_AUTH_SECRET in secrets.env"
+          # Validate and write CI_CYCLE_AUTH and CI_CYCLE_AUTH_SECRET
+          $ciAuth = "${{ secrets.CI_CYCLE_AUTH }}"
+          $ciSecret = "${{ secrets.CI_CYCLE_AUTH_SECRET }}"
+      
+          if (-not [string]::IsNullOrWhiteSpace($ciAuth)) {
+              Write-Output "::add-mask::$ciAuth"
+              "CI_CYCLE_AUTH=$ciAuth" | Out-File -FilePath $envFile -Append -Encoding utf8
+              Write-Host "✅ Set CI_CYCLE_AUTH in secrets.env"
+          } else {
+              Write-Host "⚠️ Warning: CI_CYCLE_AUTH is empty"
+          }
+      
+          if (-not [string]::IsNullOrWhiteSpace($ciSecret)) {
+              Write-Output "::add-mask::$ciSecret"
+              "CI_CYCLE_AUTH_SECRET=$ciSecret" | Out-File -FilePath $envFile -Append -Encoding utf8
+              Write-Host "✅ Set CI_CYCLE_AUTH_SECRET in secrets.env"
+          } else {
+              Write-Host "⚠️ Warning: CI_CYCLE_AUTH_SECRET is empty"
+          }
 
       - name: 🧪 Run Cycle API Test
         run: |
