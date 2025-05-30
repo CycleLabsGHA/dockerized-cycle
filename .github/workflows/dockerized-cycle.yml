@@ -28,24 +28,32 @@ jobs:
       - name: 🧪 Retrieve Secrets and Export to GITHUB_ENV
         shell: pwsh
         run: |
+          $ErrorActionPreference = "Stop"
+          
           $secretNames = @(
-            'PW-AZURESQL', 'PW-DB2', 'PW-MOCA', 'PW-MYSQL', 'PW-OPENSSH',
-            'PW-ORACLE-DB', 'PW-SQL-DB', 'PW-SQL14-DB', 'PW-TELNET', 'GOOGLE-MAPS-API-KEY', 'UN-AZURESQL'
+            'PW-AZURESQL', 'PW-DB2', 'PW-MOCA', 'PW-MYSQL',
+            'PW-OPENSSH', 'PW-ORACLE-DB', 'PW-SQL-DB',
+            'PW-SQL14-DB', 'PW-TELNET', 'GOOGLE-MAPS-API-KEY', 'UN-AZURESQL'
           )
-
+          
+          $envFile = "secrets.env"
+          Remove-Item -Path $envFile -ErrorAction Ignore
+          New-Item -Path $envFile -ItemType File -Force | Out-Null
+          
           foreach ($secretName in $secretNames) {
-            $safeName = $secretName -replace '-', '_'
-            $secretValue = az keyvault secret show --vault-name "${{ secrets.DEV_KV_NAME }}" --name $secretName --query 'value' -o tsv
-            Write-Output "::add-mask::$secretValue"
-            "$safeName=$secretValue" | Out-File -FilePath $env:GITHUB_ENV -Append -Encoding utf8
-            Write-Host "✅ Set $safeName in GITHUB_ENV"
+              $safeName = $secretName -replace '-', '_'
+              $secretValue = az keyvault secret show --vault-name "${{ secrets.DEV_KV_NAME }}" --name $secretName --query 'value' -o tsv
+              Write-Output "::add-mask::$secretValue"
+              "$safeName=$secretValue" | Out-File -FilePath $envFile -Append -Encoding utf8
+              Write-Host "✅ Set $safeName in secrets.env"
           }
-
+          
+          # Also add CI_CYCLE_AUTH and CI_CYCLE_AUTH_SECRET to secrets.env
           Write-Output "::add-mask::${{ secrets.CI_CYCLE_AUTH }}"
           Write-Output "::add-mask::${{ secrets.CI_CYCLE_AUTH_SECRET }}"
-          "CI_CYCLE_AUTH=${{ secrets.CI_CYCLE_AUTH }}" | Out-File -FilePath $env:GITHUB_ENV -Append -Encoding utf8
-          "CI_CYCLE_AUTH_SECRET=${{ secrets.CI_CYCLE_AUTH_SECRET }}" | Out-File -FilePath $env:GITHUB_ENV -Append -Encoding utf8
-          Write-Host "✅ Set CI_CYCLE_AUTH and CI_CYCLE_AUTH_SECRET in GITHUB_ENV"
+          "CI_CYCLE_AUTH=${{ secrets.CI_CYCLE_AUTH }}" | Out-File -FilePath $envFile -Append -Encoding utf8
+          "CI_CYCLE_AUTH_SECRET=${{ secrets.CI_CYCLE_AUTH_SECRET }}" | Out-File -FilePath $envFile -Append -Encoding utf8
+          Write-Host "✅ Set CI_CYCLE_AUTH and CI_CYCLE_AUTH_SECRET in secrets.env"
 
       - name: 🧪 Run Cycle API Test
         run: |
