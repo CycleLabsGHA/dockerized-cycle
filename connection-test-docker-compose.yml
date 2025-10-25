@@ -1,7 +1,7 @@
 # Run this: docker-compose up --abort-on-container-exit
 services:
   cycle-connection-test:
-    image: "cyclelabs/cycle-cli:latest"
+    image: "cyclelabs/cycle-cli:20251024.7"
     #image: "cycledev.azurecr.io/cycledev/cycle:latest"
     shm_size: 2g
     volumes:
