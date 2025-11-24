@@ -1,6 +1,6 @@
 services:
   cycle-api-test:
-    image: "cyclelabs/cycle-cli:latest"
+    image: "docker.io/cyclelabs/cycle-cli:20251121.1"
     shm_size: 2g
     volumes:
       - .:/code
