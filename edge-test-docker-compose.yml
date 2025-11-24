@@ -1,6 +1,6 @@
 services:
   cycle-browser-test-edge:
-    image: "cyclelabs/cycle-cli:latest"
+    image: "docker.io/cyclelabs/cycle-cli:20251121.1"
     #image: "cycledev.azurecr.io/cycledev/cycle:latest"
     shm_size: 2g
     volumes:
