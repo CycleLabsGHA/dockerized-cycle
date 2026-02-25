@@ -19,60 +19,6 @@ jobs:
         with:
           creds: ${{ secrets.AZURE_CREDENTIALS }}
 
-      # - name: ⚙️ Install PowerShell
-      #   run: |
-      #     sudo apt-get update
-      #     sudo apt-get install -y powershell
-      #   shell: bash
-      
-      # - name: 🧪 Retrieve Secrets and Export to secrets.env
-      #   shell: pwsh
-      #   run: |
-      #     $ErrorActionPreference = "Stop"
-      
-      #     $secretNames = @(
-      #       'PW-AZURESQL', 'PW-DB2', 'PW-MOCA', 'PW-MYSQL',
-      #       'PW-OPENSSH', 'PW-ORACLE-DB', 'PW-SQL-DB',
-      #       'PW-SQL14-DB', 'PW-TELNET', 'GOOGLE-MAPS-API-KEY', 'UN-AZURESQL'
-      #     )
-      
-      #     $envFile = "$env:GITHUB_WORKSPACE/secrets.env"
-      #     Remove-Item -Path $envFile -ErrorAction Ignore
-      #     New-Item -Path $envFile -ItemType File -Force | Out-Null
-      
-      #     foreach ($secretName in $secretNames) {
-      #         $safeName = $secretName -replace '-', '_'
-      #         $secretValue = az keyvault secret show --vault-name "${{ secrets.DEV_KV_NAME }}" --name $secretName --query 'value' -o tsv
-      
-      #         if (-not [string]::IsNullOrWhiteSpace($secretValue)) {
-      #             Write-Output "::add-mask::$secretValue"
-      #             "$safeName=$secretValue" | Out-File -FilePath $envFile -Append -Encoding utf8
-      #             Write-Host "✅ Set $safeName in secrets.env"
-      #         } else {
-      #             Write-Host "⚠️ Warning: $secretName returned an empty or null value and will not be written to secrets.env"
-      #         }
-      #     }
-      
-      #     # Validate and write CI_CYCLE_AUTH and CI_CYCLE_AUTH_SECRET
-      #     $ciAuth = "${{ secrets.CI_CYCLE_AUTH }}"
-      #     $ciSecret = "${{ secrets.CI_CYCLE_AUTH_SECRET }}"
-      
-      #     if (-not [string]::IsNullOrWhiteSpace($ciAuth)) {
-      #         Write-Output "::add-mask::$ciAuth"
-      #         "CI_CYCLE_AUTH=$ciAuth" | Out-File -FilePath $envFile -Append -Encoding utf8
-      #         Write-Host "✅ Set CI_CYCLE_AUTH in secrets.env"
-      #     } else {
-      #         Write-Host "⚠️ Warning: CI_CYCLE_AUTH is empty"
-      #     }
-      
-      #     if (-not [string]::IsNullOrWhiteSpace($ciSecret)) {
-      #         Write-Output "::add-mask::$ciSecret"
-      #         "CI_CYCLE_AUTH_SECRET=$ciSecret" | Out-File -FilePath $envFile -Append -Encoding utf8
-      #         Write-Host "✅ Set CI_CYCLE_AUTH_SECRET in secrets.env"
-      #     } else {
-      #         Write-Host "⚠️ Warning: CI_CYCLE_AUTH_SECRET is empty"
-      #     }
-
       - name: 🔐 Retrieve Key Vault secrets
         run: |
           secret_names=(
@@ -125,6 +71,14 @@ jobs:
 
           # Move to .env to make sure Docker can load them
           cp "$GITHUB_WORKSPACE/secrets.env" "$GITHUB_WORKSPACE/.env"
+
+      - name: 🧪 Run Cycle Version Test
+        run: |
+
+          docker compose -f version-docker-compose.yml pull --quiet
+          docker compose -f version-docker-compose.yml up --attach cycle-version-test --abort-on-container-exit || true
+          docker compose -f version-docker-compose.yml down
+        shell: bash
 
       - name: 🧪 Run Cycle API Test
         run: |
