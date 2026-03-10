@@ -1,0 +1,684 @@
+<?xml version="1.0" ?>
+<testsuites>
+  <testsuite name="Cycle Run Report" tests="651" failures="12" time="1044.746">
+    <testcase name="[Outline Summary]" classname="BASE-INT-2040 Integrator Download Order Inbound" time="1.540"/>
+    <testcase name="Begin Pre-Test Activities" classname="BASE-INT-2040 Integrator Download Order Inbound" time="0.029"/>
+    <testcase name="Process Test Case Pre Validations" classname="BASE-INT-2040 Integrator Download Order Inbound" time="0.028"/>
+    <testcase name="Process Test Case Validations" classname="BASE-INT-2040 Integrator Download Order Inbound" time="0.024"/>
+    <testcase name="Locate File on Path" classname="BASE-INT-2040 Integrator Download Order Inbound" time="0.023"/>
+    <testcase name="Log to Developer Logging File" classname="BASE-INT-2040 Integrator Download Order Inbound" time="0.001"/>
+    <testcase name="Process Integration Add Transaction" classname="BASE-INT-2040 Integrator Download Order Inbound" time="0.010"/>
+    <testcase name="Perform MSQL Execution" classname="BASE-INT-2040 Integrator Download Order Inbound" time="0.020"/>
+    <testcase name="Locate File on Path" classname="BASE-INT-2040 Integrator Download Order Inbound" time="0.019"/>
+    <testcase name="Log MSQL Execution Results" classname="BASE-INT-2040 Integrator Download Order Inbound" time="0.004"/>
+    <testcase name="Upload and Process Integrator Transaction File" classname="BASE-INT-2040 Integrator Download Order Inbound" time="0.033"/>
+    <testcase name="Locate File on Path" classname="BASE-INT-2040 Integrator Download Order Inbound" time="0.031"/>
+    <testcase name="Perform MSQL Execution" classname="BASE-INT-2040 Integrator Download Order Inbound" time="0.019"/>
+    <testcase name="Locate File on Path" classname="BASE-INT-2040 Integrator Download Order Inbound" time="0.018"/>
+    <testcase name="Log MSQL Execution Results" classname="BASE-INT-2040 Integrator Download Order Inbound" time="0.001"/>
+    <testcase name="Process Integration Change Transaction" classname="BASE-INT-2040 Integrator Download Order Inbound" time="0.002"/>
+    <testcase name="Perform MSQL Execution" classname="BASE-INT-2040 Integrator Download Order Inbound" time="0.020"/>
+    <testcase name="Locate File on Path" classname="BASE-INT-2040 Integrator Download Order Inbound" time="0.019"/>
+    <testcase name="Log MSQL Execution Results" classname="BASE-INT-2040 Integrator Download Order Inbound" time="0.001"/>
+    <testcase name="Upload and Process Integrator Transaction File" classname="BASE-INT-2040 Integrator Download Order Inbound" time="0.028"/>
+    <testcase name="Locate File on Path" classname="BASE-INT-2040 Integrator Download Order Inbound" time="0.027"/>
+    <testcase name="Perform MSQL Execution" classname="BASE-INT-2040 Integrator Download Order Inbound" time="0.019"/>
+    <testcase name="Locate File on Path" classname="BASE-INT-2040 Integrator Download Order Inbound" time="0.017"/>
+    <testcase name="Log MSQL Execution Results" classname="BASE-INT-2040 Integrator Download Order Inbound" time="0.001"/>
+    <testcase name="Process Integration Delete Transaction" classname="BASE-INT-2040 Integrator Download Order Inbound" time="0.004"/>
+    <testcase name="Perform MSQL Execution" classname="BASE-INT-2040 Integrator Download Order Inbound" time="0.021"/>
+    <testcase name="Locate File on Path" classname="BASE-INT-2040 Integrator Download Order Inbound" time="0.020"/>
+    <testcase name="Log MSQL Execution Results" classname="BASE-INT-2040 Integrator Download Order Inbound" time="0.002"/>
+    <testcase name="Upload and Process Integrator Transaction File" classname="BASE-INT-2040 Integrator Download Order Inbound" time="0.021"/>
+    <testcase name="Locate File on Path" classname="BASE-INT-2040 Integrator Download Order Inbound" time="0.021"/>
+    <testcase name="Perform MSQL Execution" classname="BASE-INT-2040 Integrator Download Order Inbound" time="0.021"/>
+    <testcase name="Locate File on Path" classname="BASE-INT-2040 Integrator Download Order Inbound" time="0.020"/>
+    <testcase name="Log MSQL Execution Results" classname="BASE-INT-2040 Integrator Download Order Inbound" time="0.001"/>
+    <testcase name="End Post-Test Activities" classname="BASE-INT-2040 Integrator Download Order Inbound" time="0.025"/>
+    <testcase name="Process Test Case Post Validations" classname="BASE-INT-2040 Integrator Download Order Inbound" time="0.024"/>
+    <testcase name="Process Test Case Validations" classname="BASE-INT-2040 Integrator Download Order Inbound" time="0.019"/>
+    <testcase name="Locate File on Path" classname="BASE-INT-2040 Integrator Download Order Inbound" time="0.018"/>
+    <testcase name="Log to Developer Logging File" classname="BASE-INT-2040 Integrator Download Order Inbound" time="0.003"/>
+    <testcase name="[Outline Summary]" classname="BASE-INT-2090 Integrator Download PO Inbound" time="1.050"/>
+    <testcase name="Begin Pre-Test Activities" classname="BASE-INT-2090 Integrator Download PO Inbound" time="0.021"/>
+    <testcase name="Process Test Case Pre Validations" classname="BASE-INT-2090 Integrator Download PO Inbound" time="0.021"/>
+    <testcase name="Process Test Case Validations" classname="BASE-INT-2090 Integrator Download PO Inbound" time="0.016"/>
+    <testcase name="Locate File on Path" classname="BASE-INT-2090 Integrator Download PO Inbound" time="0.016"/>
+    <testcase name="Log to Developer Logging File" classname="BASE-INT-2090 Integrator Download PO Inbound" time="0.000"/>
+    <testcase name="Process Integration Add Transaction" classname="BASE-INT-2090 Integrator Download PO Inbound" time="0.002"/>
+    <testcase name="Perform MSQL Execution" classname="BASE-INT-2090 Integrator Download PO Inbound" time="0.016"/>
+    <testcase name="Locate File on Path" classname="BASE-INT-2090 Integrator Download PO Inbound" time="0.015"/>
+    <testcase name="Log MSQL Execution Results" classname="BASE-INT-2090 Integrator Download PO Inbound" time="0.002"/>
+    <testcase name="Upload and Process Integrator Transaction File" classname="BASE-INT-2090 Integrator Download PO Inbound" time="0.019"/>
+    <testcase name="Locate File on Path" classname="BASE-INT-2090 Integrator Download PO Inbound" time="0.018"/>
+    <testcase name="Perform MSQL Execution" classname="BASE-INT-2090 Integrator Download PO Inbound" time="0.014"/>
+    <testcase name="Locate File on Path" classname="BASE-INT-2090 Integrator Download PO Inbound" time="0.013"/>
+    <testcase name="Log MSQL Execution Results" classname="BASE-INT-2090 Integrator Download PO Inbound" time="0.001"/>
+    <testcase name="Process Integration Change Transaction" classname="BASE-INT-2090 Integrator Download PO Inbound" time="0.001"/>
+    <testcase name="Perform MSQL Execution" classname="BASE-INT-2090 Integrator Download PO Inbound" time="0.014"/>
+    <testcase name="Locate File on Path" classname="BASE-INT-2090 Integrator Download PO Inbound" time="0.014"/>
+    <testcase name="Log MSQL Execution Results" classname="BASE-INT-2090 Integrator Download PO Inbound" time="0.001"/>
+    <testcase name="Upload and Process Integrator Transaction File" classname="BASE-INT-2090 Integrator Download PO Inbound" time="0.026"/>
+    <testcase name="Locate File on Path" classname="BASE-INT-2090 Integrator Download PO Inbound" time="0.025"/>
+    <testcase name="Perform MSQL Execution" classname="BASE-INT-2090 Integrator Download PO Inbound" time="0.015"/>
+    <testcase name="Locate File on Path" classname="BASE-INT-2090 Integrator Download PO Inbound" time="0.015"/>
+    <testcase name="Log MSQL Execution Results" classname="BASE-INT-2090 Integrator Download PO Inbound" time="0.001"/>
+    <testcase name="Process Integration Delete Transaction" classname="BASE-INT-2090 Integrator Download PO Inbound" time="0.004"/>
+    <testcase name="Perform MSQL Execution" classname="BASE-INT-2090 Integrator Download PO Inbound" time="0.015"/>
+    <testcase name="Locate File on Path" classname="BASE-INT-2090 Integrator Download PO Inbound" time="0.012"/>
+    <testcase name="Log MSQL Execution Results" classname="BASE-INT-2090 Integrator Download PO Inbound" time="0.001"/>
+    <testcase name="Upload and Process Integrator Transaction File" classname="BASE-INT-2090 Integrator Download PO Inbound" time="0.015"/>
+    <testcase name="Locate File on Path" classname="BASE-INT-2090 Integrator Download PO Inbound" time="0.013"/>
+    <testcase name="Perform MSQL Execution" classname="BASE-INT-2090 Integrator Download PO Inbound" time="0.015"/>
+    <testcase name="Locate File on Path" classname="BASE-INT-2090 Integrator Download PO Inbound" time="0.015"/>
+    <testcase name="Log MSQL Execution Results" classname="BASE-INT-2090 Integrator Download PO Inbound" time="0.001"/>
+    <testcase name="End Post-Test Activities" classname="BASE-INT-2090 Integrator Download PO Inbound" time="0.022"/>
+    <testcase name="Process Test Case Post Validations" classname="BASE-INT-2090 Integrator Download PO Inbound" time="0.020"/>
+    <testcase name="Process Test Case Validations" classname="BASE-INT-2090 Integrator Download PO Inbound" time="0.018"/>
+    <testcase name="Locate File on Path" classname="BASE-INT-2090 Integrator Download PO Inbound" time="0.017"/>
+    <testcase name="Log to Developer Logging File" classname="BASE-INT-2090 Integrator Download PO Inbound" time="0.001"/>
+    <testcase name="[Outline Summary]" classname="BASE-INV-0010 Terminal Inventory Adjustment Add" time="72.347"/>
+    <testcase name="Begin Pre-Test Activities" classname="BASE-INV-0010 Terminal Inventory Adjustment Add" time="0.016"/>
+    <testcase name="Process Test Case Pre Validations" classname="BASE-INV-0010 Terminal Inventory Adjustment Add" time="0.013"/>
+    <testcase name="Process Test Case Validations" classname="BASE-INV-0010 Terminal Inventory Adjustment Add" time="0.011"/>
+    <testcase name="Locate File on Path" classname="BASE-INV-0010 Terminal Inventory Adjustment Add" time="0.011"/>
+    <testcase name="Log to Developer Logging File" classname="BASE-INV-0010 Terminal Inventory Adjustment Add" time="0.000"/>
+    <testcase name="Terminal Login" classname="BASE-INV-0010 Terminal Inventory Adjustment Add" time="0.002"/>
+    <testcase name="Terminal Validate Variables" classname="BASE-INV-0010 Terminal Inventory Adjustment Add" time="0.001"/>
+    <testcase name="Connect and Set the Size of the Terminal" classname="BASE-INV-0010 Terminal Inventory Adjustment Add" time="0.002"/>
+    <testcase name="Perform MSQL Execution" classname="BASE-INV-0010 Terminal Inventory Adjustment Add" time="0.012"/>
+    <testcase name="Locate File on Path" classname="BASE-INV-0010 Terminal Inventory Adjustment Add" time="0.012"/>
+    <testcase name="Log MSQL Execution Results" classname="BASE-INV-0010 Terminal Inventory Adjustment Add" time="0.000"/>
+    <testcase name="Perform MSQL Execution" classname="BASE-INV-0010 Terminal Inventory Adjustment Add" time="0.010"/>
+    <testcase name="Locate File on Path" classname="BASE-INV-0010 Terminal Inventory Adjustment Add" time="0.009"/>
+    <testcase name="Log MSQL Execution Results" classname="BASE-INV-0010 Terminal Inventory Adjustment Add" time="0.001"/>
+    <testcase name="Check for Terminal Questions" classname="BASE-INV-0010 Terminal Inventory Adjustment Add" time="0.876"/>
+    <testcase name="Terminal Wait Until First Line Is Not Blank" classname="BASE-INV-0010 Terminal Inventory Adjustment Add" time="5.335"/>
+    <testcase name="Terminal Wait for Processing" classname="BASE-INV-0010 Terminal Inventory Adjustment Add" time="5.335"/>
+    <testcase name="Check for Terminal ID Screen" classname="BASE-INV-0010 Terminal Inventory Adjustment Add" time="1.334"/>
+    <testcase name="Check for Login Screen" classname="BASE-INV-0010 Terminal Inventory Adjustment Add" time="1.337"/>
+    <testcase name="Check for Bad Login" classname="BASE-INV-0010 Terminal Inventory Adjustment Add" time="1.337"/>
+    <testcase name="Terminal Clear Field" classname="BASE-INV-0010 Terminal Inventory Adjustment Add" time="0.636"/>
+    <testcase name="Terminal Clear Field" classname="BASE-INV-0010 Terminal Inventory Adjustment Add" time="0.638"/>
+    <testcase name="Terminal Wait Until First Line Is Not Blank" classname="BASE-INV-0010 Terminal Inventory Adjustment Add" time="0.329"/>
+    <testcase name="Check for Work Information Screen" classname="BASE-INV-0010 Terminal Inventory Adjustment Add" time="0.639"/>
+    <testcase name="Terminal Clear Field" classname="BASE-INV-0010 Terminal Inventory Adjustment Add" time="0.638"/>
+    <testcase name="Terminal Clear Field" classname="BASE-INV-0010 Terminal Inventory Adjustment Add" time="0.638"/>
+    <testcase name="Terminal Clear Field" classname="BASE-INV-0010 Terminal Inventory Adjustment Add" time="0.638"/>
+    <testcase name="Terminal Wait Until First Line Is Not Blank" classname="BASE-INV-0010 Terminal Inventory Adjustment Add" time="0.331"/>
+    <testcase name="Check for Recovery Mode" classname="BASE-INV-0010 Terminal Inventory Adjustment Add" time="1.336"/>
+    <testcase name="Terminal Inventory Adjustment Menu" classname="BASE-INV-0010 Terminal Inventory Adjustment Add" time="4.597"/>
+    <testcase name="Terminal Inventory Adjustment Add" classname="BASE-INV-0010 Terminal Inventory Adjustment Add" time="1.919"/>
+    <testcase name="Terminal Inventory Adjustment References" classname="BASE-INV-0010 Terminal Inventory Adjustment Add" time="1.919"/>
+    <testcase name="Terminal Inventory Adjustment Complete" classname="BASE-INV-0010 Terminal Inventory Adjustment Add" time="20.618"/>
+    <testcase name="End Post-Test Activities" classname="BASE-INV-0010 Terminal Inventory Adjustment Add" time="0.014"/>
+    <testcase name="Process Test Case Post Validations" classname="BASE-INV-0010 Terminal Inventory Adjustment Add" time="0.013"/>
+    <testcase name="Process Test Case Validations" classname="BASE-INV-0010 Terminal Inventory Adjustment Add" time="0.010"/>
+    <testcase name="Locate File on Path" classname="BASE-INV-0010 Terminal Inventory Adjustment Add" time="0.009"/>
+    <testcase name="Log to Developer Logging File" classname="BASE-INV-0010 Terminal Inventory Adjustment Add" time="0.001"/>
+    <testcase name="[Outline Summary]" classname="BASE-INV-0050 Terminal Inventory Transfer Directed" time="87.335"/>
+    <testcase name="Begin Pre-Test Activities" classname="BASE-INV-0050 Terminal Inventory Transfer Directed" time="0.012"/>
+    <testcase name="Process Test Case Pre Validations" classname="BASE-INV-0050 Terminal Inventory Transfer Directed" time="0.012"/>
+    <testcase name="Process Test Case Validations" classname="BASE-INV-0050 Terminal Inventory Transfer Directed" time="0.010"/>
+    <testcase name="Locate File on Path" classname="BASE-INV-0050 Terminal Inventory Transfer Directed" time="0.009"/>
+    <testcase name="Log to Developer Logging File" classname="BASE-INV-0050 Terminal Inventory Transfer Directed" time="0.000"/>
+    <testcase name="Terminal Login" classname="BASE-INV-0050 Terminal Inventory Transfer Directed" time="0.001"/>
+    <testcase name="Terminal Validate Variables" classname="BASE-INV-0050 Terminal Inventory Transfer Directed" time="0.000"/>
+    <testcase name="Connect and Set the Size of the Terminal" classname="BASE-INV-0050 Terminal Inventory Transfer Directed" time="0.001"/>
+    <testcase name="Perform MSQL Execution" classname="BASE-INV-0050 Terminal Inventory Transfer Directed" time="0.013"/>
+    <testcase name="Locate File on Path" classname="BASE-INV-0050 Terminal Inventory Transfer Directed" time="0.013"/>
+    <testcase name="Log MSQL Execution Results" classname="BASE-INV-0050 Terminal Inventory Transfer Directed" time="0.001"/>
+    <testcase name="Perform MSQL Execution" classname="BASE-INV-0050 Terminal Inventory Transfer Directed" time="0.010"/>
+    <testcase name="Locate File on Path" classname="BASE-INV-0050 Terminal Inventory Transfer Directed" time="0.009"/>
+    <testcase name="Log MSQL Execution Results" classname="BASE-INV-0050 Terminal Inventory Transfer Directed" time="0.001"/>
+    <testcase name="Check for Terminal Questions" classname="BASE-INV-0050 Terminal Inventory Transfer Directed" time="0.879"/>
+    <testcase name="Terminal Wait Until First Line Is Not Blank" classname="BASE-INV-0050 Terminal Inventory Transfer Directed" time="5.338"/>
+    <testcase name="Terminal Wait for Processing" classname="BASE-INV-0050 Terminal Inventory Transfer Directed" time="5.338"/>
+    <testcase name="Check for Terminal ID Screen" classname="BASE-INV-0050 Terminal Inventory Transfer Directed" time="1.332"/>
+    <testcase name="Check for Login Screen" classname="BASE-INV-0050 Terminal Inventory Transfer Directed" time="1.338"/>
+    <testcase name="Check for Bad Login" classname="BASE-INV-0050 Terminal Inventory Transfer Directed" time="1.337"/>
+    <testcase name="Terminal Clear Field" classname="BASE-INV-0050 Terminal Inventory Transfer Directed" time="0.638"/>
+    <testcase name="Terminal Clear Field" classname="BASE-INV-0050 Terminal Inventory Transfer Directed" time="0.637"/>
+    <testcase name="Terminal Wait Until First Line Is Not Blank" classname="BASE-INV-0050 Terminal Inventory Transfer Directed" time="0.330"/>
+    <testcase name="Check for Work Information Screen" classname="BASE-INV-0050 Terminal Inventory Transfer Directed" time="0.638"/>
+    <testcase name="Terminal Clear Field" classname="BASE-INV-0050 Terminal Inventory Transfer Directed" time="0.638"/>
+    <testcase name="Terminal Clear Field" classname="BASE-INV-0050 Terminal Inventory Transfer Directed" time="0.638"/>
+    <testcase name="Terminal Clear Field" classname="BASE-INV-0050 Terminal Inventory Transfer Directed" time="0.638"/>
+    <testcase name="Terminal Wait Until First Line Is Not Blank" classname="BASE-INV-0050 Terminal Inventory Transfer Directed" time="0.341"/>
+    <testcase name="Check for Recovery Mode" classname="BASE-INV-0050 Terminal Inventory Transfer Directed" time="1.335"/>
+    <testcase name="Assign Work to User by Operation and Lodnum" classname="BASE-INV-0050 Terminal Inventory Transfer Directed" time="0.001"/>
+    <testcase name="Perform MSQL Execution" classname="BASE-INV-0050 Terminal Inventory Transfer Directed" time="0.009"/>
+    <testcase name="Locate File on Path" classname="BASE-INV-0050 Terminal Inventory Transfer Directed" time="0.009"/>
+    <testcase name="Log MSQL Execution Results" classname="BASE-INV-0050 Terminal Inventory Transfer Directed" time="0.000"/>
+    <testcase name="Terminal Navigate to Directed Work Menu" classname="BASE-INV-0050 Terminal Inventory Transfer Directed" time="12.992"/>
+    <testcase name="Terminal Inventory Transfer Directed" classname="BASE-INV-0050 Terminal Inventory Transfer Directed" time="0.041"/>
+    <testcase name="Get Location Status from Location" classname="BASE-INV-0050 Terminal Inventory Transfer Directed" time="0.001"/>
+    <testcase name="Perform MSQL Execution" classname="BASE-INV-0050 Terminal Inventory Transfer Directed" time="0.009"/>
+    <testcase name="Locate File on Path" classname="BASE-INV-0050 Terminal Inventory Transfer Directed" time="0.009"/>
+    <testcase name="Log MSQL Execution Results" classname="BASE-INV-0050 Terminal Inventory Transfer Directed" time="0.000"/>
+    <testcase name="Terminal Deposit" classname="BASE-INV-0050 Terminal Inventory Transfer Directed" time="0.039"/>
+    <testcase name="Terminal Load Deposit" classname="BASE-INV-0050 Terminal Inventory Transfer Directed" time="0.001"/>
+    <testcase name="Perform MSQL Execution" classname="BASE-INV-0050 Terminal Inventory Transfer Directed" time="0.007"/>
+    <testcase name="Locate File on Path" classname="BASE-INV-0050 Terminal Inventory Transfer Directed" time="0.006"/>
+    <testcase name="Log MSQL Execution Results" classname="BASE-INV-0050 Terminal Inventory Transfer Directed" time="0.001"/>
+    <testcase name="Terminal Copy Deposit LPN" classname="BASE-INV-0050 Terminal Inventory Transfer Directed" time="0.648"/>
+    <testcase name="Terminal Wait for Processing" classname="BASE-INV-0050 Terminal Inventory Transfer Directed" time="5.339"/>
+    <testcase name="Terminal Exit Directed Work Mode" classname="BASE-INV-0050 Terminal Inventory Transfer Directed" time="6.360"/>
+    <testcase name="Inventory Transfer Validate Location" classname="BASE-INV-0050 Terminal Inventory Transfer Directed" time="0.000"/>
+    <testcase name="Perform MSQL Execution" classname="BASE-INV-0050 Terminal Inventory Transfer Directed" time="0.011"/>
+    <testcase name="Locate File on Path" classname="BASE-INV-0050 Terminal Inventory Transfer Directed" time="0.009"/>
+    <testcase name="Log MSQL Execution Results" classname="BASE-INV-0050 Terminal Inventory Transfer Directed" time="0.000"/>
+    <testcase name="End Post-Test Activities" classname="BASE-INV-0050 Terminal Inventory Transfer Directed" time="0.011"/>
+    <testcase name="Process Test Case Post Validations" classname="BASE-INV-0050 Terminal Inventory Transfer Directed" time="0.010"/>
+    <testcase name="Process Test Case Validations" classname="BASE-INV-0050 Terminal Inventory Transfer Directed" time="0.009"/>
+    <testcase name="Locate File on Path" classname="BASE-INV-0050 Terminal Inventory Transfer Directed" time="0.008"/>
+    <testcase name="Log to Developer Logging File" classname="BASE-INV-0050 Terminal Inventory Transfer Directed" time="0.001"/>
+    <testcase name="[Outline Summary]" classname="BASE-LDG-0020 Terminal Outbound Loading LTL Undirected" time="78.964"/>
+    <testcase name="Begin Pre-Test Activities" classname="BASE-LDG-0020 Terminal Outbound Loading LTL Undirected" time="0.012"/>
+    <testcase name="Process Test Case Pre Validations" classname="BASE-LDG-0020 Terminal Outbound Loading LTL Undirected" time="0.012"/>
+    <testcase name="Process Test Case Validations" classname="BASE-LDG-0020 Terminal Outbound Loading LTL Undirected" time="0.010"/>
+    <testcase name="Locate File on Path" classname="BASE-LDG-0020 Terminal Outbound Loading LTL Undirected" time="0.010"/>
+    <testcase name="Log to Developer Logging File" classname="BASE-LDG-0020 Terminal Outbound Loading LTL Undirected" time="0.000"/>
+    <testcase name="Terminal Login" classname="BASE-LDG-0020 Terminal Outbound Loading LTL Undirected" time="0.003"/>
+    <testcase name="Terminal Validate Variables" classname="BASE-LDG-0020 Terminal Outbound Loading LTL Undirected" time="0.002"/>
+    <testcase name="Connect and Set the Size of the Terminal" classname="BASE-LDG-0020 Terminal Outbound Loading LTL Undirected" time="0.001"/>
+    <testcase name="Perform MSQL Execution" classname="BASE-LDG-0020 Terminal Outbound Loading LTL Undirected" time="0.008"/>
+    <testcase name="Locate File on Path" classname="BASE-LDG-0020 Terminal Outbound Loading LTL Undirected" time="0.007"/>
+    <testcase name="Log MSQL Execution Results" classname="BASE-LDG-0020 Terminal Outbound Loading LTL Undirected" time="0.000"/>
+    <testcase name="Perform MSQL Execution" classname="BASE-LDG-0020 Terminal Outbound Loading LTL Undirected" time="0.010"/>
+    <testcase name="Locate File on Path" classname="BASE-LDG-0020 Terminal Outbound Loading LTL Undirected" time="0.010"/>
+    <testcase name="Log MSQL Execution Results" classname="BASE-LDG-0020 Terminal Outbound Loading LTL Undirected" time="0.001"/>
+    <testcase name="Check for Terminal Questions" classname="BASE-LDG-0020 Terminal Outbound Loading LTL Undirected" time="0.879"/>
+    <testcase name="Terminal Wait Until First Line Is Not Blank" classname="BASE-LDG-0020 Terminal Outbound Loading LTL Undirected" time="5.338"/>
+    <testcase name="Terminal Wait for Processing" classname="BASE-LDG-0020 Terminal Outbound Loading LTL Undirected" time="5.338"/>
+    <testcase name="Check for Terminal ID Screen" classname="BASE-LDG-0020 Terminal Outbound Loading LTL Undirected" time="1.332"/>
+    <testcase name="Check for Login Screen" classname="BASE-LDG-0020 Terminal Outbound Loading LTL Undirected" time="1.339"/>
+    <testcase name="Check for Bad Login" classname="BASE-LDG-0020 Terminal Outbound Loading LTL Undirected" time="1.339"/>
+    <testcase name="Terminal Clear Field" classname="BASE-LDG-0020 Terminal Outbound Loading LTL Undirected" time="0.638"/>
+    <testcase name="Terminal Clear Field" classname="BASE-LDG-0020 Terminal Outbound Loading LTL Undirected" time="0.638"/>
+    <testcase name="Terminal Wait Until First Line Is Not Blank" classname="BASE-LDG-0020 Terminal Outbound Loading LTL Undirected" time="0.331"/>
+    <testcase name="Check for Work Information Screen" classname="BASE-LDG-0020 Terminal Outbound Loading LTL Undirected" time="0.639"/>
+    <testcase name="Terminal Clear Field" classname="BASE-LDG-0020 Terminal Outbound Loading LTL Undirected" time="0.638"/>
+    <testcase name="Terminal Clear Field" classname="BASE-LDG-0020 Terminal Outbound Loading LTL Undirected" time="0.638"/>
+    <testcase name="Terminal Clear Field" classname="BASE-LDG-0020 Terminal Outbound Loading LTL Undirected" time="0.638"/>
+    <testcase name="Terminal Wait Until First Line Is Not Blank" classname="BASE-LDG-0020 Terminal Outbound Loading LTL Undirected" time="0.331"/>
+    <testcase name="Check for Recovery Mode" classname="BASE-LDG-0020 Terminal Outbound Loading LTL Undirected" time="1.337"/>
+    <testcase name="Terminal Navigate to LTL Load Menu" classname="BASE-LDG-0020 Terminal Outbound Loading LTL Undirected" time="0.638"/>
+    <testcase name="Terminal Clear Field" classname="BASE-LDG-0020 Terminal Outbound Loading LTL Undirected" time="0.637"/>
+    <testcase name="Terminal Perform Undirected LTL Loading" classname="BASE-LDG-0020 Terminal Outbound Loading LTL Undirected" time="0.153"/>
+    <testcase name="Get Next LPN for Undirected LTL Trailer Loading" classname="BASE-LDG-0020 Terminal Outbound Loading LTL Undirected" time="0.001"/>
+    <testcase name="Perform MSQL Execution" classname="BASE-LDG-0020 Terminal Outbound Loading LTL Undirected" time="0.007"/>
+    <testcase name="Locate File on Path" classname="BASE-LDG-0020 Terminal Outbound Loading LTL Undirected" time="0.007"/>
+    <testcase name="Log MSQL Execution Results" classname="BASE-LDG-0020 Terminal Outbound Loading LTL Undirected" time="0.000"/>
+    <testcase name="Terminal Sign onto Undirected LTL Loading Door" classname="BASE-LDG-0020 Terminal Outbound Loading LTL Undirected" time="29.279"/>
+    <testcase name="Terminal Process Workflow" classname="BASE-LDG-0020 Terminal Outbound Loading LTL Undirected" time="27.880"/>
+    <testcase name="Terminal Perform Trailer Safety Check Pass" classname="BASE-LDG-0020 Terminal Outbound Loading LTL Undirected" time="27.879"/>
+    <testcase name="Perform MSQL Execution" classname="BASE-LDG-0020 Terminal Outbound Loading LTL Undirected" time="0.008"/>
+    <testcase name="Locate File on Path" classname="BASE-LDG-0020 Terminal Outbound Loading LTL Undirected" time="0.008"/>
+    <testcase name="Log MSQL Execution Results" classname="BASE-LDG-0020 Terminal Outbound Loading LTL Undirected" time="0.001"/>
+    <testcase name="Terminal Outbound Undirected Load LPN to LTL Trailer" classname="BASE-LDG-0020 Terminal Outbound Loading LTL Undirected" time="7.694"/>
+    <testcase name="Perform MSQL Execution" classname="BASE-LDG-0020 Terminal Outbound Loading LTL Undirected" time="0.008"/>
+    <testcase name="Locate File on Path" classname="BASE-LDG-0020 Terminal Outbound Loading LTL Undirected" time="0.007"/>
+    <testcase name="Log MSQL Execution Results" classname="BASE-LDG-0020 Terminal Outbound Loading LTL Undirected" time="0.000"/>
+    <testcase name="End Post-Test Activities" classname="BASE-LDG-0020 Terminal Outbound Loading LTL Undirected" time="0.012"/>
+    <testcase name="Process Test Case Post Validations" classname="BASE-LDG-0020 Terminal Outbound Loading LTL Undirected" time="0.012"/>
+    <testcase name="Process Test Case Validations" classname="BASE-LDG-0020 Terminal Outbound Loading LTL Undirected" time="0.010"/>
+    <testcase name="Locate File on Path" classname="BASE-LDG-0020 Terminal Outbound Loading LTL Undirected" time="0.009"/>
+    <testcase name="Log to Developer Logging File" classname="BASE-LDG-0020 Terminal Outbound Loading LTL Undirected" time="0.000"/>
+    <testcase name="[Outline Summary]" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="58.943"/>
+    <testcase name="Begin Pre-Test Activities" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.010"/>
+    <testcase name="Process Test Case Pre Validations" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.009"/>
+    <testcase name="Process Test Case Validations" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.008"/>
+    <testcase name="Locate File on Path" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.008"/>
+    <testcase name="Log to Developer Logging File" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.000"/>
+    <testcase name="Terminal Login" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.002"/>
+    <testcase name="Terminal Validate Variables" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.001"/>
+    <testcase name="Connect and Set the Size of the Terminal" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.001"/>
+    <testcase name="Perform MSQL Execution" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.011"/>
+    <testcase name="Locate File on Path" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.010"/>
+    <testcase name="Log MSQL Execution Results" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.000"/>
+    <testcase name="Perform MSQL Execution" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.009"/>
+    <testcase name="Locate File on Path" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.008"/>
+    <testcase name="Log MSQL Execution Results" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.000"/>
+    <testcase name="Check for Terminal Questions" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.879"/>
+    <testcase name="Terminal Wait Until First Line Is Not Blank" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="5.338"/>
+    <testcase name="Terminal Wait for Processing" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="5.338"/>
+    <testcase name="Check for Terminal ID Screen" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="1.334"/>
+    <testcase name="Check for Login Screen" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="1.338"/>
+    <testcase name="Check for Bad Login" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="1.338"/>
+    <testcase name="Terminal Clear Field" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.638"/>
+    <testcase name="Terminal Clear Field" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.638"/>
+    <testcase name="Terminal Wait Until First Line Is Not Blank" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.330"/>
+    <testcase name="Check for Work Information Screen" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.639"/>
+    <testcase name="Terminal Clear Field" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.638"/>
+    <testcase name="Terminal Clear Field" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.638"/>
+    <testcase name="Terminal Clear Field" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.638"/>
+    <testcase name="Terminal Wait Until First Line Is Not Blank" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.328"/>
+    <testcase name="Check for Recovery Mode" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="1.340"/>
+    <testcase name="Terminal Navigate to Carton Pick Menu" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="2.938"/>
+    <testcase name="Terminal Perform Carton Picks for Order" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.048"/>
+    <testcase name="Get Carton Number by Order for Undirected Carton Picking" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.001"/>
+    <testcase name="Perform MSQL Execution" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.008"/>
+    <testcase name="Locate File on Path" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.007"/>
+    <testcase name="Log MSQL Execution Results" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.000"/>
+    <testcase name="End Post-Test Activities" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.012"/>
+    <testcase name="Process Test Case Post Validations" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.011"/>
+    <testcase name="Process Test Case Validations" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.010"/>
+    <testcase name="Locate File on Path" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.009"/>
+    <testcase name="Log to Developer Logging File" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.000"/>
+    <testcase name="[Outline Summary]" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="255.469"/>
+    <testcase name="Begin Pre-Test Activities" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.009"/>
+    <testcase name="Process Test Case Pre Validations" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.009"/>
+    <testcase name="Process Test Case Validations" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.008"/>
+    <testcase name="Locate File on Path" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.007"/>
+    <testcase name="Log to Developer Logging File" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.000"/>
+    <testcase name="Terminal Login" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.001"/>
+    <testcase name="Terminal Validate Variables" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.000"/>
+    <testcase name="Connect and Set the Size of the Terminal" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.001"/>
+    <testcase name="Perform MSQL Execution" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.006"/>
+    <testcase name="Locate File on Path" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.006"/>
+    <testcase name="Log MSQL Execution Results" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.000"/>
+    <testcase name="Perform MSQL Execution" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.008"/>
+    <testcase name="Locate File on Path" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.008"/>
+    <testcase name="Log MSQL Execution Results" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.000"/>
+    <testcase name="Check for Terminal Questions" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.878"/>
+    <testcase name="Terminal Wait Until First Line Is Not Blank" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="5.338"/>
+    <testcase name="Terminal Wait for Processing" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="5.338"/>
+    <testcase name="Check for Terminal ID Screen" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="1.336"/>
+    <testcase name="Check for Login Screen" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="1.339"/>
+    <testcase name="Check for Bad Login" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="1.338"/>
+    <testcase name="Terminal Clear Field" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.638"/>
+    <testcase name="Terminal Clear Field" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.638"/>
+    <testcase name="Terminal Wait Until First Line Is Not Blank" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.328"/>
+    <testcase name="Check for Work Information Screen" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.639"/>
+    <testcase name="Terminal Clear Field" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.638"/>
+    <testcase name="Terminal Clear Field" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.639"/>
+    <testcase name="Terminal Clear Field" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.639"/>
+    <testcase name="Terminal Wait Until First Line Is Not Blank" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.328"/>
+    <testcase name="Check for Recovery Mode" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="1.330"/>
+    <testcase name="Terminal Navigate to Carton Pick Menu" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="2.938"/>
+    <testcase name="Terminal Perform Carton Picks for Order" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.076"/>
+    <testcase name="Get Carton Number by Order for Undirected Carton Picking" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.001"/>
+    <testcase name="Perform MSQL Execution" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.006"/>
+    <testcase name="Locate File on Path" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.006"/>
+    <testcase name="Log MSQL Execution Results" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.000"/>
+    <testcase name="Terminal Build Batch for Undirected Carton Picking" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="2.290"/>
+    <testcase name="Terminal Undirected Carton Picking" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.279"/>
+    <testcase name="Get Source ID for Carton Pick" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.001"/>
+    <testcase name="Perform MSQL Execution" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.007"/>
+    <testcase name="Locate File on Path" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.006"/>
+    <testcase name="Log MSQL Execution Results" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.000"/>
+    <testcase name="Get Location Verification Code" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.001"/>
+    <testcase name="Perform MSQL Execution" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.009"/>
+    <testcase name="Locate File on Path" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.008"/>
+    <testcase name="Log MSQL Execution Results" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.000"/>
+    <testcase name="Get Item Serialization Type" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.001"/>
+    <testcase name="Perform MSQL Execution" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.007"/>
+    <testcase name="Locate File on Path" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.007"/>
+    <testcase name="Log MSQL Execution Results" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.000"/>
+    <testcase name="Terminal Scan Serial Number Cradle to Grave Picking" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.005"/>
+    <testcase name="Terminal Set Serial Scan Cursor Positions" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.004"/>
+    <testcase name="Get Serial Number List for Cradle to Grave" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.001"/>
+    <testcase name="Perform MSQL Execution" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.016"/>
+    <testcase name="Locate File on Path" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.015"/>
+    <testcase name="Log MSQL Execution Results" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.000"/>
+    <testcase name="Terminal Check for Serial Capture Errors" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="3.099"/>
+    <testcase name="Terminal Check for Serial Capture Errors" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="3.099"/>
+    <testcase name="Terminal Check for Serial Capture Errors" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="3.099"/>
+    <testcase name="Terminal Check for Serial Capture Errors" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="3.098"/>
+    <testcase name="Terminal Check for Serial Capture Errors" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="3.099"/>
+    <testcase name="Terminal Check for Serial Capture Errors" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="3.099"/>
+    <testcase name="Terminal Check for Serial Capture Errors" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="3.098"/>
+    <testcase name="Terminal Check for Serial Capture Errors" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="3.099"/>
+    <testcase name="Terminal Check for Serial Capture Errors" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="3.099"/>
+    <testcase name="Terminal Check for Serial Capture Errors" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="3.098"/>
+    <testcase name="Deposit After Carton Picking" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.258"/>
+    <testcase name="Get Location Verification Code" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.001"/>
+    <testcase name="Perform MSQL Execution" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.007"/>
+    <testcase name="Locate File on Path" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.007"/>
+    <testcase name="Log MSQL Execution Results" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.000"/>
+    <testcase name="Get Carton Number by Order for Undirected Carton Picking" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.001"/>
+    <testcase name="Perform MSQL Execution" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.007"/>
+    <testcase name="Locate File on Path" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.006"/>
+    <testcase name="Log MSQL Execution Results" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.000"/>
+    <testcase name="End Post-Test Activities" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.009"/>
+    <testcase name="Process Test Case Post Validations" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.008"/>
+    <testcase name="Process Test Case Validations" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.008"/>
+    <testcase name="Locate File on Path" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.007"/>
+    <testcase name="Log to Developer Logging File" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.000"/>
+    <testcase name="[Outline Summary]" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="201.598"/>
+    <testcase name="Begin Pre-Test Activities" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.010"/>
+    <testcase name="Process Test Case Pre Validations" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.009"/>
+    <testcase name="Process Test Case Validations" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.008"/>
+    <testcase name="Locate File on Path" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.008"/>
+    <testcase name="Log to Developer Logging File" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.000"/>
+    <testcase name="Terminal Login" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.001"/>
+    <testcase name="Terminal Validate Variables" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.001"/>
+    <testcase name="Connect and Set the Size of the Terminal" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.001"/>
+    <testcase name="Perform MSQL Execution" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.008"/>
+    <testcase name="Locate File on Path" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.008"/>
+    <testcase name="Log MSQL Execution Results" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.000"/>
+    <testcase name="Perform MSQL Execution" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.009"/>
+    <testcase name="Locate File on Path" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.009"/>
+    <testcase name="Log MSQL Execution Results" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.000"/>
+    <testcase name="Check for Terminal Questions" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.878"/>
+    <testcase name="Terminal Wait Until First Line Is Not Blank" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="5.338"/>
+    <testcase name="Terminal Wait for Processing" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="5.338"/>
+    <testcase name="Check for Terminal ID Screen" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="1.337"/>
+    <testcase name="Check for Login Screen" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="1.339"/>
+    <testcase name="Check for Bad Login" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="1.338"/>
+    <testcase name="Terminal Clear Field" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.636"/>
+    <testcase name="Terminal Clear Field" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.639"/>
+    <testcase name="Terminal Wait Until First Line Is Not Blank" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.333"/>
+    <testcase name="Check for Work Information Screen" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.639"/>
+    <testcase name="Terminal Clear Field" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.639"/>
+    <testcase name="Terminal Clear Field" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.638"/>
+    <testcase name="Terminal Clear Field" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.638"/>
+    <testcase name="Terminal Wait Until First Line Is Not Blank" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.328"/>
+    <testcase name="Check for Recovery Mode" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="1.340"/>
+    <testcase name="Terminal Navigate to Carton Pick Menu" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="2.939"/>
+    <testcase name="Terminal Perform Carton Picks for Order" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.046"/>
+    <testcase name="Get Carton Number by Order for Undirected Carton Picking" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.001"/>
+    <testcase name="Perform MSQL Execution" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.007"/>
+    <testcase name="Locate File on Path" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.007"/>
+    <testcase name="Log MSQL Execution Results" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.000"/>
+    <testcase name="Terminal Build Batch for Undirected Carton Picking" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="2.290"/>
+    <testcase name="Terminal Undirected Carton Picking" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.052"/>
+    <testcase name="Get Source ID for Carton Pick" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.001"/>
+    <testcase name="Perform MSQL Execution" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.006"/>
+    <testcase name="Locate File on Path" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.006"/>
+    <testcase name="Log MSQL Execution Results" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.000"/>
+    <testcase name="Get Location Verification Code" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.000"/>
+    <testcase name="Perform MSQL Execution" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.008"/>
+    <testcase name="Locate File on Path" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.007"/>
+    <testcase name="Log MSQL Execution Results" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.000"/>
+    <testcase name="Get Item Serialization Type" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.001"/>
+    <testcase name="Perform MSQL Execution" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.007"/>
+    <testcase name="Locate File on Path" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.007"/>
+    <testcase name="Log MSQL Execution Results" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.000"/>
+    <testcase name="Terminal Scan Serial Number Outbound Capture Picking" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.001"/>
+    <testcase name="Terminal Set Serial Scan Cursor Positions" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.001"/>
+    <testcase name="Create Variable outbound_cap_serial_file" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.001"/>
+    <testcase name="Perform MSQL Execution" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.006"/>
+    <testcase name="Locate File on Path" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.006"/>
+    <testcase name="Log MSQL Execution Results" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.000"/>
+    <testcase name="Get Serial Number from Serial Number File" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.034"/>
+    <testcase name="Check if Serial Number is in Use" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.001"/>
+    <testcase name="Perform MSQL Execution" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.008"/>
+    <testcase name="Locate File on Path" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.007"/>
+    <testcase name="Log MSQL Execution Results" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.000"/>
+    <testcase name="Terminal Check for Serial Capture Errors" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="3.098"/>
+    <testcase name="Create Variable outbound_cap_serial_file" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.001"/>
+    <testcase name="Perform MSQL Execution" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.007"/>
+    <testcase name="Locate File on Path" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.007"/>
+    <testcase name="Log MSQL Execution Results" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.000"/>
+    <testcase name="Get Serial Number from Serial Number File" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.037"/>
+    <testcase name="Check if Serial Number is in Use" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.001"/>
+    <testcase name="Perform MSQL Execution" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.007"/>
+    <testcase name="Locate File on Path" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.007"/>
+    <testcase name="Log MSQL Execution Results" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.000"/>
+    <testcase name="Terminal Check for Serial Capture Errors" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="3.098"/>
+    <testcase name="Create Variable outbound_cap_serial_file" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.001"/>
+    <testcase name="Perform MSQL Execution" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.007"/>
+    <testcase name="Locate File on Path" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.006"/>
+    <testcase name="Log MSQL Execution Results" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.000"/>
+    <testcase name="Get Serial Number from Serial Number File" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.042"/>
+    <testcase name="Check if Serial Number is in Use" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.001"/>
+    <testcase name="Perform MSQL Execution" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.010"/>
+    <testcase name="Locate File on Path" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.009"/>
+    <testcase name="Log MSQL Execution Results" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.001"/>
+    <testcase name="Terminal Check for Serial Capture Errors" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="3.098"/>
+    <testcase name="Create Variable outbound_cap_serial_file" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.001"/>
+    <testcase name="Perform MSQL Execution" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.006"/>
+    <testcase name="Locate File on Path" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.006"/>
+    <testcase name="Log MSQL Execution Results" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.000"/>
+    <testcase name="Get Serial Number from Serial Number File" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.037"/>
+    <testcase name="Check if Serial Number is in Use" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.001"/>
+    <testcase name="Perform MSQL Execution" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.007"/>
+    <testcase name="Locate File on Path" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.007"/>
+    <testcase name="Log MSQL Execution Results" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.001"/>
+    <testcase name="Terminal Check for Serial Capture Errors" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="3.099"/>
+    <testcase name="Create Variable outbound_cap_serial_file" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.000"/>
+    <testcase name="Perform MSQL Execution" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.007"/>
+    <testcase name="Locate File on Path" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.007"/>
+    <testcase name="Log MSQL Execution Results" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.000"/>
+    <testcase name="Get Serial Number from Serial Number File" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.101"/>
+    <testcase name="Check if Serial Number is in Use" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.000"/>
+    <testcase name="Perform MSQL Execution" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.009"/>
+    <testcase name="Locate File on Path" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.008"/>
+    <testcase name="Log MSQL Execution Results" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.000"/>
+    <testcase name="Terminal Check for Serial Capture Errors" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="3.099"/>
+    <testcase name="Create Variable outbound_cap_serial_file" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.001"/>
+    <testcase name="Perform MSQL Execution" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.008"/>
+    <testcase name="Locate File on Path" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.007"/>
+    <testcase name="Log MSQL Execution Results" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.000"/>
+    <testcase name="Get Serial Number from Serial Number File" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.037"/>
+    <testcase name="Check if Serial Number is in Use" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.000"/>
+    <testcase name="Perform MSQL Execution" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.009"/>
+    <testcase name="Locate File on Path" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.009"/>
+    <testcase name="Log MSQL Execution Results" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.000"/>
+    <testcase name="Terminal Check for Serial Capture Errors" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="3.098"/>
+    <testcase name="Create Variable outbound_cap_serial_file" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.001"/>
+    <testcase name="Perform MSQL Execution" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.007"/>
+    <testcase name="Locate File on Path" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.007"/>
+    <testcase name="Log MSQL Execution Results" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.001"/>
+    <testcase name="Get Serial Number from Serial Number File" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.036"/>
+    <testcase name="Check if Serial Number is in Use" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.001"/>
+    <testcase name="Perform MSQL Execution" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.007"/>
+    <testcase name="Locate File on Path" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.007"/>
+    <testcase name="Log MSQL Execution Results" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.000"/>
+    <testcase name="Terminal Check for Serial Capture Errors" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="3.099"/>
+    <testcase name="Create Variable outbound_cap_serial_file" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.001"/>
+    <testcase name="Perform MSQL Execution" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.008"/>
+    <testcase name="Locate File on Path" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.007"/>
+    <testcase name="Log MSQL Execution Results" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.000"/>
+    <testcase name="Get Serial Number from Serial Number File" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.036"/>
+    <testcase name="Check if Serial Number is in Use" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.001"/>
+    <testcase name="Perform MSQL Execution" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.008"/>
+    <testcase name="Locate File on Path" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.007"/>
+    <testcase name="Log MSQL Execution Results" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.000"/>
+    <testcase name="Terminal Check for Serial Capture Errors" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="3.099"/>
+    <testcase name="Create Variable outbound_cap_serial_file" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.001"/>
+    <testcase name="Perform MSQL Execution" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.007"/>
+    <testcase name="Locate File on Path" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.006"/>
+    <testcase name="Log MSQL Execution Results" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.000"/>
+    <testcase name="Get Serial Number from Serial Number File" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.053"/>
+    <testcase name="Check if Serial Number is in Use" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.001"/>
+    <testcase name="Perform MSQL Execution" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.008"/>
+    <testcase name="Locate File on Path" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.007"/>
+    <testcase name="Log MSQL Execution Results" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.000"/>
+    <testcase name="Terminal Check for Serial Capture Errors" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="3.097"/>
+    <testcase name="Create Variable outbound_cap_serial_file" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.000"/>
+    <testcase name="Perform MSQL Execution" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.006"/>
+    <testcase name="Locate File on Path" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.006"/>
+    <testcase name="Log MSQL Execution Results" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.000"/>
+    <testcase name="Get Serial Number from Serial Number File" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.037"/>
+    <testcase name="Check if Serial Number is in Use" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.001"/>
+    <testcase name="Perform MSQL Execution" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.009"/>
+    <testcase name="Locate File on Path" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.008"/>
+    <testcase name="Log MSQL Execution Results" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.000"/>
+    <testcase name="Terminal Check for Serial Capture Errors" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="3.099"/>
+    <testcase name="Deposit After Carton Picking" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.149"/>
+    <testcase name="Get Location Verification Code" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.001"/>
+    <testcase name="Perform MSQL Execution" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.008"/>
+    <testcase name="Locate File on Path" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.007"/>
+    <testcase name="Log MSQL Execution Results" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.000"/>
+    <testcase name="Get Carton Number by Order for Undirected Carton Picking" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.000"/>
+    <testcase name="Perform MSQL Execution" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.007"/>
+    <testcase name="Locate File on Path" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.006"/>
+    <testcase name="Log MSQL Execution Results" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.000"/>
+    <testcase name="End Post-Test Activities" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.007"/>
+    <testcase name="Process Test Case Post Validations" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.007"/>
+    <testcase name="Process Test Case Validations" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.006"/>
+    <testcase name="Locate File on Path" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.005"/>
+    <testcase name="Log to Developer Logging File" classname="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="0.000"/>
+    <testcase name="[Outline Summary]" classname="BASE-RCV-1100 Web Inbound Putaway" time="81.611"/>
+    <testcase name="Begin Pre-Test Activities" classname="BASE-RCV-1100 Web Inbound Putaway" time="0.017"/>
+    <testcase name="Process Test Case Pre Validations" classname="BASE-RCV-1100 Web Inbound Putaway" time="0.017"/>
+    <testcase name="Process Test Case Validations" classname="BASE-RCV-1100 Web Inbound Putaway" time="0.016"/>
+    <testcase name="Locate File on Path" classname="BASE-RCV-1100 Web Inbound Putaway" time="0.015"/>
+    <testcase name="Log to Developer Logging File" classname="BASE-RCV-1100 Web Inbound Putaway" time="0.000"/>
+    <testcase name="Web Login" classname="BASE-RCV-1100 Web Inbound Putaway" time="0.002"/>
+    <testcase name="Perform MSQL Execution" classname="BASE-RCV-1100 Web Inbound Putaway" time="0.012"/>
+    <testcase name="Locate File on Path" classname="BASE-RCV-1100 Web Inbound Putaway" time="0.012"/>
+    <testcase name="Log MSQL Execution Results" classname="BASE-RCV-1100 Web Inbound Putaway" time="0.001"/>
+    <testcase name="Web Select Workstation" classname="BASE-RCV-1100 Web Inbound Putaway" time="0.007"/>
+    <testcase name="Dynamic Locator Variable Expansion" classname="BASE-RCV-1100 Web Inbound Putaway" time="0.007"/>
+    <testcase name="Web Open Inbound Shipments Screen" classname="BASE-RCV-1100 Web Inbound Putaway" time="2.897"/>
+    <testcase name="Web Screen Search" classname="BASE-RCV-1100 Web Inbound Putaway" time="0.001"/>
+    <testcase name="Dynamic Locator Variable Expansion" classname="BASE-RCV-1100 Web Inbound Putaway" time="0.001"/>
+    <testcase name="Web Putaway" classname="BASE-RCV-1100 Web Inbound Putaway" time="4.786"/>
+    <testcase name="Web Inbound Shipments Search for Shipment" classname="BASE-RCV-1100 Web Inbound Putaway" time="4.736"/>
+    <testcase name="Web Component Search" classname="BASE-RCV-1100 Web Inbound Putaway" time="4.735"/>
+    <testcase name="Dynamic Locator Variable Expansion" classname="BASE-RCV-1100 Web Inbound Putaway" time="0.001"/>
+    <testcase name="Web Receiving Perform Receiving and Putaway" classname="BASE-RCV-1100 Web Inbound Putaway" time="10.337"/>
+    <testcase name="Web Perform Transport Equipment Workflow Safety Check Pass" classname="BASE-RCV-1100 Web Inbound Putaway" time="10.336"/>
+    <testcase name="Web Process Receiving Tab" classname="BASE-RCV-1100 Web Inbound Putaway" time="10.623"/>
+    <testcase name="Web Process Serialization" classname="BASE-RCV-1100 Web Inbound Putaway" time="10.622"/>
+    <testcase name="Web Process Putway Tab" classname="BASE-RCV-1100 Web Inbound Putaway" time="0.002"/>
+    <testcase name="Dynamic Locator Variable Expansion" classname="BASE-RCV-1100 Web Inbound Putaway" time="0.001"/>
+    <testcase name="Validate Putaway Process" classname="BASE-RCV-1100 Web Inbound Putaway" time="0.001"/>
+    <testcase name="Perform MSQL Execution" classname="BASE-RCV-1100 Web Inbound Putaway" time="0.007"/>
+    <testcase name="Locate File on Path" classname="BASE-RCV-1100 Web Inbound Putaway" time="0.007"/>
+    <testcase name="Log MSQL Execution Results" classname="BASE-RCV-1100 Web Inbound Putaway" time="0.000"/>
+    <testcase name="End Post-Test Activities" classname="BASE-RCV-1100 Web Inbound Putaway" time="0.010"/>
+    <testcase name="Process Test Case Post Validations" classname="BASE-RCV-1100 Web Inbound Putaway" time="0.009"/>
+    <testcase name="Process Test Case Validations" classname="BASE-RCV-1100 Web Inbound Putaway" time="0.008"/>
+    <testcase name="Locate File on Path" classname="BASE-RCV-1100 Web Inbound Putaway" time="0.008"/>
+    <testcase name="Log to Developer Logging File" classname="BASE-RCV-1100 Web Inbound Putaway" time="0.000"/>
+    <testcase name="[Outline Summary]" classname="BASE-SHP-1020 Web Outbound Trailer Dispatch" time="29.985"/>
+    <testcase name="Begin Pre-Test Activities" classname="BASE-SHP-1020 Web Outbound Trailer Dispatch" time="0.013"/>
+    <testcase name="Process Test Case Pre Validations" classname="BASE-SHP-1020 Web Outbound Trailer Dispatch" time="0.012"/>
+    <testcase name="Process Test Case Validations" classname="BASE-SHP-1020 Web Outbound Trailer Dispatch" time="0.010"/>
+    <testcase name="Locate File on Path" classname="BASE-SHP-1020 Web Outbound Trailer Dispatch" time="0.010"/>
+    <testcase name="Log to Developer Logging File" classname="BASE-SHP-1020 Web Outbound Trailer Dispatch" time="0.000"/>
+    <testcase name="Web Trailer Check Paperwork" classname="BASE-SHP-1020 Web Outbound Trailer Dispatch" time="0.001"/>
+    <testcase name="Perform MSQL Execution" classname="BASE-SHP-1020 Web Outbound Trailer Dispatch" time="0.009"/>
+    <testcase name="Locate File on Path" classname="BASE-SHP-1020 Web Outbound Trailer Dispatch" time="0.008"/>
+    <testcase name="Log MSQL Execution Results" classname="BASE-SHP-1020 Web Outbound Trailer Dispatch" time="0.000"/>
+    <testcase name="Web Login" classname="BASE-SHP-1020 Web Outbound Trailer Dispatch" time="0.003"/>
+    <testcase name="Perform MSQL Execution" classname="BASE-SHP-1020 Web Outbound Trailer Dispatch" time="0.011"/>
+    <testcase name="Locate File on Path" classname="BASE-SHP-1020 Web Outbound Trailer Dispatch" time="0.010"/>
+    <testcase name="Log MSQL Execution Results" classname="BASE-SHP-1020 Web Outbound Trailer Dispatch" time="0.002"/>
+    <testcase name="Web Open Shipping Loads Screen" classname="BASE-SHP-1020 Web Outbound Trailer Dispatch" time="3.041"/>
+    <testcase name="Web Screen Search" classname="BASE-SHP-1020 Web Outbound Trailer Dispatch" time="0.002"/>
+    <testcase name="Dynamic Locator Variable Expansion" classname="BASE-SHP-1020 Web Outbound Trailer Dispatch" time="0.001"/>
+    <testcase name="Web Search for Load" classname="BASE-SHP-1020 Web Outbound Trailer Dispatch" time="3.749"/>
+    <testcase name="Web Component Search" classname="BASE-SHP-1020 Web Outbound Trailer Dispatch" time="3.748"/>
+    <testcase name="Web Dispatch the Trailer" classname="BASE-SHP-1020 Web Outbound Trailer Dispatch" time="0.820"/>
+    <testcase name="Web Door Activity Process Trailer Safety Check" classname="BASE-SHP-1020 Web Outbound Trailer Dispatch" time="2.611"/>
+    <testcase name="Web Click Save" classname="BASE-SHP-1020 Web Outbound Trailer Dispatch" time="0.390"/>
+    <testcase name="Web Verify Confirmation" classname="BASE-SHP-1020 Web Outbound Trailer Dispatch" time="10.401"/>
+    <testcase name="End Post-Test Activities" classname="BASE-SHP-1020 Web Outbound Trailer Dispatch" time="0.013"/>
+    <testcase name="Process Test Case Post Validations" classname="BASE-SHP-1020 Web Outbound Trailer Dispatch" time="0.012"/>
+    <testcase name="Process Test Case Validations" classname="BASE-SHP-1020 Web Outbound Trailer Dispatch" time="0.010"/>
+    <testcase name="Locate File on Path" classname="BASE-SHP-1020 Web Outbound Trailer Dispatch" time="0.008"/>
+    <testcase name="Log to Developer Logging File" classname="BASE-SHP-1020 Web Outbound Trailer Dispatch" time="0.001"/>
+    <testcase name="[Outline Summary]" classname="BASE-YRD-1020 Web Inbound Trailer Check In" time="17.870"/>
+    <testcase name="Begin Pre-Test Activities" classname="BASE-YRD-1020 Web Inbound Trailer Check In" time="0.023"/>
+    <testcase name="Process Test Case Pre Validations" classname="BASE-YRD-1020 Web Inbound Trailer Check In" time="0.022"/>
+    <testcase name="Process Test Case Validations" classname="BASE-YRD-1020 Web Inbound Trailer Check In" time="0.020"/>
+    <testcase name="Locate File on Path" classname="BASE-YRD-1020 Web Inbound Trailer Check In" time="0.019"/>
+    <testcase name="Log to Developer Logging File" classname="BASE-YRD-1020 Web Inbound Trailer Check In" time="0.002"/>
+    <testcase name="Web Login" classname="BASE-YRD-1020 Web Inbound Trailer Check In" time="0.001"/>
+    <testcase name="Perform MSQL Execution" classname="BASE-YRD-1020 Web Inbound Trailer Check In" time="0.010"/>
+    <testcase name="Locate File on Path" classname="BASE-YRD-1020 Web Inbound Trailer Check In" time="0.009"/>
+    <testcase name="Log MSQL Execution Results" classname="BASE-YRD-1020 Web Inbound Trailer Check In" time="0.000"/>
+    <testcase name="Web Open Receiving Transport Equipment Screen" classname="BASE-YRD-1020 Web Inbound Trailer Check In" time="2.594"/>
+    <testcase name="Web Screen Search" classname="BASE-YRD-1020 Web Inbound Trailer Check In" time="0.001"/>
+    <testcase name="Dynamic Locator Variable Expansion" classname="BASE-YRD-1020 Web Inbound Trailer Check In" time="0.001"/>
+    <testcase name="Web Search for Inbound Trailer" classname="BASE-YRD-1020 Web Inbound Trailer Check In" time="3.731"/>
+    <testcase name="Web Component Search" classname="BASE-YRD-1020 Web Inbound Trailer Check In" time="3.731"/>
+    <testcase name="Web Check In Inbound Trailer" classname="BASE-YRD-1020 Web Inbound Trailer Check In" time="0.002"/>
+    <testcase name="Dynamic Locator Variable Expansion" classname="BASE-YRD-1020 Web Inbound Trailer Check In" time="0.001"/>
+    <testcase name="Web Verify Inbound Trailer Check In" classname="BASE-YRD-1020 Web Inbound Trailer Check In" time="0.913"/>
+    <testcase name="End Post-Test Activities" classname="BASE-YRD-1020 Web Inbound Trailer Check In" time="0.010"/>
+    <testcase name="Process Test Case Post Validations" classname="BASE-YRD-1020 Web Inbound Trailer Check In" time="0.009"/>
+    <testcase name="Process Test Case Validations" classname="BASE-YRD-1020 Web Inbound Trailer Check In" time="0.008"/>
+    <testcase name="Locate File on Path" classname="BASE-YRD-1020 Web Inbound Trailer Check In" time="0.007"/>
+    <testcase name="Log to Developer Logging File" classname="BASE-YRD-1020 Web Inbound Trailer Check In" time="0.001"/>
+    <testcase name="[Outline Summary]" classname="BASE-INV-4140 Mobile Inventory Transfer Multiple LPNs Undirected" time="33.515">
+      <failure message="Outline Failed">[ERROR] Fail
+Scenario Outline: BASE-INV-4140 Mobile Inventory Transfer Multiple LPNs Undirected [Fail] - 33515 ms</failure>
+    </testcase>
+    <testcase name="Begin Pre-Test Activities" classname="BASE-INV-4140 Mobile Inventory Transfer Multiple LPNs Undirected" time="0.011"/>
+    <testcase name="Process Test Case Pre Validations" classname="BASE-INV-4140 Mobile Inventory Transfer Multiple LPNs Undirected" time="0.011"/>
+    <testcase name="Process Test Case Validations" classname="BASE-INV-4140 Mobile Inventory Transfer Multiple LPNs Undirected" time="0.010"/>
+    <testcase name="Locate File on Path" classname="BASE-INV-4140 Mobile Inventory Transfer Multiple LPNs Undirected" time="0.009"/>
+    <testcase name="Log to Developer Logging File" classname="BASE-INV-4140 Mobile Inventory Transfer Multiple LPNs Undirected" time="0.001"/>
+    <testcase name="Mobile Login" classname="BASE-INV-4140 Mobile Inventory Transfer Multiple LPNs Undirected" time="30.009">
+      <failure message="Scenario Failed"/>
+    </testcase>
+    <testcase name="Mobile Process Login Screen" classname="BASE-INV-4140 Mobile Inventory Transfer Multiple LPNs Undirected" time="30.008">
+      <failure message="Scenario Failed"/>
+    </testcase>
+    <testcase name="[Outline Summary]" classname="BASE-SHP-4030 Mobile Unload and Unpick Shipment" time="34.072">
+      <failure message="Outline Failed">[ERROR] Fail
+Scenario Outline: BASE-SHP-4030 Mobile Unload and Unpick Shipment [Fail] - 34072 ms</failure>
+    </testcase>
+    <testcase name="Begin Pre-Test Activities" classname="BASE-SHP-4030 Mobile Unload and Unpick Shipment" time="0.008"/>
+    <testcase name="Process Test Case Pre Validations" classname="BASE-SHP-4030 Mobile Unload and Unpick Shipment" time="0.008"/>
+    <testcase name="Process Test Case Validations" classname="BASE-SHP-4030 Mobile Unload and Unpick Shipment" time="0.007"/>
+    <testcase name="Locate File on Path" classname="BASE-SHP-4030 Mobile Unload and Unpick Shipment" time="0.007"/>
+    <testcase name="Log to Developer Logging File" classname="BASE-SHP-4030 Mobile Unload and Unpick Shipment" time="0.000"/>
+    <testcase name="Mobile Login" classname="BASE-SHP-4030 Mobile Unload and Unpick Shipment" time="30.083">
+      <failure message="Scenario Failed"/>
+    </testcase>
+    <testcase name="Mobile Process Login Screen" classname="BASE-SHP-4030 Mobile Unload and Unpick Shipment" time="30.082">
+      <failure message="Scenario Failed"/>
+    </testcase>
+    <testcase name="[Outline Summary]" classname="BASE-YRD-4010 Mobile Trailer Move" time="35.850">
+      <failure message="Outline Failed">[ERROR] Fail
+Scenario Outline: BASE-YRD-4010 Mobile Trailer Move [Fail] - 35850 ms</failure>
+    </testcase>
+    <testcase name="Begin Pre-Test Activities" classname="BASE-YRD-4010 Mobile Trailer Move" time="0.009"/>
+    <testcase name="Process Test Case Pre Validations" classname="BASE-YRD-4010 Mobile Trailer Move" time="0.009"/>
+    <testcase name="Process Test Case Validations" classname="BASE-YRD-4010 Mobile Trailer Move" time="0.007"/>
+    <testcase name="Locate File on Path" classname="BASE-YRD-4010 Mobile Trailer Move" time="0.007"/>
+    <testcase name="Log to Developer Logging File" classname="BASE-YRD-4010 Mobile Trailer Move" time="0.000"/>
+    <testcase name="Trailer Validate Move Data" classname="BASE-YRD-4010 Mobile Trailer Move" time="0.001"/>
+    <testcase name="Perform MSQL Execution" classname="BASE-YRD-4010 Mobile Trailer Move" time="0.007"/>
+    <testcase name="Locate File on Path" classname="BASE-YRD-4010 Mobile Trailer Move" time="0.006"/>
+    <testcase name="Log MSQL Execution Results" classname="BASE-YRD-4010 Mobile Trailer Move" time="0.000"/>
+    <testcase name="Create Trailer Move Work" classname="BASE-YRD-4010 Mobile Trailer Move" time="0.001"/>
+    <testcase name="Perform MSQL Execution" classname="BASE-YRD-4010 Mobile Trailer Move" time="0.006"/>
+    <testcase name="Locate File on Path" classname="BASE-YRD-4010 Mobile Trailer Move" time="0.005"/>
+    <testcase name="Log MSQL Execution Results" classname="BASE-YRD-4010 Mobile Trailer Move" time="0.000"/>
+    <testcase name="Mobile Verify and Escalate Directed Work" classname="BASE-YRD-4010 Mobile Trailer Move" time="0.058"/>
+    <testcase name="Mobile Increase Trailer Move Directed Work Priority" classname="BASE-YRD-4010 Mobile Trailer Move" time="0.057"/>
+    <testcase name="Terminal Increase Trailer Move Directed Work Priority" classname="BASE-YRD-4010 Mobile Trailer Move" time="0.001"/>
+    <testcase name="Perform MSQL Execution" classname="BASE-YRD-4010 Mobile Trailer Move" time="0.016"/>
+    <testcase name="Locate File on Path" classname="BASE-YRD-4010 Mobile Trailer Move" time="0.016"/>
+    <testcase name="Log MSQL Execution Results" classname="BASE-YRD-4010 Mobile Trailer Move" time="0.000"/>
+    <testcase name="Mobile Login" classname="BASE-YRD-4010 Mobile Trailer Move" time="30.483">
+      <failure message="Scenario Failed"/>
+    </testcase>
+    <testcase name="Mobile Process Login Screen" classname="BASE-YRD-4010 Mobile Trailer Move" time="30.482">
+      <failure message="Scenario Failed"/>
+    </testcase>
+    <testcase name="[Outline Summary]" classname="BASE-YRD-4010 Mobile Trailer Move" time="54.597">
+      <failure message="Outline Failed">[ERROR] Fail
+Scenario Outline: BASE-YRD-4010 Mobile Trailer Move [Fail] - 54597 ms</failure>
+    </testcase>
+    <testcase name="Begin Pre-Test Activities" classname="BASE-YRD-4010 Mobile Trailer Move" time="0.018"/>
+    <testcase name="Process Test Case Pre Validations" classname="BASE-YRD-4010 Mobile Trailer Move" time="0.017"/>
+    <testcase name="Process Test Case Validations" classname="BASE-YRD-4010 Mobile Trailer Move" time="0.016"/>
+    <testcase name="Locate File on Path" classname="BASE-YRD-4010 Mobile Trailer Move" time="0.007"/>
+    <testcase name="Log to Developer Logging File" classname="BASE-YRD-4010 Mobile Trailer Move" time="0.001"/>
+    <testcase name="Trailer Validate Move Data" classname="BASE-YRD-4010 Mobile Trailer Move" time="0.001"/>
+    <testcase name="Perform MSQL Execution" classname="BASE-YRD-4010 Mobile Trailer Move" time="0.007"/>
+    <testcase name="Locate File on Path" classname="BASE-YRD-4010 Mobile Trailer Move" time="0.006"/>
+    <testcase name="Log MSQL Execution Results" classname="BASE-YRD-4010 Mobile Trailer Move" time="0.001"/>
+    <testcase name="Create Trailer Move Work" classname="BASE-YRD-4010 Mobile Trailer Move" time="0.001"/>
+    <testcase name="Perform MSQL Execution" classname="BASE-YRD-4010 Mobile Trailer Move" time="0.009"/>
+    <testcase name="Locate File on Path" classname="BASE-YRD-4010 Mobile Trailer Move" time="0.008"/>
+    <testcase name="Log MSQL Execution Results" classname="BASE-YRD-4010 Mobile Trailer Move" time="0.001"/>
+    <testcase name="Mobile Verify and Escalate Directed Work" classname="BASE-YRD-4010 Mobile Trailer Move" time="0.000"/>
+    <testcase name="Mobile Login" classname="BASE-YRD-4010 Mobile Trailer Move" time="30.489">
+      <failure message="Scenario Failed"/>
+    </testcase>
+    <testcase name="Mobile Process Login Screen" classname="BASE-YRD-4010 Mobile Trailer Move" time="30.489">
+      <failure message="Scenario Failed"/>
+    </testcase>
+  </testsuite>
+</testsuites>
