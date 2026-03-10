@@ -1,0 +1,25 @@
+name: JUnit Preview
+
+on:
+  workflow_dispatch:   # trigger manually from the Actions tab
+
+jobs:
+  report:
+    runs-on: ubuntu-latest
+
+    # Required for dorny/test-reporter to write Checks
+    permissions:
+      checks: write
+      contents: read
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Publish Test Results
+        uses: dorny/test-reporter@v1
+        if: always()
+        with:
+          name: Cycle Test Results
+          path: junit.xml
+          reporter: java-junit
+          fail-on-error: false   # don't fail the workflow just because tests failed
