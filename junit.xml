@@ -26,15 +26,12 @@
   </testsuite>
   <testsuite name="BASE-RCV-0070 Terminal Inbound Unload All - Example 1" tests="1" failures="1" time="1.631">
     <testcase name="BASE-RCV-0070 Terminal Inbound Unload All - Example 1" classname="Features.BASE-RCV-0070 Terminal Inbound Unload All - Example 1" time="1.631">
-      <failure message="Feature/Outline Failed">--- Error Block ---
-[ERROR] Fail
+      <failure message="[ERROR] Fail">[ERROR] Fail
 After Scenario:  [Fail] - 354 ms
 Feature: BASE-RCV-0070 Terminal Inbound Unload All [Fail] - 1631 ms
 
---- Failure Point (Line 56474) ---
-Feature: BASE-RCV-0070 Terminal Inbound Unload All [Fail] - 1631 ms
-
---- Log Context ---
+Failure Point: Line 56474</failure>
+      <system-out>--- Detailed Log Context ---
      56379: Else I increase variable "path_loop" [Start]
      56380: 
      56381: Else I increase variable "path_loop" - Pass - 0 ms
@@ -138,7 +135,7 @@ Feature: BASE-RCV-0070 Terminal Inbound Unload All [Fail] - 1631 ms
      56479: Given I "setup the environment" - Pass - 0 ms
 
 --- Links ---
-View full report: verification_report.html</failure>
+View full report: verification_report.html</system-out>
     </testcase>
   </testsuite>
   <testsuite name="BASE-RCV-1100 Web Inbound Putaway" tests="1" failures="0" time="79.198">
@@ -152,15 +149,12 @@ View full report: verification_report.html</failure>
   </testsuite>
   <testsuite name="BASE-RCV-4080 Mobile Inbound Directed Putaway from Receiving Override - Example 1" tests="1" failures="1" time="1.896">
     <testcase name="BASE-RCV-4080 Mobile Inbound Directed Putaway from Receiving Override - Example 1" classname="Features.BASE-RCV-4080 Mobile Inbound Directed Putaway from Receiving Override - Example 1" time="1.896">
-      <failure message="Feature/Outline Failed">--- Error Block ---
-[ERROR] Fail
+      <failure message="[ERROR] Fail">[ERROR] Fail
 After Scenario:  [Fail] - 490 ms
 Feature: BASE-RCV-4080 Mobile Inbound Directed Putaway from Receiving Override [Fail] - 1896 ms
 
---- Failure Point (Line 77586) ---
-Feature: BASE-RCV-4080 Mobile Inbound Directed Putaway from Receiving Override [Fail] - 1896 ms
-
---- Log Context ---
+Failure Point: Line 77586</failure>
+      <system-out>--- Detailed Log Context ---
      77491: Else I increase variable "path_loop" [Start]
      77492: 
      77493: Else I increase variable "path_loop" - Pass - 0 ms
@@ -264,19 +258,16 @@ Feature: BASE-RCV-4080 Mobile Inbound Directed Putaway from Receiving Override [
      77591: Given I "setup the environment" - Pass - 0 ms
 
 --- Links ---
-View full report: verification_report.html</failure>
+View full report: verification_report.html</system-out>
     </testcase>
   </testsuite>
   <testsuite name="BASE-INV-4140 Mobile Inventory Transfer Multiple LPNs Undirected" tests="1" failures="1" time="36.078">
     <testcase name="BASE-INV-4140 Mobile Inventory Transfer Multiple LPNs Undirected" classname="Features.BASE-INV-4140 Mobile Inventory Transfer Multiple LPNs Undirected" time="36.078">
-      <failure message="Feature/Outline Failed">--- Error Block ---
-[ERROR] Fail
+      <failure message="[ERROR] Fail">[ERROR] Fail
 Scenario Outline: BASE-INV-4140 Mobile Inventory Transfer Multiple LPNs Undirected [Fail] - 36078 ms
 
---- Failure Point (Line 82621) ---
-Scenario Outline: BASE-INV-4140 Mobile Inventory Transfer Multiple LPNs Undirected [Fail] - 36078 ms
-
---- Log Context ---
+Failure Point: Line 82621</failure>
+      <system-out>--- Detailed Log Context ---
      82526: 
      82527: And I wait 1 ($wait_short) seconds - Pass - 1011 ms
      82528: When I navigate to https://cycl-pdbd-wm202111-mobile.wm-servers.com/login ($mobile_ui) in web browser [Start]
@@ -380,19 +371,16 @@ Scenario Outline: BASE-INV-4140 Mobile Inventory Transfer Multiple LPNs Undirect
      82626: Then I execute scenario "Test Completion" [Start]
 
 --- Links ---
-View full report: verification_report.html</failure>
+View full report: verification_report.html</system-out>
     </testcase>
   </testsuite>
   <testsuite name="BASE-SHP-4030 Mobile Unload and Unpick Shipment" tests="1" failures="1" time="32.585">
     <testcase name="BASE-SHP-4030 Mobile Unload and Unpick Shipment" classname="Features.BASE-SHP-4030 Mobile Unload and Unpick Shipment" time="32.585">
-      <failure message="Feature/Outline Failed">--- Error Block ---
-[ERROR] Fail
+      <failure message="[ERROR] Fail">[ERROR] Fail
 Scenario Outline: BASE-SHP-4030 Mobile Unload and Unpick Shipment [Fail] - 32585 ms
 
---- Failure Point (Line 87923) ---
-Scenario Outline: BASE-SHP-4030 Mobile Unload and Unpick Shipment [Fail] - 32585 ms
-
---- Log Context ---
+Failure Point: Line 87923</failure>
+      <system-out>--- Detailed Log Context ---
      87828: 
      87829: And I wait 1 ($wait_short) seconds - Pass - 1010 ms
      87830: When I navigate to https://cycl-pdbd-wm202111-mobile.wm-servers.com/login ($mobile_ui) in web browser [Start]
@@ -496,19 +484,16 @@ Scenario Outline: BASE-SHP-4030 Mobile Unload and Unpick Shipment [Fail] - 32585
      87928: Then I execute scenario "Test Completion" [Start]
 
 --- Links ---
-View full report: verification_report.html</failure>
+View full report: verification_report.html</system-out>
     </testcase>
   </testsuite>
   <testsuite name="BASE-YRD-4010 Mobile Trailer Move" tests="1" failures="1" time="34.799">
     <testcase name="BASE-YRD-4010 Mobile Trailer Move" classname="Features.BASE-YRD-4010 Mobile Trailer Move" time="34.799">
-      <failure message="Feature/Outline Failed">--- Error Block ---
-[ERROR] Fail
+      <failure message="[ERROR] Fail">[ERROR] Fail
 Scenario Outline: BASE-YRD-4010 Mobile Trailer Move [Fail] - 34799 ms
 
---- Failure Point (Line 92762) ---
-Scenario Outline: BASE-YRD-4010 Mobile Trailer Move [Fail] - 34799 ms
-
---- Log Context ---
+Failure Point: Line 92762</failure>
+      <system-out>--- Detailed Log Context ---
      92667: 
      92668: And I wait 1 ($wait_short) seconds - Pass - 1013 ms
      92669: When I navigate to https://cycl-pdbd-wm202111-mobile.wm-servers.com/login ($mobile_ui) in web browser [Start]
@@ -612,19 +597,16 @@ Scenario Outline: BASE-YRD-4010 Mobile Trailer Move [Fail] - 34799 ms
      92767: Then I execute scenario "Test Completion" [Start]
 
 --- Links ---
-View full report: verification_report.html</failure>
+View full report: verification_report.html</system-out>
     </testcase>
   </testsuite>
   <testsuite name="BASE-YRD-4010 Mobile Trailer Move" tests="1" failures="1" time="54.371">
     <testcase name="BASE-YRD-4010 Mobile Trailer Move" classname="Features.BASE-YRD-4010 Mobile Trailer Move" time="54.371">
-      <failure message="Feature/Outline Failed">--- Error Block ---
-[ERROR] Fail
+      <failure message="[ERROR] Fail">[ERROR] Fail
 Scenario Outline: BASE-YRD-4010 Mobile Trailer Move [Fail] - 54371 ms
 
---- Failure Point (Line 97447) ---
-Scenario Outline: BASE-YRD-4010 Mobile Trailer Move [Fail] - 54371 ms
-
---- Log Context ---
+Failure Point: Line 97447</failure>
+      <system-out>--- Detailed Log Context ---
      97352: 
      97353: And I wait 1 ($wait_short) seconds - Pass - 1018 ms
      97354: When I navigate to https://cycl-pdbd-wm202111-mobile.wm-servers.com/login ($mobile_ui) in web browser [Start]
@@ -728,7 +710,7 @@ Scenario Outline: BASE-YRD-4010 Mobile Trailer Move [Fail] - 54371 ms
      97452: Then I execute scenario "Test Completion" [Start]
 
 --- Links ---
-View full report: verification_report.html</failure>
+View full report: verification_report.html</system-out>
     </testcase>
   </testsuite>
 </testsuites>
