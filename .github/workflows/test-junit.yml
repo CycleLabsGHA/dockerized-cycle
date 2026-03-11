@@ -28,6 +28,8 @@ jobs:
         uses: test-summary/action@v2
         with:
           paths: "junit.xml"
+          reporter: java-junit
+          fail-on-error: false
         if: always()
 
       - name: Upload test summary
