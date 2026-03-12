@@ -39,3 +39,15 @@ services:
     hostname: chrome
     privileged: true
     shm_size: 2g
+
+  edge:
+    image: "selenium/standalone-edge"
+    environment:
+      - EDGE_OPTS=--headless --no-sandbox --disable-dev-shm-usage
+    volumes:
+      - /dev/shm:/dev/shm
+    ports:
+      - "5555:4444"
+    hostname: edge
+    privileged: true
+    shm_size: 2g
