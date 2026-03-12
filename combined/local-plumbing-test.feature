@@ -11,5 +11,5 @@ Scenario: Verify Cycle to Chrome to Mock App connectivity
   Then I see "Local Test Page" in web browser within 5 seconds
   And I see "your browser container reached the local web server" in web browser
   
-  Then I click element "test-button" in web browser
+  Then I click element "id:test-button" in web browser
   And I see "Button clicked!" in web browser within 15 seconds
