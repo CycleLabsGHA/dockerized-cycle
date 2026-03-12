@@ -8,7 +8,7 @@ services:
       - "8080:80"
     hostname: webapp
 
-  cycle-browser-test:
+  cycle-browser-test-chrome:
     image: "docker.io/cyclelabs/cycle-cli:latest"
     shm_size: 2g
     volumes:
