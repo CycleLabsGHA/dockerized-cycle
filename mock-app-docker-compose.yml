@@ -15,6 +15,7 @@ services:
       - .:/code
     depends_on:
       - "chrome"
+      - "edge"
       - "mock-web-app"
     # To test against the local app, use http://webapp as the URL in your Cycle tests
     command: [ "--clientid", "${CI_CYCLE_AUTH}", "--client-credential", "${CI_CYCLE_AUTH_SECRET}", "-p", "/code", "combined/local-plumbing-test.feature" ]
@@ -28,4 +29,16 @@ services:
     ports:
       - "4444:4444"
     hostname: chrome
+    shm_size: 2g
+
+  edge:
+    image: "selenium/standalone-edge"
+    environment:
+      - EDGE_OPTS=--headless --no-sandbox --disable-dev-shm-usage
+    volumes:
+      - /dev/shm:/dev/shm
+    ports:
+      - "5555:4444"
+    hostname: edge
+    privileged: true
     shm_size: 2g
