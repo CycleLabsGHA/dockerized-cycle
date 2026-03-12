@@ -6,7 +6,7 @@ Background:
     Endif
 
 Scenario Outline: Verify Cycle to Chrome/Edge to Mock App connectivity
-  Given I open "<browser>" web browser on remote "<remoteUrl>"
+  Given I open <browser> web browser on remote <remoteUrl>
   When I navigate to "http://webapp" in web browser
   Then I see "Local Test Page" in web browser within 5 seconds
   And I see "your browser container reached the local web server" in web browser
