@@ -1,0 +1,113 @@
+name: Run Dockerized Cycle Tests (DinD)
+
+on:
+  workflow_dispatch:
+
+jobs:
+  cycle-tests-dind:
+    name: Run Cycle Tests in DinD
+    runs-on: ubuntu-latest
+
+    services:
+      docker:
+        image: docker:dind
+        ports:
+          - 2375:2375
+        options: --privileged
+
+    steps:
+      - name: 🛎️ Checkout Code
+        uses: actions/checkout@v3
+
+      - name: ⚓ Install Docker CLI
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y docker-ce-cli
+
+      - name: 🐋 Verify DinD Connectivity
+        run: |
+          # Wait for Docker to be ready
+          until docker -H tcp://localhost:2375 info; do
+            echo "Waiting for Docker daemon..."
+            sleep 1
+          done
+          docker -H tcp://localhost:2375 info
+        env:
+          DOCKER_HOST: tcp://localhost:2375
+
+      - name: 🔐 Log in to Azure
+        uses: azure/login@v1
+        with:
+          creds: ${{ secrets.AZURE_CREDENTIALS }}
+
+      - name: 🔐 Retrieve Key Vault secrets
+        run: |
+          secret_names=(
+            "PW-AZURESQL"
+            "PW-DB2"
+            "PW-MOCA"
+            "PW-MYSQL"
+            "PW-OPENSSH"
+            "PW-ORACLE-DB"
+            "PW-SQL-DB"
+            "PW-SQL14-DB"
+            "PW-TELNET"
+            "UN-AZURESQL"
+            "GOOGLE-MAPS-API-KEY"
+          )
+      
+          env_file="$GITHUB_WORKSPACE/secrets.env"
+          : > "$env_file"
+      
+          for secret_name in "${secret_names[@]}"; do
+            safe_name="${secret_name//-/_}"
+            value=$(az keyvault secret show --vault-name "${{ secrets.DEV_KV_NAME }}" --name "$secret_name" --query "value" -o tsv 2> /dev/null)
+      
+            if [[ -n "$value" ]]; then
+              echo "::add-mask::$value"
+              echo "$safe_name=$value" >> "$env_file"
+              echo "Retrieved secret for $safe_name"
+            else
+              echo "⚠️ Warning: Failed to retrieve secret for $safe_name" >&2
+            fi
+          done
+      
+          if [[ -n "${{ secrets.CI_CYCLE_AUTH }}" ]]; then
+            echo "::add-mask::${{ secrets.CI_CYCLE_AUTH }}"
+            echo "CI_CYCLE_AUTH=${{ secrets.CI_CYCLE_AUTH }}" >> "$env_file"
+          fi
+      
+          if [[ -n "${{ secrets.CI_CYCLE_AUTH_SECRET }}" ]]; then
+            echo "::add-mask::${{ secrets.CI_CYCLE_AUTH_SECRET }}"
+            echo "CI_CYCLE_AUTH_SECRET=${{ secrets.CI_CYCLE_AUTH_SECRET }}" >> "$env_file"
+          fi
+
+          cp "$GITHUB_WORKSPACE/secrets.env" "$GITHUB_WORKSPACE/.env"
+
+      - name: 🧪 Run Cycle Version Test
+        run: |
+          docker compose -f version-docker-compose.yml pull --quiet
+          docker compose -f version-docker-compose.yml up --attach cycle-version-test --abort-on-container-exit || true
+          docker compose -f version-docker-compose.yml down
+        env:
+          DOCKER_HOST: tcp://localhost:2375
+
+      - name: 🧪 Run Cycle API Test
+        run: |
+          docker compose -f api-test-docker-compose.yml pull --quiet
+          docker compose -f api-test-docker-compose.yml up --attach cycle-api-test --abort-on-container-exit || true
+          docker compose -f api-test-docker-compose.yml down
+        env:
+          DOCKER_HOST: tcp://localhost:2375
+
+      - name: 🧪 Run Cycle Browser Test - Chrome
+        run: |
+          docker compose -f chrome-test-docker-compose.yml pull --quiet
+          docker compose -f chrome-test-docker-compose.yml up --attach cycle-browser-test-chrome --abort-on-container-exit || true
+          docker compose -f chrome-test-docker-compose.yml down
+        env:
+          DOCKER_HOST: tcp://localhost:2375
+
+      - name: 🧹 Clean up Docker Containers
+        run: docker -H tcp://localhost:2375 container prune -f
+        if: always()
