@@ -7,7 +7,7 @@ Endif
 Scenario Outline: Test all browser packages
 Given I open <browser> web browser on remote <remoteUrl>
 When I navigate to "https://cyclelabs.io" in web browser
-Then I see "Warehouse Management Systems" in web browser within 15 seconds
+Then I see "End-to-end automated testing platform for enterprise systems" in web browser within 15 seconds
 
 Examples:
 | browser | remoteUrl |
