@@ -7,7 +7,7 @@ services:
       - .:/code
     depends_on:
       - "chrome"
-    command: ["--clientid", "${CI_CYCLE_AUTH}", "--client-credential", "${CI_CYCLE_AUTH_SECRET}", "-p", "/code", "combined/simple-browser-test-chrome.feature"]
+    command: ["--clientid", "${CI_CYCLE_AUTH}", "--client-credential", "${CI_CYCLE_AUTH_SECRET}", "-p", "/code", "combined/simple-browser-test.feature"]
     env_file:
       - secrets.env
     # environment:
