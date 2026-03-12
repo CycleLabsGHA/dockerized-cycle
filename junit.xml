@@ -1,1396 +1,504 @@
 <?xml version="1.0" ?>
-<testsuites name="Cycle Run Report" tests="17" failures="6" time="1131.497">
-  <testsuite name="BASE-INT-2040 Integrator Download Order Inbound" tests="1" failures="0" time="3.356">
-    <testcase name="BASE-INT-2040 Integrator Download Order Inbound" classname="Features.BASE-INT-2040 Integrator Download Order Inbound" time="3.356"/>
+<testsuites name="Cycle Run Report" tests="17" failures="2" time="1222.890">
+  <testsuite name="BASE-INT-2040 Integrator Download Order Inbound" tests="1" failures="0" time="2.068">
+    <testcase name="BASE-INT-2040 Integrator Download Order Inbound" classname="Features.BASE-INT-2040 Integrator Download Order Inbound" time="2.068"/>
   </testsuite>
-  <testsuite name="BASE-INT-2090 Integrator Download PO Inbound" tests="1" failures="0" time="1.144">
-    <testcase name="BASE-INT-2090 Integrator Download PO Inbound" classname="Features.BASE-INT-2090 Integrator Download PO Inbound" time="1.144"/>
+  <testsuite name="BASE-INT-2090 Integrator Download PO Inbound" tests="1" failures="0" time="1.842">
+    <testcase name="BASE-INT-2090 Integrator Download PO Inbound" classname="Features.BASE-INT-2090 Integrator Download PO Inbound" time="1.842"/>
   </testsuite>
-  <testsuite name="BASE-INV-0010 Terminal Inventory Adjustment Add" tests="1" failures="0" time="72.356">
-    <testcase name="BASE-INV-0010 Terminal Inventory Adjustment Add" classname="Features.BASE-INV-0010 Terminal Inventory Adjustment Add" time="72.356"/>
+  <testsuite name="BASE-INV-0010 Terminal Inventory Adjustment Add" tests="1" failures="0" time="75.411">
+    <testcase name="BASE-INV-0010 Terminal Inventory Adjustment Add" classname="Features.BASE-INV-0010 Terminal Inventory Adjustment Add" time="75.411"/>
   </testsuite>
-  <testsuite name="BASE-INV-0050 Terminal Inventory Transfer Directed" tests="1" failures="0" time="84.863">
-    <testcase name="BASE-INV-0050 Terminal Inventory Transfer Directed" classname="Features.BASE-INV-0050 Terminal Inventory Transfer Directed" time="84.863"/>
+  <testsuite name="BASE-INV-0050 Terminal Inventory Transfer Directed" tests="1" failures="0" time="87.057">
+    <testcase name="BASE-INV-0050 Terminal Inventory Transfer Directed" classname="Features.BASE-INV-0050 Terminal Inventory Transfer Directed" time="87.057"/>
   </testsuite>
-  <testsuite name="BASE-LDG-0020 Terminal Outbound Loading LTL Undirected" tests="1" failures="0" time="78.942">
-    <testcase name="BASE-LDG-0020 Terminal Outbound Loading LTL Undirected" classname="Features.BASE-LDG-0020 Terminal Outbound Loading LTL Undirected" time="78.942"/>
+  <testsuite name="BASE-LDG-0020 Terminal Outbound Loading LTL Undirected" tests="1" failures="0" time="77.067">
+    <testcase name="BASE-LDG-0020 Terminal Outbound Loading LTL Undirected" classname="Features.BASE-LDG-0020 Terminal Outbound Loading LTL Undirected" time="77.067"/>
   </testsuite>
-  <testsuite name="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" tests="1" failures="0" time="146.559">
-    <testcase name="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" classname="Features.BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="146.559"/>
+  <testsuite name="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" tests="1" failures="0" time="149.627">
+    <testcase name="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" classname="Features.BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="149.627"/>
   </testsuite>
-  <testsuite name="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" tests="1" failures="0" time="245.920">
-    <testcase name="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" classname="Features.BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="245.920"/>
+  <testsuite name="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" tests="1" failures="0" time="248.564">
+    <testcase name="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" classname="Features.BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="248.564"/>
   </testsuite>
-  <testsuite name="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" tests="1" failures="0" time="209.282">
-    <testcase name="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" classname="Features.BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="209.282"/>
+  <testsuite name="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" tests="1" failures="0" time="202.523">
+    <testcase name="BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" classname="Features.BASE-PCK-0010 Terminal Outbound Carton Picking Undirected" time="202.523"/>
   </testsuite>
-  <testsuite name="BASE-RCV-0070 Terminal Inbound Unload All - Example 1" tests="1" failures="1" time="1.631">
-    <testcase name="BASE-RCV-0070 Terminal Inbound Unload All - Example 1" classname="Features.BASE-RCV-0070 Terminal Inbound Unload All - Example 1" time="1.631">
+  <testsuite name="BASE-RCV-0070 Terminal Inbound Unload All - Example 1" tests="1" failures="1" time="1.659">
+    <testcase name="BASE-RCV-0070 Terminal Inbound Unload All - Example 1" classname="Features.BASE-RCV-0070 Terminal Inbound Unload All - Example 1" time="1.659">
       <failure message="[ERROR] Fail">[ERROR] Fail
-After Scenario:  [Fail] - 354 ms
-Feature: BASE-RCV-0070 Terminal Inbound Unload All [Fail] - 1631 ms
+After Scenario:  [Fail] - 350 ms
+Feature: BASE-RCV-0070 Terminal Inbound Unload All [Fail] - 1659 ms
 
---- Failure Point (Line 56474) ---
-Feature: BASE-RCV-0070 Terminal Inbound Unload All [Fail] - 1631 ms
+--- Failure Point (Line 56477) ---
+Feature: BASE-RCV-0070 Terminal Inbound Unload All [Fail] - 1659 ms
 
 --- Log Context ---
-     56379: Else I increase variable "path_loop" [Start]
-     56380: 
-     56381: Else I increase variable "path_loop" - Pass - 0 ms
-     56382: While I assign 2 ($path_loop) th item from "," delimited list Custom,Base ($directory_load_path) to variable "directory" [Start]
+     56382: Else I increase variable &quot;path_loop&quot; [Start]
      56383: 
-     56384: While I assign 2 ($path_loop) th item from "," delimited list Custom,Base ($directory_load_path) to variable "directory" - True - 0 ms
-     56385: And I verify text FALSE ($path_done) is equal to "FALSE" [Start]
+     56384: Else I increase variable &quot;path_loop&quot; - Pass - 0 ms
+     56385: While I assign 2 ($path_loop) th item from &quot;,&quot; delimited list Custom,Base ($directory_load_path) to variable &quot;directory&quot; [Start]
      56386: 
-     56387: And I verify text FALSE ($path_done) is equal to "FALSE" - True - 0 ms
-     56388: Given I assign variable "directory_token" by combining "/" Base ($directory) "/" [Start]
+     56387: While I assign 2 ($path_loop) th item from &quot;,&quot; delimited list Custom,Base ($directory_load_path) to variable &quot;directory&quot; - True - 0 ms
+     56388: And I verify text FALSE ($path_done) is equal to &quot;FALSE&quot; [Start]
      56389: 
-     56390: Given I assign variable "directory_token" by combining "/" Base ($directory) "/" - Pass - 0 ms
-     56391: Given I replace all "/-/" in Datasets/-/Receiving ($file) with /Base/ ($directory_token) as variable "new_file" [Start]
+     56390: And I verify text FALSE ($path_done) is equal to &quot;FALSE&quot; - True - 0 ms
+     56391: Given I assign variable &quot;directory_token&quot; by combining &quot;/&quot; Base ($directory) &quot;/&quot; [Start]
      56392: 
-     56393: Given I replace all "/-/" in Datasets/-/Receiving ($file) with /Base/ ($directory_token) as variable "new_file" - Pass - 0 ms
-     56394: Given I replace all "\\\-\\\\" in Datasets/Base/Receiving ($new_file) with /Base/ ($directory_token) as variable "new_file" [Start]
+     56393: Given I assign variable &quot;directory_token&quot; by combining &quot;/&quot; Base ($directory) &quot;/&quot; - Pass - 0 ms
+     56394: Given I replace all &quot;/-/&quot; in Datasets/-/Receiving ($file) with /Base/ ($directory_token) as variable &quot;new_file&quot; [Start]
      56395: 
-     56396: Given I replace all "\\\-\\\\" in Datasets/Base/Receiving ($new_file) with /Base/ ($directory_token) as variable "new_file" - Pass - 0 ms
-     56397: If I verify file Datasets/Base/Receiving ($new_file) exists [Start]
+     56396: Given I replace all &quot;/-/&quot; in Datasets/-/Receiving ($file) with /Base/ ($directory_token) as variable &quot;new_file&quot; - Pass - 0 ms
+     56397: Given I replace all &quot;\\\-\\\\&quot; in Datasets/Base/Receiving ($new_file) with /Base/ ($directory_token) as variable &quot;new_file&quot; [Start]
      56398: 
-     56399: If I verify file Datasets/Base/Receiving ($new_file) exists - False - 0 ms
-     56400: Else I increase variable "path_loop" [Start]
+     56399: Given I replace all &quot;\\\-\\\\&quot; in Datasets/Base/Receiving ($new_file) with /Base/ ($directory_token) as variable &quot;new_file&quot; - Pass - 0 ms
+     56400: If I verify file Datasets/Base/Receiving ($new_file) exists [Start]
      56401: 
-     56402: Else I increase variable "path_loop" - Pass - 0 ms
-     56403: While I assign 3 ($path_loop) th item from "," delimited list Custom,Base ($directory_load_path) to variable "directory" [Start]
+     56402: If I verify file Datasets/Base/Receiving ($new_file) exists - False - 0 ms
+     56403: Else I increase variable &quot;path_loop&quot; [Start]
      56404: 
-     56405: While I assign 3 ($path_loop) th item from "," delimited list Custom,Base ($directory_load_path) to variable "directory" - False - 0 ms
-     56406: Then I "confirm a file was located" [Start]
+     56405: Else I increase variable &quot;path_loop&quot; - Pass - 0 ms
+     56406: While I assign 3 ($path_loop) th item from &quot;,&quot; delimited list Custom,Base ($directory_load_path) to variable &quot;directory&quot; [Start]
      56407: 
-     56408: Then I "confirm a file was located" - Pass - 0 ms
-     56409: If I verify text FALSE ($path_done) is equal to "FALSE" [Start]
+     56408: While I assign 3 ($path_loop) th item from &quot;,&quot; delimited list Custom,Base ($directory_load_path) to variable &quot;directory&quot; - False - 0 ms
+     56409: Then I &quot;confirm a file was located&quot; [Start]
      56410: 
-     56411: If I verify text FALSE ($path_done) is equal to "FALSE" - True - 0 ms
-     56412: Then I assign variable "error_message" by combining "ERROR: File " Datasets/-/Receiving ($file) " not found" [Start]
+     56411: Then I &quot;confirm a file was located&quot; - Pass - 0 ms
+     56412: If I verify text FALSE ($path_done) is equal to &quot;FALSE&quot; [Start]
      56413: 
-     56414: Then I assign variable "error_message" by combining "ERROR: File " Datasets/-/Receiving ($file) " not found" - Pass - 0 ms
-     56415: And I echo ERROR: File Datasets/-/Receiving not found ($error_message) [Start]
+     56414: If I verify text FALSE ($path_done) is equal to &quot;FALSE&quot; - True - 0 ms
+     56415: Then I assign variable &quot;error_message&quot; by combining &quot;ERROR: File &quot; Datasets/-/Receiving ($file) &quot; not found&quot; [Start]
      56416: 
-     56417: And I echo ERROR: File Datasets/-/Receiving not found ($error_message) - Pass - 0 ms
-     56418: And I unassign variable "new_file" [Start]
+     56417: Then I assign variable &quot;error_message&quot; by combining &quot;ERROR: File &quot; Datasets/-/Receiving ($file) &quot; not found&quot; - Pass - 0 ms
+     56418: And I echo ERROR: File Datasets/-/Receiving not found ($error_message) [Start]
      56419: 
-     56420: And I unassign variable "new_file" - Pass - 0 ms
-     56421: And I "clear the working variables" [Start]
+     56420: And I echo ERROR: File Datasets/-/Receiving not found ($error_message) - Pass - 0 ms
+     56421: And I unassign variable &quot;new_file&quot; [Start]
      56422: 
-     56423: And I "clear the working variables" - Pass - 0 ms
-     56424: Given I unassign variable "file" [Start]
+     56423: And I unassign variable &quot;new_file&quot; - Pass - 0 ms
+     56424: And I &quot;clear the working variables&quot; [Start]
      56425: 
-     56426: Given I unassign variable "file" - Pass - 0 ms
-     56427: And I unassign variable "directory" [Start]
+     56426: And I &quot;clear the working variables&quot; - Pass - 0 ms
+     56427: Given I unassign variable &quot;file&quot; [Start]
      56428: 
-     56429: And I unassign variable "directory" - Pass - 0 ms
-     56430: And I unassign variable "directory_token" [Start]
+     56429: Given I unassign variable &quot;file&quot; - Pass - 0 ms
+     56430: And I unassign variable &quot;directory&quot; [Start]
      56431: 
-     56432: And I unassign variable "directory_token" - Pass - 0 ms
-     56433: And I unassign variable "path_loop" [Start]
+     56432: And I unassign variable &quot;directory&quot; - Pass - 0 ms
+     56433: And I unassign variable &quot;directory_token&quot; [Start]
      56434: 
-     56435: And I unassign variable "path_loop" - Pass - 0 ms
-     56436: And I unassign variable "path_done" [Start]
+     56435: And I unassign variable &quot;directory_token&quot; - Pass - 0 ms
+     56436: And I unassign variable &quot;path_loop&quot; [Start]
      56437: 
-     56438: And I unassign variable "path_done" - Pass - 0 ms
-     56439: Scenario: Locate File on Path [Pass] - 10 ms
-     56440: Then I execute scenario "Locate File on Path" [Pass] - 10 ms
-     56441: If I verify variable "new_file" is assigned [Start]
-     56442: 
-     56443: If I verify variable "new_file" is assigned - False - 0 ms
-     56444: Else I assign variable "error_message" by combining "ERROR: Could not determine path to MOCA Cleanup Script file: " $file [Start]
+     56438: And I unassign variable &quot;path_loop&quot; - Pass - 0 ms
+     56439: And I unassign variable &quot;path_done&quot; [Start]
+     56440: 
+     56441: And I unassign variable &quot;path_done&quot; - Pass - 0 ms
+     56442: Scenario: Locate File on Path [Pass] - 10 ms
+     56443: Then I execute scenario &quot;Locate File on Path&quot; [Pass] - 10 ms
+     56444: If I verify variable &quot;new_file&quot; is assigned [Start]
      56445: 
-     56446: Else I assign variable "error_message" by combining "ERROR: Could not determine path to MOCA Cleanup Script file: " $file - Fail - 0 ms
-     56447: [ERROR] Variable file does not exist.
-     56448: com.tryonsolutions.cycle2.engine.executionActors.StepSupervisor$.valueFor(StepSupervisor.scala:52)
-     56449: com.tryonsolutions.cycle2.engine.executionActors.StepSupervisor.$anonfun$replaceVariables$1(StepSupervisor.scala:233)
-     56450: scala.collection.immutable.List.map(List.scala:297)
-     56451: com.tryonsolutions.cycle2.engine.executionActors.StepSupervisor.replaceVariables(StepSupervisor.scala:231)
-     56452: com.tryonsolutions.cycle2.engine.executionActors.StepSupervisor.$anonfun$run$1(StepSupervisor.scala:170)
-     56453: scala.util.Try$.apply(Try.scala:213)
-     56454: com.tryonsolutions.cycle2.engine.executionActors.StepSupervisor.run(StepSupervisor.scala:170)
-     56455: com.tryonsolutions.cycle2.engine.executionActors.StepSupervisor.executeStep(StepSupervisor.scala:145)
-     56456: com.tryonsolutions.cycle2.engine.executionActors.StepSupervisor$$anonfun$receive$1.applyOrElse(StepSupervisor.scala:112)
-     56457: akka.actor.Actor.aroundReceive(Actor.scala:537)
-     56458: akka.actor.Actor.aroundReceive$(Actor.scala:535)
-     56459: com.tryonsolutions.cycle2.engine.executionActors.StepSupervisor.aroundReceive(StepSupervisor.scala:56)
-     56460: akka.actor.ActorCell.receiveMessage(ActorCell.scala:579)
-     56461: akka.actor.ActorCell.invoke(ActorCell.scala:547)
-     56462: akka.dispatch.Mailbox.processMailbox(Mailbox.scala:270)
-     56463: akka.dispatch.Mailbox.run(Mailbox.scala:231)
-     56464: akka.dispatch.Mailbox.exec(Mailbox.scala:243)
-     56465: java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
-     56466: java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
-     56467: java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
-     56468: java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
-     56469: java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
-     56470: Scenario: Perform MOCA Cleanup Script [Fail] - 18 ms
-     56471: And I execute scenario "Perform MOCA Cleanup Script" [Fail] - 18 ms
-     56472: [ERROR] Fail
-     56473: After Scenario:  [Fail] - 354 ms
-&gt;&gt;   56474: Feature: BASE-RCV-0070 Terminal Inbound Unload All [Fail] - 1631 ms
-     56475: Feature: BASE-RCV-1100 Web Inbound Putaway [Start]
-     56476: Background:  [Start]
-     56477: Given I "setup the environment" [Start]
-     56478: 
-     56479: Given I "setup the environment" - Pass - 0 ms
+     56446: If I verify variable &quot;new_file&quot; is assigned - False - 0 ms
+     56447: Else I assign variable &quot;error_message&quot; by combining &quot;ERROR: Could not determine path to MOCA Cleanup Script file: &quot; $file [Start]
+     56448: 
+     56449: Else I assign variable &quot;error_message&quot; by combining &quot;ERROR: Could not determine path to MOCA Cleanup Script file: &quot; $file - Fail - 0 ms
+     56450: [ERROR] Variable file does not exist.
+     56451: com.tryonsolutions.cycle2.engine.executionActors.StepSupervisor$.valueFor(StepSupervisor.scala:52)
+     56452: com.tryonsolutions.cycle2.engine.executionActors.StepSupervisor.$anonfun$replaceVariables$1(StepSupervisor.scala:233)
+     56453: scala.collection.immutable.List.map(List.scala:297)
+     56454: com.tryonsolutions.cycle2.engine.executionActors.StepSupervisor.replaceVariables(StepSupervisor.scala:231)
+     56455: com.tryonsolutions.cycle2.engine.executionActors.StepSupervisor.$anonfun$run$1(StepSupervisor.scala:170)
+     56456: scala.util.Try$.apply(Try.scala:213)
+     56457: com.tryonsolutions.cycle2.engine.executionActors.StepSupervisor.run(StepSupervisor.scala:170)
+     56458: com.tryonsolutions.cycle2.engine.executionActors.StepSupervisor.executeStep(StepSupervisor.scala:145)
+     56459: com.tryonsolutions.cycle2.engine.executionActors.StepSupervisor$$anonfun$receive$1.applyOrElse(StepSupervisor.scala:112)
+     56460: akka.actor.Actor.aroundReceive(Actor.scala:537)
+     56461: akka.actor.Actor.aroundReceive$(Actor.scala:535)
+     56462: com.tryonsolutions.cycle2.engine.executionActors.StepSupervisor.aroundReceive(StepSupervisor.scala:56)
+     56463: akka.actor.ActorCell.receiveMessage(ActorCell.scala:579)
+     56464: akka.actor.ActorCell.invoke(ActorCell.scala:547)
+     56465: akka.dispatch.Mailbox.processMailbox(Mailbox.scala:270)
+     56466: akka.dispatch.Mailbox.run(Mailbox.scala:231)
+     56467: akka.dispatch.Mailbox.exec(Mailbox.scala:243)
+     56468: java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+     56469: java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+     56470: java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+     56471: java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+     56472: java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+     56473: Scenario: Perform MOCA Cleanup Script [Fail] - 14 ms
+     56474: And I execute scenario &quot;Perform MOCA Cleanup Script&quot; [Fail] - 15 ms
+     56475: [ERROR] Fail
+     56476: After Scenario:  [Fail] - 350 ms
+&gt;&gt;   56477: Feature: BASE-RCV-0070 Terminal Inbound Unload All [Fail] - 1659 ms
+     56478: Feature: BASE-RCV-1100 Web Inbound Putaway [Start]
+     56479: Background:  [Start]
+     56480: Given I &quot;setup the environment&quot; [Start]
+     56481: 
+     56482: Given I &quot;setup the environment&quot; - Pass - 0 ms
 
 --- Links ---
-View full report: verification_report.html</failure>
+View full report: cycle_run_report.html</failure>
       <system-out>[ERROR] Fail
-After Scenario:  [Fail] - 354 ms
-Feature: BASE-RCV-0070 Terminal Inbound Unload All [Fail] - 1631 ms
+After Scenario:  [Fail] - 350 ms
+Feature: BASE-RCV-0070 Terminal Inbound Unload All [Fail] - 1659 ms
 
---- Failure Point (Line 56474) ---
-Feature: BASE-RCV-0070 Terminal Inbound Unload All [Fail] - 1631 ms
+--- Failure Point (Line 56477) ---
+Feature: BASE-RCV-0070 Terminal Inbound Unload All [Fail] - 1659 ms
 
 --- Log Context ---
-     56379: Else I increase variable "path_loop" [Start]
-     56380: 
-     56381: Else I increase variable "path_loop" - Pass - 0 ms
-     56382: While I assign 2 ($path_loop) th item from "," delimited list Custom,Base ($directory_load_path) to variable "directory" [Start]
+     56382: Else I increase variable &quot;path_loop&quot; [Start]
      56383: 
-     56384: While I assign 2 ($path_loop) th item from "," delimited list Custom,Base ($directory_load_path) to variable "directory" - True - 0 ms
-     56385: And I verify text FALSE ($path_done) is equal to "FALSE" [Start]
+     56384: Else I increase variable &quot;path_loop&quot; - Pass - 0 ms
+     56385: While I assign 2 ($path_loop) th item from &quot;,&quot; delimited list Custom,Base ($directory_load_path) to variable &quot;directory&quot; [Start]
      56386: 
-     56387: And I verify text FALSE ($path_done) is equal to "FALSE" - True - 0 ms
-     56388: Given I assign variable "directory_token" by combining "/" Base ($directory) "/" [Start]
+     56387: While I assign 2 ($path_loop) th item from &quot;,&quot; delimited list Custom,Base ($directory_load_path) to variable &quot;directory&quot; - True - 0 ms
+     56388: And I verify text FALSE ($path_done) is equal to &quot;FALSE&quot; [Start]
      56389: 
-     56390: Given I assign variable "directory_token" by combining "/" Base ($directory) "/" - Pass - 0 ms
-     56391: Given I replace all "/-/" in Datasets/-/Receiving ($file) with /Base/ ($directory_token) as variable "new_file" [Start]
+     56390: And I verify text FALSE ($path_done) is equal to &quot;FALSE&quot; - True - 0 ms
+     56391: Given I assign variable &quot;directory_token&quot; by combining &quot;/&quot; Base ($directory) &quot;/&quot; [Start]
      56392: 
-     56393: Given I replace all "/-/" in Datasets/-/Receiving ($file) with /Base/ ($directory_token) as variable "new_file" - Pass - 0 ms
-     56394: Given I replace all "\\\-\\\\" in Datasets/Base/Receiving ($new_file) with /Base/ ($directory_token) as variable "new_file" [Start]
+     56393: Given I assign variable &quot;directory_token&quot; by combining &quot;/&quot; Base ($directory) &quot;/&quot; - Pass - 0 ms
+     56394: Given I replace all &quot;/-/&quot; in Datasets/-/Receiving ($file) with /Base/ ($directory_token) as variable &quot;new_file&quot; [Start]
      56395: 
-     56396: Given I replace all "\\\-\\\\" in Datasets/Base/Receiving ($new_file) with /Base/ ($directory_token) as variable "new_file" - Pass - 0 ms
-     56397: If I verify file Datasets/Base/Receiving ($new_file) exists [Start]
+     56396: Given I replace all &quot;/-/&quot; in Datasets/-/Receiving ($file) with /Base/ ($directory_token) as variable &quot;new_file&quot; - Pass - 0 ms
+     56397: Given I replace all &quot;\\\-\\\\&quot; in Datasets/Base/Receiving ($new_file) with /Base/ ($directory_token) as variable &quot;new_file&quot; [Start]
      56398: 
-     56399: If I verify file Datasets/Base/Receiving ($new_file) exists - False - 0 ms
-     56400: Else I increase variable "path_loop" [Start]
+     56399: Given I replace all &quot;\\\-\\\\&quot; in Datasets/Base/Receiving ($new_file) with /Base/ ($directory_token) as variable &quot;new_file&quot; - Pass - 0 ms
+     56400: If I verify file Datasets/Base/Receiving ($new_file) exists [Start]
      56401: 
-     56402: Else I increase variable "path_loop" - Pass - 0 ms
-     56403: While I assign 3 ($path_loop) th item from "," delimited list Custom,Base ($directory_load_path) to variable "directory" [Start]
+     56402: If I verify file Datasets/Base/Receiving ($new_file) exists - False - 0 ms
+     56403: Else I increase variable &quot;path_loop&quot; [Start]
      56404: 
-     56405: While I assign 3 ($path_loop) th item from "," delimited list Custom,Base ($directory_load_path) to variable "directory" - False - 0 ms
-     56406: Then I "confirm a file was located" [Start]
+     56405: Else I increase variable &quot;path_loop&quot; - Pass - 0 ms
+     56406: While I assign 3 ($path_loop) th item from &quot;,&quot; delimited list Custom,Base ($directory_load_path) to variable &quot;directory&quot; [Start]
      56407: 
-     56408: Then I "confirm a file was located" - Pass - 0 ms
-     56409: If I verify text FALSE ($path_done) is equal to "FALSE" [Start]
+     56408: While I assign 3 ($path_loop) th item from &quot;,&quot; delimited list Custom,Base ($directory_load_path) to variable &quot;directory&quot; - False - 0 ms
+     56409: Then I &quot;confirm a file was located&quot; [Start]
      56410: 
-     56411: If I verify text FALSE ($path_done) is equal to "FALSE" - True - 0 ms
-     56412: Then I assign variable "error_message" by combining "ERROR: File " Datasets/-/Receiving ($file) " not found" [Start]
+     56411: Then I &quot;confirm a file was located&quot; - Pass - 0 ms
+     56412: If I verify text FALSE ($path_done) is equal to &quot;FALSE&quot; [Start]
      56413: 
-     56414: Then I assign variable "error_message" by combining "ERROR: File " Datasets/-/Receiving ($file) " not found" - Pass - 0 ms
-     56415: And I echo ERROR: File Datasets/-/Receiving not found ($error_message) [Start]
+     56414: If I verify text FALSE ($path_done) is equal to &quot;FALSE&quot; - True - 0 ms
+     56415: Then I assign variable &quot;error_message&quot; by combining &quot;ERROR: File &quot; Datasets/-/Receiving ($file) &quot; not found&quot; [Start]
      56416: 
-     56417: And I echo ERROR: File Datasets/-/Receiving not found ($error_message) - Pass - 0 ms
-     56418: And I unassign variable "new_file" [Start]
+     56417: Then I assign variable &quot;error_message&quot; by combining &quot;ERROR: File &quot; Datasets/-/Receiving ($file) &quot; not found&quot; - Pass - 0 ms
+     56418: And I echo ERROR: File Datasets/-/Receiving not found ($error_message) [Start]
      56419: 
-     56420: And I unassign variable "new_file" - Pass - 0 ms
-     56421: And I "clear the working variables" [Start]
+     56420: And I echo ERROR: File Datasets/-/Receiving not found ($error_message) - Pass - 0 ms
+     56421: And I unassign variable &quot;new_file&quot; [Start]
      56422: 
-     56423: And I "clear the working variables" - Pass - 0 ms
-     56424: Given I unassign variable "file" [Start]
+     56423: And I unassign variable &quot;new_file&quot; - Pass - 0 ms
+     56424: And I &quot;clear the working variables&quot; [Start]
      56425: 
-     56426: Given I unassign variable "file" - Pass - 0 ms
-     56427: And I unassign variable "directory" [Start]
+     56426: And I &quot;clear the working variables&quot; - Pass - 0 ms
+     56427: Given I unassign variable &quot;file&quot; [Start]
      56428: 
-     56429: And I unassign variable "directory" - Pass - 0 ms
-     56430: And I unassign variable "directory_token" [Start]
+     56429: Given I unassign variable &quot;file&quot; - Pass - 0 ms
+     56430: And I unassign variable &quot;directory&quot; [Start]
      56431: 
-     56432: And I unassign variable "directory_token" - Pass - 0 ms
-     56433: And I unassign variable "path_loop" [Start]
+     56432: And I unassign variable &quot;directory&quot; - Pass - 0 ms
+     56433: And I unassign variable &quot;directory_token&quot; [Start]
      56434: 
-     56435: And I unassign variable "path_loop" - Pass - 0 ms
-     56436: And I unassign variable "path_done" [Start]
+     56435: And I unassign variable &quot;directory_token&quot; - Pass - 0 ms
+     56436: And I unassign variable &quot;path_loop&quot; [Start]
      56437: 
-     56438: And I unassign variable "path_done" - Pass - 0 ms
-     56439: Scenario: Locate File on Path [Pass] - 10 ms
-     56440: Then I execute scenario "Locate File on Path" [Pass] - 10 ms
-     56441: If I verify variable "new_file" is assigned [Start]
-     56442: 
-     56443: If I verify variable "new_file" is assigned - False - 0 ms
-     56444: Else I assign variable "error_message" by combining "ERROR: Could not determine path to MOCA Cleanup Script file: " $file [Start]
+     56438: And I unassign variable &quot;path_loop&quot; - Pass - 0 ms
+     56439: And I unassign variable &quot;path_done&quot; [Start]
+     56440: 
+     56441: And I unassign variable &quot;path_done&quot; - Pass - 0 ms
+     56442: Scenario: Locate File on Path [Pass] - 10 ms
+     56443: Then I execute scenario &quot;Locate File on Path&quot; [Pass] - 10 ms
+     56444: If I verify variable &quot;new_file&quot; is assigned [Start]
      56445: 
-     56446: Else I assign variable "error_message" by combining "ERROR: Could not determine path to MOCA Cleanup Script file: " $file - Fail - 0 ms
-     56447: [ERROR] Variable file does not exist.
-     56448: com.tryonsolutions.cycle2.engine.executionActors.StepSupervisor$.valueFor(StepSupervisor.scala:52)
-     56449: com.tryonsolutions.cycle2.engine.executionActors.StepSupervisor.$anonfun$replaceVariables$1(StepSupervisor.scala:233)
-     56450: scala.collection.immutable.List.map(List.scala:297)
-     56451: com.tryonsolutions.cycle2.engine.executionActors.StepSupervisor.replaceVariables(StepSupervisor.scala:231)
-     56452: com.tryonsolutions.cycle2.engine.executionActors.StepSupervisor.$anonfun$run$1(StepSupervisor.scala:170)
-     56453: scala.util.Try$.apply(Try.scala:213)
-     56454: com.tryonsolutions.cycle2.engine.executionActors.StepSupervisor.run(StepSupervisor.scala:170)
-     56455: com.tryonsolutions.cycle2.engine.executionActors.StepSupervisor.executeStep(StepSupervisor.scala:145)
-     56456: com.tryonsolutions.cycle2.engine.executionActors.StepSupervisor$$anonfun$receive$1.applyOrElse(StepSupervisor.scala:112)
-     56457: akka.actor.Actor.aroundReceive(Actor.scala:537)
-     56458: akka.actor.Actor.aroundReceive$(Actor.scala:535)
-     56459: com.tryonsolutions.cycle2.engine.executionActors.StepSupervisor.aroundReceive(StepSupervisor.scala:56)
-     56460: akka.actor.ActorCell.receiveMessage(ActorCell.scala:579)
-     56461: akka.actor.ActorCell.invoke(ActorCell.scala:547)
-     56462: akka.dispatch.Mailbox.processMailbox(Mailbox.scala:270)
-     56463: akka.dispatch.Mailbox.run(Mailbox.scala:231)
-     56464: akka.dispatch.Mailbox.exec(Mailbox.scala:243)
-     56465: java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
-     56466: java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
-     56467: java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
-     56468: java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
-     56469: java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
-     56470: Scenario: Perform MOCA Cleanup Script [Fail] - 18 ms
-     56471: And I execute scenario "Perform MOCA Cleanup Script" [Fail] - 18 ms
-     56472: [ERROR] Fail
-     56473: After Scenario:  [Fail] - 354 ms
-&gt;&gt;   56474: Feature: BASE-RCV-0070 Terminal Inbound Unload All [Fail] - 1631 ms
-     56475: Feature: BASE-RCV-1100 Web Inbound Putaway [Start]
-     56476: Background:  [Start]
-     56477: Given I "setup the environment" [Start]
-     56478: 
-     56479: Given I "setup the environment" - Pass - 0 ms
+     56446: If I verify variable &quot;new_file&quot; is assigned - False - 0 ms
+     56447: Else I assign variable &quot;error_message&quot; by combining &quot;ERROR: Could not determine path to MOCA Cleanup Script file: &quot; $file [Start]
+     56448: 
+     56449: Else I assign variable &quot;error_message&quot; by combining &quot;ERROR: Could not determine path to MOCA Cleanup Script file: &quot; $file - Fail - 0 ms
+     56450: [ERROR] Variable file does not exist.
+     56451: com.tryonsolutions.cycle2.engine.executionActors.StepSupervisor$.valueFor(StepSupervisor.scala:52)
+     56452: com.tryonsolutions.cycle2.engine.executionActors.StepSupervisor.$anonfun$replaceVariables$1(StepSupervisor.scala:233)
+     56453: scala.collection.immutable.List.map(List.scala:297)
+     56454: com.tryonsolutions.cycle2.engine.executionActors.StepSupervisor.replaceVariables(StepSupervisor.scala:231)
+     56455: com.tryonsolutions.cycle2.engine.executionActors.StepSupervisor.$anonfun$run$1(StepSupervisor.scala:170)
+     56456: scala.util.Try$.apply(Try.scala:213)
+     56457: com.tryonsolutions.cycle2.engine.executionActors.StepSupervisor.run(StepSupervisor.scala:170)
+     56458: com.tryonsolutions.cycle2.engine.executionActors.StepSupervisor.executeStep(StepSupervisor.scala:145)
+     56459: com.tryonsolutions.cycle2.engine.executionActors.StepSupervisor$$anonfun$receive$1.applyOrElse(StepSupervisor.scala:112)
+     56460: akka.actor.Actor.aroundReceive(Actor.scala:537)
+     56461: akka.actor.Actor.aroundReceive$(Actor.scala:535)
+     56462: com.tryonsolutions.cycle2.engine.executionActors.StepSupervisor.aroundReceive(StepSupervisor.scala:56)
+     56463: akka.actor.ActorCell.receiveMessage(ActorCell.scala:579)
+     56464: akka.actor.ActorCell.invoke(ActorCell.scala:547)
+     56465: akka.dispatch.Mailbox.processMailbox(Mailbox.scala:270)
+     56466: akka.dispatch.Mailbox.run(Mailbox.scala:231)
+     56467: akka.dispatch.Mailbox.exec(Mailbox.scala:243)
+     56468: java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+     56469: java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+     56470: java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+     56471: java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+     56472: java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+     56473: Scenario: Perform MOCA Cleanup Script [Fail] - 14 ms
+     56474: And I execute scenario &quot;Perform MOCA Cleanup Script&quot; [Fail] - 15 ms
+     56475: [ERROR] Fail
+     56476: After Scenario:  [Fail] - 350 ms
+&gt;&gt;   56477: Feature: BASE-RCV-0070 Terminal Inbound Unload All [Fail] - 1659 ms
+     56478: Feature: BASE-RCV-1100 Web Inbound Putaway [Start]
+     56479: Background:  [Start]
+     56480: Given I &quot;setup the environment&quot; [Start]
+     56481: 
+     56482: Given I &quot;setup the environment&quot; - Pass - 0 ms
 
 --- Links ---
-View full report: verification_report.html</system-out>
+View full report: cycle_run_report.html</system-out>
     </testcase>
   </testsuite>
-  <testsuite name="BASE-RCV-1100 Web Inbound Putaway" tests="1" failures="0" time="79.198">
-    <testcase name="BASE-RCV-1100 Web Inbound Putaway" classname="Features.BASE-RCV-1100 Web Inbound Putaway" time="79.198"/>
+  <testsuite name="BASE-RCV-1100 Web Inbound Putaway" tests="1" failures="0" time="77.336">
+    <testcase name="BASE-RCV-1100 Web Inbound Putaway" classname="Features.BASE-RCV-1100 Web Inbound Putaway" time="77.336"/>
   </testsuite>
-  <testsuite name="BASE-SHP-1020 Web Outbound Trailer Dispatch" tests="1" failures="0" time="29.947">
-    <testcase name="BASE-SHP-1020 Web Outbound Trailer Dispatch" classname="Features.BASE-SHP-1020 Web Outbound Trailer Dispatch" time="29.947"/>
+  <testsuite name="BASE-SHP-1020 Web Outbound Trailer Dispatch" tests="1" failures="0" time="31.019">
+    <testcase name="BASE-SHP-1020 Web Outbound Trailer Dispatch" classname="Features.BASE-SHP-1020 Web Outbound Trailer Dispatch" time="31.019"/>
   </testsuite>
-  <testsuite name="BASE-YRD-1020 Web Inbound Trailer Check In" tests="1" failures="0" time="18.570">
-    <testcase name="BASE-YRD-1020 Web Inbound Trailer Check In" classname="Features.BASE-YRD-1020 Web Inbound Trailer Check In" time="18.570"/>
+  <testsuite name="BASE-YRD-1020 Web Inbound Trailer Check In" tests="1" failures="0" time="20.574">
+    <testcase name="BASE-YRD-1020 Web Inbound Trailer Check In" classname="Features.BASE-YRD-1020 Web Inbound Trailer Check In" time="20.574"/>
   </testsuite>
-  <testsuite name="BASE-RCV-4080 Mobile Inbound Directed Putaway from Receiving Override - Example 1" tests="1" failures="1" time="1.896">
-    <testcase name="BASE-RCV-4080 Mobile Inbound Directed Putaway from Receiving Override - Example 1" classname="Features.BASE-RCV-4080 Mobile Inbound Directed Putaway from Receiving Override - Example 1" time="1.896">
+  <testsuite name="BASE-RCV-4080 Mobile Inbound Directed Putaway from Receiving Override - Example 1" tests="1" failures="1" time="1.795">
+    <testcase name="BASE-RCV-4080 Mobile Inbound Directed Putaway from Receiving Override - Example 1" classname="Features.BASE-RCV-4080 Mobile Inbound Directed Putaway from Receiving Override - Example 1" time="1.795">
       <failure message="[ERROR] Fail">[ERROR] Fail
-After Scenario:  [Fail] - 490 ms
-Feature: BASE-RCV-4080 Mobile Inbound Directed Putaway from Receiving Override [Fail] - 1896 ms
+After Scenario:  [Fail] - 350 ms
+Feature: BASE-RCV-4080 Mobile Inbound Directed Putaway from Receiving Override [Fail] - 1795 ms
 
---- Failure Point (Line 77586) ---
-Feature: BASE-RCV-4080 Mobile Inbound Directed Putaway from Receiving Override [Fail] - 1896 ms
+--- Failure Point (Line 77589) ---
+Feature: BASE-RCV-4080 Mobile Inbound Directed Putaway from Receiving Override [Fail] - 1795 ms
 
 --- Log Context ---
-     77491: Else I increase variable "path_loop" [Start]
-     77492: 
-     77493: Else I increase variable "path_loop" - Pass - 0 ms
-     77494: While I assign 2 ($path_loop) th item from "," delimited list Custom,Base ($directory_load_path) to variable "directory" [Start]
+     77494: Else I increase variable &quot;path_loop&quot; [Start]
      77495: 
-     77496: While I assign 2 ($path_loop) th item from "," delimited list Custom,Base ($directory_load_path) to variable "directory" - True - 0 ms
-     77497: And I verify text FALSE ($path_done) is equal to "FALSE" [Start]
+     77496: Else I increase variable &quot;path_loop&quot; - Pass - 0 ms
+     77497: While I assign 2 ($path_loop) th item from &quot;,&quot; delimited list Custom,Base ($directory_load_path) to variable &quot;directory&quot; [Start]
      77498: 
-     77499: And I verify text FALSE ($path_done) is equal to "FALSE" - True - 0 ms
-     77500: Given I assign variable "directory_token" by combining "/" Base ($directory) "/" [Start]
+     77499: While I assign 2 ($path_loop) th item from &quot;,&quot; delimited list Custom,Base ($directory_load_path) to variable &quot;directory&quot; - True - 0 ms
+     77500: And I verify text FALSE ($path_done) is equal to &quot;FALSE&quot; [Start]
      77501: 
-     77502: Given I assign variable "directory_token" by combining "/" Base ($directory) "/" - Pass - 0 ms
-     77503: Given I replace all "/-/" in Datasets/-/Receiving ($file) with /Base/ ($directory_token) as variable "new_file" [Start]
+     77502: And I verify text FALSE ($path_done) is equal to &quot;FALSE&quot; - True - 0 ms
+     77503: Given I assign variable &quot;directory_token&quot; by combining &quot;/&quot; Base ($directory) &quot;/&quot; [Start]
      77504: 
-     77505: Given I replace all "/-/" in Datasets/-/Receiving ($file) with /Base/ ($directory_token) as variable "new_file" - Pass - 0 ms
-     77506: Given I replace all "\\\-\\\\" in Datasets/Base/Receiving ($new_file) with /Base/ ($directory_token) as variable "new_file" [Start]
+     77505: Given I assign variable &quot;directory_token&quot; by combining &quot;/&quot; Base ($directory) &quot;/&quot; - Pass - 0 ms
+     77506: Given I replace all &quot;/-/&quot; in Datasets/-/Receiving ($file) with /Base/ ($directory_token) as variable &quot;new_file&quot; [Start]
      77507: 
-     77508: Given I replace all "\\\-\\\\" in Datasets/Base/Receiving ($new_file) with /Base/ ($directory_token) as variable "new_file" - Pass - 0 ms
-     77509: If I verify file Datasets/Base/Receiving ($new_file) exists [Start]
+     77508: Given I replace all &quot;/-/&quot; in Datasets/-/Receiving ($file) with /Base/ ($directory_token) as variable &quot;new_file&quot; - Pass - 0 ms
+     77509: Given I replace all &quot;\\\-\\\\&quot; in Datasets/Base/Receiving ($new_file) with /Base/ ($directory_token) as variable &quot;new_file&quot; [Start]
      77510: 
-     77511: If I verify file Datasets/Base/Receiving ($new_file) exists - False - 0 ms
-     77512: Else I increase variable "path_loop" [Start]
+     77511: Given I replace all &quot;\\\-\\\\&quot; in Datasets/Base/Receiving ($new_file) with /Base/ ($directory_token) as variable &quot;new_file&quot; - Pass - 0 ms
+     77512: If I verify file Datasets/Base/Receiving ($new_file) exists [Start]
      77513: 
-     77514: Else I increase variable "path_loop" - Pass - 0 ms
-     77515: While I assign 3 ($path_loop) th item from "," delimited list Custom,Base ($directory_load_path) to variable "directory" [Start]
+     77514: If I verify file Datasets/Base/Receiving ($new_file) exists - False - 0 ms
+     77515: Else I increase variable &quot;path_loop&quot; [Start]
      77516: 
-     77517: While I assign 3 ($path_loop) th item from "," delimited list Custom,Base ($directory_load_path) to variable "directory" - False - 0 ms
-     77518: Then I "confirm a file was located" [Start]
+     77517: Else I increase variable &quot;path_loop&quot; - Pass - 0 ms
+     77518: While I assign 3 ($path_loop) th item from &quot;,&quot; delimited list Custom,Base ($directory_load_path) to variable &quot;directory&quot; [Start]
      77519: 
-     77520: Then I "confirm a file was located" - Pass - 0 ms
-     77521: If I verify text FALSE ($path_done) is equal to "FALSE" [Start]
+     77520: While I assign 3 ($path_loop) th item from &quot;,&quot; delimited list Custom,Base ($directory_load_path) to variable &quot;directory&quot; - False - 0 ms
+     77521: Then I &quot;confirm a file was located&quot; [Start]
      77522: 
-     77523: If I verify text FALSE ($path_done) is equal to "FALSE" - True - 0 ms
-     77524: Then I assign variable "error_message" by combining "ERROR: File " Datasets/-/Receiving ($file) " not found" [Start]
+     77523: Then I &quot;confirm a file was located&quot; - Pass - 0 ms
+     77524: If I verify text FALSE ($path_done) is equal to &quot;FALSE&quot; [Start]
      77525: 
-     77526: Then I assign variable "error_message" by combining "ERROR: File " Datasets/-/Receiving ($file) " not found" - Pass - 0 ms
-     77527: And I echo ERROR: File Datasets/-/Receiving not found ($error_message) [Start]
+     77526: If I verify text FALSE ($path_done) is equal to &quot;FALSE&quot; - True - 0 ms
+     77527: Then I assign variable &quot;error_message&quot; by combining &quot;ERROR: File &quot; Datasets/-/Receiving ($file) &quot; not found&quot; [Start]
      77528: 
-     77529: And I echo ERROR: File Datasets/-/Receiving not found ($error_message) - Pass - 0 ms
-     77530: And I unassign variable "new_file" [Start]
+     77529: Then I assign variable &quot;error_message&quot; by combining &quot;ERROR: File &quot; Datasets/-/Receiving ($file) &quot; not found&quot; - Pass - 0 ms
+     77530: And I echo ERROR: File Datasets/-/Receiving not found ($error_message) [Start]
      77531: 
-     77532: And I unassign variable "new_file" - Pass - 0 ms
-     77533: And I "clear the working variables" [Start]
+     77532: And I echo ERROR: File Datasets/-/Receiving not found ($error_message) - Pass - 0 ms
+     77533: And I unassign variable &quot;new_file&quot; [Start]
      77534: 
-     77535: And I "clear the working variables" - Pass - 0 ms
-     77536: Given I unassign variable "file" [Start]
+     77535: And I unassign variable &quot;new_file&quot; - Pass - 0 ms
+     77536: And I &quot;clear the working variables&quot; [Start]
      77537: 
-     77538: Given I unassign variable "file" - Pass - 0 ms
-     77539: And I unassign variable "directory" [Start]
+     77538: And I &quot;clear the working variables&quot; - Pass - 0 ms
+     77539: Given I unassign variable &quot;file&quot; [Start]
      77540: 
-     77541: And I unassign variable "directory" - Pass - 0 ms
-     77542: And I unassign variable "directory_token" [Start]
+     77541: Given I unassign variable &quot;file&quot; - Pass - 0 ms
+     77542: And I unassign variable &quot;directory&quot; [Start]
      77543: 
-     77544: And I unassign variable "directory_token" - Pass - 0 ms
-     77545: And I unassign variable "path_loop" [Start]
+     77544: And I unassign variable &quot;directory&quot; - Pass - 0 ms
+     77545: And I unassign variable &quot;directory_token&quot; [Start]
      77546: 
-     77547: And I unassign variable "path_loop" - Pass - 0 ms
-     77548: And I unassign variable "path_done" [Start]
+     77547: And I unassign variable &quot;directory_token&quot; - Pass - 0 ms
+     77548: And I unassign variable &quot;path_loop&quot; [Start]
      77549: 
-     77550: And I unassign variable "path_done" - Pass - 0 ms
-     77551: Scenario: Locate File on Path [Pass] - 7 ms
-     77552: Then I execute scenario "Locate File on Path" [Pass] - 7 ms
-     77553: If I verify variable "new_file" is assigned [Start]
-     77554: 
-     77555: If I verify variable "new_file" is assigned - False - 0 ms
-     77556: Else I assign variable "error_message" by combining "ERROR: Could not determine path to MOCA Cleanup Script file: " $file [Start]
+     77550: And I unassign variable &quot;path_loop&quot; - Pass - 0 ms
+     77551: And I unassign variable &quot;path_done&quot; [Start]
+     77552: 
+     77553: And I unassign variable &quot;path_done&quot; - Pass - 0 ms
+     77554: Scenario: Locate File on Path [Pass] - 12 ms
+     77555: Then I execute scenario &quot;Locate File on Path&quot; [Pass] - 12 ms
+     77556: If I verify variable &quot;new_file&quot; is assigned [Start]
      77557: 
-     77558: Else I assign variable "error_message" by combining "ERROR: Could not determine path to MOCA Cleanup Script file: " $file - Fail - 0 ms
-     77559: [ERROR] Variable file does not exist.
-     77560: com.tryonsolutions.cycle2.engine.executionActors.StepSupervisor$.valueFor(StepSupervisor.scala:52)
-     77561: com.tryonsolutions.cycle2.engine.executionActors.StepSupervisor.$anonfun$replaceVariables$1(StepSupervisor.scala:233)
-     77562: scala.collection.immutable.List.map(List.scala:297)
-     77563: com.tryonsolutions.cycle2.engine.executionActors.StepSupervisor.replaceVariables(StepSupervisor.scala:231)
-     77564: com.tryonsolutions.cycle2.engine.executionActors.StepSupervisor.$anonfun$run$1(StepSupervisor.scala:170)
-     77565: scala.util.Try$.apply(Try.scala:213)
-     77566: com.tryonsolutions.cycle2.engine.executionActors.StepSupervisor.run(StepSupervisor.scala:170)
-     77567: com.tryonsolutions.cycle2.engine.executionActors.StepSupervisor.executeStep(StepSupervisor.scala:145)
-     77568: com.tryonsolutions.cycle2.engine.executionActors.StepSupervisor$$anonfun$receive$1.applyOrElse(StepSupervisor.scala:112)
-     77569: akka.actor.Actor.aroundReceive(Actor.scala:537)
-     77570: akka.actor.Actor.aroundReceive$(Actor.scala:535)
-     77571: com.tryonsolutions.cycle2.engine.executionActors.StepSupervisor.aroundReceive(StepSupervisor.scala:56)
-     77572: akka.actor.ActorCell.receiveMessage(ActorCell.scala:579)
-     77573: akka.actor.ActorCell.invoke(ActorCell.scala:547)
-     77574: akka.dispatch.Mailbox.processMailbox(Mailbox.scala:270)
-     77575: akka.dispatch.Mailbox.run(Mailbox.scala:231)
-     77576: akka.dispatch.Mailbox.exec(Mailbox.scala:243)
-     77577: java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
-     77578: java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
-     77579: java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
-     77580: java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
-     77581: java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
-     77582: Scenario: Perform MOCA Cleanup Script [Fail] - 154 ms
-     77583: And I execute scenario "Perform MOCA Cleanup Script" [Fail] - 154 ms
-     77584: [ERROR] Fail
-     77585: After Scenario:  [Fail] - 490 ms
-&gt;&gt;   77586: Feature: BASE-RCV-4080 Mobile Inbound Directed Putaway from Receiving Override [Fail] - 1896 ms
-     77587: Feature: BASE-INV-4140 Mobile Inventory Transfer Multiple LPNs Undirected [Start]
-     77588: Background:  [Start]
-     77589: Given I "setup the environment" [Start]
-     77590: 
-     77591: Given I "setup the environment" - Pass - 0 ms
+     77558: If I verify variable &quot;new_file&quot; is assigned - False - 0 ms
+     77559: Else I assign variable &quot;error_message&quot; by combining &quot;ERROR: Could not determine path to MOCA Cleanup Script file: &quot; $file [Start]
+     77560: 
+     77561: Else I assign variable &quot;error_message&quot; by combining &quot;ERROR: Could not determine path to MOCA Cleanup Script file: &quot; $file - Fail - 0 ms
+     77562: [ERROR] Variable file does not exist.
+     77563: com.tryonsolutions.cycle2.engine.executionActors.StepSupervisor$.valueFor(StepSupervisor.scala:52)
+     77564: com.tryonsolutions.cycle2.engine.executionActors.StepSupervisor.$anonfun$replaceVariables$1(StepSupervisor.scala:233)
+     77565: scala.collection.immutable.List.map(List.scala:297)
+     77566: com.tryonsolutions.cycle2.engine.executionActors.StepSupervisor.replaceVariables(StepSupervisor.scala:231)
+     77567: com.tryonsolutions.cycle2.engine.executionActors.StepSupervisor.$anonfun$run$1(StepSupervisor.scala:170)
+     77568: scala.util.Try$.apply(Try.scala:213)
+     77569: com.tryonsolutions.cycle2.engine.executionActors.StepSupervisor.run(StepSupervisor.scala:170)
+     77570: com.tryonsolutions.cycle2.engine.executionActors.StepSupervisor.executeStep(StepSupervisor.scala:145)
+     77571: com.tryonsolutions.cycle2.engine.executionActors.StepSupervisor$$anonfun$receive$1.applyOrElse(StepSupervisor.scala:112)
+     77572: akka.actor.Actor.aroundReceive(Actor.scala:537)
+     77573: akka.actor.Actor.aroundReceive$(Actor.scala:535)
+     77574: com.tryonsolutions.cycle2.engine.executionActors.StepSupervisor.aroundReceive(StepSupervisor.scala:56)
+     77575: akka.actor.ActorCell.receiveMessage(ActorCell.scala:579)
+     77576: akka.actor.ActorCell.invoke(ActorCell.scala:547)
+     77577: akka.dispatch.Mailbox.processMailbox(Mailbox.scala:270)
+     77578: akka.dispatch.Mailbox.run(Mailbox.scala:231)
+     77579: akka.dispatch.Mailbox.exec(Mailbox.scala:243)
+     77580: java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+     77581: java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+     77582: java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+     77583: java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+     77584: java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+     77585: Scenario: Perform MOCA Cleanup Script [Fail] - 17 ms
+     77586: And I execute scenario &quot;Perform MOCA Cleanup Script&quot; [Fail] - 17 ms
+     77587: [ERROR] Fail
+     77588: After Scenario:  [Fail] - 350 ms
+&gt;&gt;   77589: Feature: BASE-RCV-4080 Mobile Inbound Directed Putaway from Receiving Override [Fail] - 1795 ms
+     77590: Feature: BASE-INV-4140 Mobile Inventory Transfer Multiple LPNs Undirected [Start]
+     77591: Background:  [Start]
+     77592: Given I &quot;setup the environment&quot; [Start]
+     77593: 
+     77594: Given I &quot;setup the environment&quot; - Pass - 0 ms
 
 --- Links ---
-View full report: verification_report.html</failure>
+View full report: cycle_run_report.html</failure>
       <system-out>[ERROR] Fail
-After Scenario:  [Fail] - 490 ms
-Feature: BASE-RCV-4080 Mobile Inbound Directed Putaway from Receiving Override [Fail] - 1896 ms
+After Scenario:  [Fail] - 350 ms
+Feature: BASE-RCV-4080 Mobile Inbound Directed Putaway from Receiving Override [Fail] - 1795 ms
 
---- Failure Point (Line 77586) ---
-Feature: BASE-RCV-4080 Mobile Inbound Directed Putaway from Receiving Override [Fail] - 1896 ms
+--- Failure Point (Line 77589) ---
+Feature: BASE-RCV-4080 Mobile Inbound Directed Putaway from Receiving Override [Fail] - 1795 ms
 
 --- Log Context ---
-     77491: Else I increase variable "path_loop" [Start]
-     77492: 
-     77493: Else I increase variable "path_loop" - Pass - 0 ms
-     77494: While I assign 2 ($path_loop) th item from "," delimited list Custom,Base ($directory_load_path) to variable "directory" [Start]
+     77494: Else I increase variable &quot;path_loop&quot; [Start]
      77495: 
-     77496: While I assign 2 ($path_loop) th item from "," delimited list Custom,Base ($directory_load_path) to variable "directory" - True - 0 ms
-     77497: And I verify text FALSE ($path_done) is equal to "FALSE" [Start]
+     77496: Else I increase variable &quot;path_loop&quot; - Pass - 0 ms
+     77497: While I assign 2 ($path_loop) th item from &quot;,&quot; delimited list Custom,Base ($directory_load_path) to variable &quot;directory&quot; [Start]
      77498: 
-     77499: And I verify text FALSE ($path_done) is equal to "FALSE" - True - 0 ms
-     77500: Given I assign variable "directory_token" by combining "/" Base ($directory) "/" [Start]
+     77499: While I assign 2 ($path_loop) th item from &quot;,&quot; delimited list Custom,Base ($directory_load_path) to variable &quot;directory&quot; - True - 0 ms
+     77500: And I verify text FALSE ($path_done) is equal to &quot;FALSE&quot; [Start]
      77501: 
-     77502: Given I assign variable "directory_token" by combining "/" Base ($directory) "/" - Pass - 0 ms
-     77503: Given I replace all "/-/" in Datasets/-/Receiving ($file) with /Base/ ($directory_token) as variable "new_file" [Start]
+     77502: And I verify text FALSE ($path_done) is equal to &quot;FALSE&quot; - True - 0 ms
+     77503: Given I assign variable &quot;directory_token&quot; by combining &quot;/&quot; Base ($directory) &quot;/&quot; [Start]
      77504: 
-     77505: Given I replace all "/-/" in Datasets/-/Receiving ($file) with /Base/ ($directory_token) as variable "new_file" - Pass - 0 ms
-     77506: Given I replace all "\\\-\\\\" in Datasets/Base/Receiving ($new_file) with /Base/ ($directory_token) as variable "new_file" [Start]
+     77505: Given I assign variable &quot;directory_token&quot; by combining &quot;/&quot; Base ($directory) &quot;/&quot; - Pass - 0 ms
+     77506: Given I replace all &quot;/-/&quot; in Datasets/-/Receiving ($file) with /Base/ ($directory_token) as variable &quot;new_file&quot; [Start]
      77507: 
-     77508: Given I replace all "\\\-\\\\" in Datasets/Base/Receiving ($new_file) with /Base/ ($directory_token) as variable "new_file" - Pass - 0 ms
-     77509: If I verify file Datasets/Base/Receiving ($new_file) exists [Start]
+     77508: Given I replace all &quot;/-/&quot; in Datasets/-/Receiving ($file) with /Base/ ($directory_token) as variable &quot;new_file&quot; - Pass - 0 ms
+     77509: Given I replace all &quot;\\\-\\\\&quot; in Datasets/Base/Receiving ($new_file) with /Base/ ($directory_token) as variable &quot;new_file&quot; [Start]
      77510: 
-     77511: If I verify file Datasets/Base/Receiving ($new_file) exists - False - 0 ms
-     77512: Else I increase variable "path_loop" [Start]
+     77511: Given I replace all &quot;\\\-\\\\&quot; in Datasets/Base/Receiving ($new_file) with /Base/ ($directory_token) as variable &quot;new_file&quot; - Pass - 0 ms
+     77512: If I verify file Datasets/Base/Receiving ($new_file) exists [Start]
      77513: 
-     77514: Else I increase variable "path_loop" - Pass - 0 ms
-     77515: While I assign 3 ($path_loop) th item from "," delimited list Custom,Base ($directory_load_path) to variable "directory" [Start]
+     77514: If I verify file Datasets/Base/Receiving ($new_file) exists - False - 0 ms
+     77515: Else I increase variable &quot;path_loop&quot; [Start]
      77516: 
-     77517: While I assign 3 ($path_loop) th item from "," delimited list Custom,Base ($directory_load_path) to variable "directory" - False - 0 ms
-     77518: Then I "confirm a file was located" [Start]
+     77517: Else I increase variable &quot;path_loop&quot; - Pass - 0 ms
+     77518: While I assign 3 ($path_loop) th item from &quot;,&quot; delimited list Custom,Base ($directory_load_path) to variable &quot;directory&quot; [Start]
      77519: 
-     77520: Then I "confirm a file was located" - Pass - 0 ms
-     77521: If I verify text FALSE ($path_done) is equal to "FALSE" [Start]
+     77520: While I assign 3 ($path_loop) th item from &quot;,&quot; delimited list Custom,Base ($directory_load_path) to variable &quot;directory&quot; - False - 0 ms
+     77521: Then I &quot;confirm a file was located&quot; [Start]
      77522: 
-     77523: If I verify text FALSE ($path_done) is equal to "FALSE" - True - 0 ms
-     77524: Then I assign variable "error_message" by combining "ERROR: File " Datasets/-/Receiving ($file) " not found" [Start]
+     77523: Then I &quot;confirm a file was located&quot; - Pass - 0 ms
+     77524: If I verify text FALSE ($path_done) is equal to &quot;FALSE&quot; [Start]
      77525: 
-     77526: Then I assign variable "error_message" by combining "ERROR: File " Datasets/-/Receiving ($file) " not found" - Pass - 0 ms
-     77527: And I echo ERROR: File Datasets/-/Receiving not found ($error_message) [Start]
+     77526: If I verify text FALSE ($path_done) is equal to &quot;FALSE&quot; - True - 0 ms
+     77527: Then I assign variable &quot;error_message&quot; by combining &quot;ERROR: File &quot; Datasets/-/Receiving ($file) &quot; not found&quot; [Start]
      77528: 
-     77529: And I echo ERROR: File Datasets/-/Receiving not found ($error_message) - Pass - 0 ms
-     77530: And I unassign variable "new_file" [Start]
+     77529: Then I assign variable &quot;error_message&quot; by combining &quot;ERROR: File &quot; Datasets/-/Receiving ($file) &quot; not found&quot; - Pass - 0 ms
+     77530: And I echo ERROR: File Datasets/-/Receiving not found ($error_message) [Start]
      77531: 
-     77532: And I unassign variable "new_file" - Pass - 0 ms
-     77533: And I "clear the working variables" [Start]
+     77532: And I echo ERROR: File Datasets/-/Receiving not found ($error_message) - Pass - 0 ms
+     77533: And I unassign variable &quot;new_file&quot; [Start]
      77534: 
-     77535: And I "clear the working variables" - Pass - 0 ms
-     77536: Given I unassign variable "file" [Start]
+     77535: And I unassign variable &quot;new_file&quot; - Pass - 0 ms
+     77536: And I &quot;clear the working variables&quot; [Start]
      77537: 
-     77538: Given I unassign variable "file" - Pass - 0 ms
-     77539: And I unassign variable "directory" [Start]
+     77538: And I &quot;clear the working variables&quot; - Pass - 0 ms
+     77539: Given I unassign variable &quot;file&quot; [Start]
      77540: 
-     77541: And I unassign variable "directory" - Pass - 0 ms
-     77542: And I unassign variable "directory_token" [Start]
+     77541: Given I unassign variable &quot;file&quot; - Pass - 0 ms
+     77542: And I unassign variable &quot;directory&quot; [Start]
      77543: 
-     77544: And I unassign variable "directory_token" - Pass - 0 ms
-     77545: And I unassign variable "path_loop" [Start]
+     77544: And I unassign variable &quot;directory&quot; - Pass - 0 ms
+     77545: And I unassign variable &quot;directory_token&quot; [Start]
      77546: 
-     77547: And I unassign variable "path_loop" - Pass - 0 ms
-     77548: And I unassign variable "path_done" [Start]
+     77547: And I unassign variable &quot;directory_token&quot; - Pass - 0 ms
+     77548: And I unassign variable &quot;path_loop&quot; [Start]
      77549: 
-     77550: And I unassign variable "path_done" - Pass - 0 ms
-     77551: Scenario: Locate File on Path [Pass] - 7 ms
-     77552: Then I execute scenario "Locate File on Path" [Pass] - 7 ms
-     77553: If I verify variable "new_file" is assigned [Start]
-     77554: 
-     77555: If I verify variable "new_file" is assigned - False - 0 ms
-     77556: Else I assign variable "error_message" by combining "ERROR: Could not determine path to MOCA Cleanup Script file: " $file [Start]
+     77550: And I unassign variable &quot;path_loop&quot; - Pass - 0 ms
+     77551: And I unassign variable &quot;path_done&quot; [Start]
+     77552: 
+     77553: And I unassign variable &quot;path_done&quot; - Pass - 0 ms
+     77554: Scenario: Locate File on Path [Pass] - 12 ms
+     77555: Then I execute scenario &quot;Locate File on Path&quot; [Pass] - 12 ms
+     77556: If I verify variable &quot;new_file&quot; is assigned [Start]
      77557: 
-     77558: Else I assign variable "error_message" by combining "ERROR: Could not determine path to MOCA Cleanup Script file: " $file - Fail - 0 ms
-     77559: [ERROR] Variable file does not exist.
-     77560: com.tryonsolutions.cycle2.engine.executionActors.StepSupervisor$.valueFor(StepSupervisor.scala:52)
-     77561: com.tryonsolutions.cycle2.engine.executionActors.StepSupervisor.$anonfun$replaceVariables$1(StepSupervisor.scala:233)
-     77562: scala.collection.immutable.List.map(List.scala:297)
-     77563: com.tryonsolutions.cycle2.engine.executionActors.StepSupervisor.replaceVariables(StepSupervisor.scala:231)
-     77564: com.tryonsolutions.cycle2.engine.executionActors.StepSupervisor.$anonfun$run$1(StepSupervisor.scala:170)
-     77565: scala.util.Try$.apply(Try.scala:213)
-     77566: com.tryonsolutions.cycle2.engine.executionActors.StepSupervisor.run(StepSupervisor.scala:170)
-     77567: com.tryonsolutions.cycle2.engine.executionActors.StepSupervisor.executeStep(StepSupervisor.scala:145)
-     77568: com.tryonsolutions.cycle2.engine.executionActors.StepSupervisor$$anonfun$receive$1.applyOrElse(StepSupervisor.scala:112)
-     77569: akka.actor.Actor.aroundReceive(Actor.scala:537)
-     77570: akka.actor.Actor.aroundReceive$(Actor.scala:535)
-     77571: com.tryonsolutions.cycle2.engine.executionActors.StepSupervisor.aroundReceive(StepSupervisor.scala:56)
-     77572: akka.actor.ActorCell.receiveMessage(ActorCell.scala:579)
-     77573: akka.actor.ActorCell.invoke(ActorCell.scala:547)
-     77574: akka.dispatch.Mailbox.processMailbox(Mailbox.scala:270)
-     77575: akka.dispatch.Mailbox.run(Mailbox.scala:231)
-     77576: akka.dispatch.Mailbox.exec(Mailbox.scala:243)
-     77577: java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
-     77578: java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
-     77579: java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
-     77580: java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
-     77581: java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
-     77582: Scenario: Perform MOCA Cleanup Script [Fail] - 154 ms
-     77583: And I execute scenario "Perform MOCA Cleanup Script" [Fail] - 154 ms
-     77584: [ERROR] Fail
-     77585: After Scenario:  [Fail] - 490 ms
-&gt;&gt;   77586: Feature: BASE-RCV-4080 Mobile Inbound Directed Putaway from Receiving Override [Fail] - 1896 ms
-     77587: Feature: BASE-INV-4140 Mobile Inventory Transfer Multiple LPNs Undirected [Start]
-     77588: Background:  [Start]
-     77589: Given I "setup the environment" [Start]
-     77590: 
-     77591: Given I "setup the environment" - Pass - 0 ms
+     77558: If I verify variable &quot;new_file&quot; is assigned - False - 0 ms
+     77559: Else I assign variable &quot;error_message&quot; by combining &quot;ERROR: Could not determine path to MOCA Cleanup Script file: &quot; $file [Start]
+     77560: 
+     77561: Else I assign variable &quot;error_message&quot; by combining &quot;ERROR: Could not determine path to MOCA Cleanup Script file: &quot; $file - Fail - 0 ms
+     77562: [ERROR] Variable file does not exist.
+     77563: com.tryonsolutions.cycle2.engine.executionActors.StepSupervisor$.valueFor(StepSupervisor.scala:52)
+     77564: com.tryonsolutions.cycle2.engine.executionActors.StepSupervisor.$anonfun$replaceVariables$1(StepSupervisor.scala:233)
+     77565: scala.collection.immutable.List.map(List.scala:297)
+     77566: com.tryonsolutions.cycle2.engine.executionActors.StepSupervisor.replaceVariables(StepSupervisor.scala:231)
+     77567: com.tryonsolutions.cycle2.engine.executionActors.StepSupervisor.$anonfun$run$1(StepSupervisor.scala:170)
+     77568: scala.util.Try$.apply(Try.scala:213)
+     77569: com.tryonsolutions.cycle2.engine.executionActors.StepSupervisor.run(StepSupervisor.scala:170)
+     77570: com.tryonsolutions.cycle2.engine.executionActors.StepSupervisor.executeStep(StepSupervisor.scala:145)
+     77571: com.tryonsolutions.cycle2.engine.executionActors.StepSupervisor$$anonfun$receive$1.applyOrElse(StepSupervisor.scala:112)
+     77572: akka.actor.Actor.aroundReceive(Actor.scala:537)
+     77573: akka.actor.Actor.aroundReceive$(Actor.scala:535)
+     77574: com.tryonsolutions.cycle2.engine.executionActors.StepSupervisor.aroundReceive(StepSupervisor.scala:56)
+     77575: akka.actor.ActorCell.receiveMessage(ActorCell.scala:579)
+     77576: akka.actor.ActorCell.invoke(ActorCell.scala:547)
+     77577: akka.dispatch.Mailbox.processMailbox(Mailbox.scala:270)
+     77578: akka.dispatch.Mailbox.run(Mailbox.scala:231)
+     77579: akka.dispatch.Mailbox.exec(Mailbox.scala:243)
+     77580: java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+     77581: java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+     77582: java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+     77583: java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+     77584: java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+     77585: Scenario: Perform MOCA Cleanup Script [Fail] - 17 ms
+     77586: And I execute scenario &quot;Perform MOCA Cleanup Script&quot; [Fail] - 17 ms
+     77587: [ERROR] Fail
+     77588: After Scenario:  [Fail] - 350 ms
+&gt;&gt;   77589: Feature: BASE-RCV-4080 Mobile Inbound Directed Putaway from Receiving Override [Fail] - 1795 ms
+     77590: Feature: BASE-INV-4140 Mobile Inventory Transfer Multiple LPNs Undirected [Start]
+     77591: Background:  [Start]
+     77592: Given I &quot;setup the environment&quot; [Start]
+     77593: 
+     77594: Given I &quot;setup the environment&quot; - Pass - 0 ms
 
 --- Links ---
-View full report: verification_report.html</system-out>
+View full report: cycle_run_report.html</system-out>
     </testcase>
   </testsuite>
-  <testsuite name="BASE-INV-4140 Mobile Inventory Transfer Multiple LPNs Undirected" tests="1" failures="1" time="36.078">
-    <testcase name="BASE-INV-4140 Mobile Inventory Transfer Multiple LPNs Undirected" classname="Features.BASE-INV-4140 Mobile Inventory Transfer Multiple LPNs Undirected" time="36.078">
-      <failure message="[ERROR] Fail">[ERROR] Fail
-Scenario Outline: BASE-INV-4140 Mobile Inventory Transfer Multiple LPNs Undirected [Fail] - 36078 ms
-
---- Failure Point (Line 82621) ---
-Scenario Outline: BASE-INV-4140 Mobile Inventory Transfer Multiple LPNs Undirected [Fail] - 36078 ms
-
---- Log Context ---
-     82526: 
-     82527: And I wait 1 ($wait_short) seconds - Pass - 1011 ms
-     82528: When I navigate to https://cycl-pdbd-wm202111-mobile.wm-servers.com/login ($mobile_ui) in web browser [Start]
-     82529: 
-     82530: When I navigate to https://cycl-pdbd-wm202111-mobile.wm-servers.com/login ($mobile_ui) in web browser - Pass - 1988 ms
-     82531: Then I "login to the Mobile App UI" [Start]
-     82532: 
-     82533: Then I "login to the Mobile App UI" - Pass - 0 ms
-     82534: Then I execute scenario "Mobile Process Login Screen" [Start]
-     82535: 
-     82536: Given I "am on initial Mobile Login screen provide username / password" [Start]
-     82537: 
-     82538: Given I "am on initial Mobile Login screen provide username / password" - Pass - 0 ms
-     82539: Once I see element xPath://button[contains(@class,'submit-button') and contains(text(),'SIGN IN') and @name = 'submit' or @name = 'btnSubmit'] ($locator_mobile_login_submit_button) in web browser [Start]
-     82540: 
-     82541: Once I see element xPath://button[contains(@class,'submit-button') and contains(text(),'SIGN IN') and @name = 'submit' or @name = 'btnSubmit'] ($locator_mobile_login_submit_button) in web browser - Fail - 30275 ms
-     82542: [ERROR] org.openqa.selenium.TimeoutException: Expected condition failed: waiting until 'xPath://button[contains(@class,'submit-button') and contains(text(),'SIGN IN') and @name = 'submit' or @name = 'btnSubmit']' is displayed (tried for 30 second(s) with 500 milliseconds interval)
-     82543: Build info: version: '4.38.0', revision: '6b412e825c*'
-     82544: System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.8.0-1044-azure', java.version: '21.0.9'
-     82545: Driver info: driver.version: unknown
-     82546: at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:265)
-     82547: at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
-     82548: at io.cyclelabs.stepplugin.webdriver.service.WebDriverSession.waitUntilDisplayed(WebDriverSession.java:1052)
-     82549: at io.cyclelabs.stepplugin.webdriver.handlers.AppearanceApiHandler.lambda$elementDisplayed$3(AppearanceApiHandler.java:95)
-     82550: at io.cyclelabs.stepplugin.webdriver.facilitators.Attempt.with(Attempt.java:67)
-     82551: at io.cyclelabs.stepplugin.webdriver.handlers.AppearanceApiHandler.elementDisplayed(AppearanceApiHandler.java:92)
-     82552: at io.cyclelabs.stepplugin.webdriver.api.AppearanceApi.elementDisplayed(AppearanceApi.java:189)
-     82553: at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-     82554: at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-     82555: at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:360)
-     82556: at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
-     82557: at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
-     82558: at org.springframework.validation.beanvalidation.MethodValidationInterceptor.invoke(MethodValidationInterceptor.java:172)
-     82559: at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
-     82560: at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:728)
-     82561: at io.cyclelabs.stepplugin.webdriver.api.AppearanceApiController$$SpringCGLIB$$0.elementDisplayed(&lt;generated&gt;)
-     82562: at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-     82563: at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-     82564: at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258)
-     82565: at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:191)
-     82566: at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
-     82567: at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:991)
-     82568: at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:896)
-     82569: at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
-     82570: at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
-     82571: at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
-     82572: at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
-     82573: at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
-     82574: at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
-     82575: at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
-     82576: at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
-     82577: at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
-     82578: at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
-     82579: at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
-     82580: at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
-     82581: at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
-     82582: at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
-     82583: at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
-     82584: at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
-     82585: at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
-     82586: at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
-     82587: at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
-     82588: at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
-     82589: at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
-     82590: at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:110)
-     82591: at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
-     82592: at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
-     82593: at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
-     82594: at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
-     82595: at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
-     82596: at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
-     82597: at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
-     82598: at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
-     82599: at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:88)
-     82600: at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
-     82601: at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
-     82602: at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
-     82603: at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
-     82604: at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
-     82605: at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
-     82606: at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
-     82607: at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
-     82608: at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1774)
-     82609: at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
-     82610: at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:973)
-     82611: at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:491)
-     82612: at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
-     82613: at java.base/java.lang.Thread.run(Thread.java:1583)
-     82614: 
-     82615: Scenario: Mobile Process Login Screen [Fail] - 30275 ms
-     82616: Then I execute scenario "Mobile Process Login Screen" [Fail] - 30275 ms
-     82617: [ERROR] Fail
-     82618: Scenario: Mobile Login [Fail] - 36066 ms
-     82619: And I execute scenario "Mobile Login" [Fail] - 36066 ms
-     82620: [ERROR] Fail
-&gt;&gt;   82621: Scenario Outline: BASE-INV-4140 Mobile Inventory Transfer Multiple LPNs Undirected [Fail] - 36078 ms
-     82622: After Scenario:  [Start]
-     82623: Given I "perform test completion activities including logging out of the interfaces" [Start]
-     82624: 
-     82625: Given I "perform test completion activities including logging out of the interfaces" - Pass - 0 ms
-     82626: Then I execute scenario "Test Completion" [Start]
-
---- Links ---
-View full report: verification_report.html</failure>
-      <system-out>[ERROR] Fail
-Scenario Outline: BASE-INV-4140 Mobile Inventory Transfer Multiple LPNs Undirected [Fail] - 36078 ms
-
---- Failure Point (Line 82621) ---
-Scenario Outline: BASE-INV-4140 Mobile Inventory Transfer Multiple LPNs Undirected [Fail] - 36078 ms
-
---- Log Context ---
-     82526: 
-     82527: And I wait 1 ($wait_short) seconds - Pass - 1011 ms
-     82528: When I navigate to https://cycl-pdbd-wm202111-mobile.wm-servers.com/login ($mobile_ui) in web browser [Start]
-     82529: 
-     82530: When I navigate to https://cycl-pdbd-wm202111-mobile.wm-servers.com/login ($mobile_ui) in web browser - Pass - 1988 ms
-     82531: Then I "login to the Mobile App UI" [Start]
-     82532: 
-     82533: Then I "login to the Mobile App UI" - Pass - 0 ms
-     82534: Then I execute scenario "Mobile Process Login Screen" [Start]
-     82535: 
-     82536: Given I "am on initial Mobile Login screen provide username / password" [Start]
-     82537: 
-     82538: Given I "am on initial Mobile Login screen provide username / password" - Pass - 0 ms
-     82539: Once I see element xPath://button[contains(@class,'submit-button') and contains(text(),'SIGN IN') and @name = 'submit' or @name = 'btnSubmit'] ($locator_mobile_login_submit_button) in web browser [Start]
-     82540: 
-     82541: Once I see element xPath://button[contains(@class,'submit-button') and contains(text(),'SIGN IN') and @name = 'submit' or @name = 'btnSubmit'] ($locator_mobile_login_submit_button) in web browser - Fail - 30275 ms
-     82542: [ERROR] org.openqa.selenium.TimeoutException: Expected condition failed: waiting until 'xPath://button[contains(@class,'submit-button') and contains(text(),'SIGN IN') and @name = 'submit' or @name = 'btnSubmit']' is displayed (tried for 30 second(s) with 500 milliseconds interval)
-     82543: Build info: version: '4.38.0', revision: '6b412e825c*'
-     82544: System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.8.0-1044-azure', java.version: '21.0.9'
-     82545: Driver info: driver.version: unknown
-     82546: at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:265)
-     82547: at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
-     82548: at io.cyclelabs.stepplugin.webdriver.service.WebDriverSession.waitUntilDisplayed(WebDriverSession.java:1052)
-     82549: at io.cyclelabs.stepplugin.webdriver.handlers.AppearanceApiHandler.lambda$elementDisplayed$3(AppearanceApiHandler.java:95)
-     82550: at io.cyclelabs.stepplugin.webdriver.facilitators.Attempt.with(Attempt.java:67)
-     82551: at io.cyclelabs.stepplugin.webdriver.handlers.AppearanceApiHandler.elementDisplayed(AppearanceApiHandler.java:92)
-     82552: at io.cyclelabs.stepplugin.webdriver.api.AppearanceApi.elementDisplayed(AppearanceApi.java:189)
-     82553: at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-     82554: at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-     82555: at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:360)
-     82556: at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
-     82557: at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
-     82558: at org.springframework.validation.beanvalidation.MethodValidationInterceptor.invoke(MethodValidationInterceptor.java:172)
-     82559: at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
-     82560: at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:728)
-     82561: at io.cyclelabs.stepplugin.webdriver.api.AppearanceApiController$$SpringCGLIB$$0.elementDisplayed(&lt;generated&gt;)
-     82562: at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-     82563: at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-     82564: at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258)
-     82565: at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:191)
-     82566: at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
-     82567: at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:991)
-     82568: at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:896)
-     82569: at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
-     82570: at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
-     82571: at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
-     82572: at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
-     82573: at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
-     82574: at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
-     82575: at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
-     82576: at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
-     82577: at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
-     82578: at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
-     82579: at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
-     82580: at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
-     82581: at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
-     82582: at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
-     82583: at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
-     82584: at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
-     82585: at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
-     82586: at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
-     82587: at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
-     82588: at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
-     82589: at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
-     82590: at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:110)
-     82591: at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
-     82592: at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
-     82593: at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
-     82594: at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
-     82595: at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
-     82596: at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
-     82597: at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
-     82598: at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
-     82599: at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:88)
-     82600: at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
-     82601: at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
-     82602: at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
-     82603: at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
-     82604: at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
-     82605: at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
-     82606: at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
-     82607: at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
-     82608: at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1774)
-     82609: at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
-     82610: at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:973)
-     82611: at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:491)
-     82612: at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
-     82613: at java.base/java.lang.Thread.run(Thread.java:1583)
-     82614: 
-     82615: Scenario: Mobile Process Login Screen [Fail] - 30275 ms
-     82616: Then I execute scenario "Mobile Process Login Screen" [Fail] - 30275 ms
-     82617: [ERROR] Fail
-     82618: Scenario: Mobile Login [Fail] - 36066 ms
-     82619: And I execute scenario "Mobile Login" [Fail] - 36066 ms
-     82620: [ERROR] Fail
-&gt;&gt;   82621: Scenario Outline: BASE-INV-4140 Mobile Inventory Transfer Multiple LPNs Undirected [Fail] - 36078 ms
-     82622: After Scenario:  [Start]
-     82623: Given I "perform test completion activities including logging out of the interfaces" [Start]
-     82624: 
-     82625: Given I "perform test completion activities including logging out of the interfaces" - Pass - 0 ms
-     82626: Then I execute scenario "Test Completion" [Start]
-
---- Links ---
-View full report: verification_report.html</system-out>
-    </testcase>
+  <testsuite name="BASE-INV-4140 Mobile Inventory Transfer Multiple LPNs Undirected" tests="1" failures="0" time="59.176">
+    <testcase name="BASE-INV-4140 Mobile Inventory Transfer Multiple LPNs Undirected" classname="Features.BASE-INV-4140 Mobile Inventory Transfer Multiple LPNs Undirected" time="59.176"/>
   </testsuite>
-  <testsuite name="BASE-SHP-4030 Mobile Unload and Unpick Shipment" tests="1" failures="1" time="32.585">
-    <testcase name="BASE-SHP-4030 Mobile Unload and Unpick Shipment" classname="Features.BASE-SHP-4030 Mobile Unload and Unpick Shipment" time="32.585">
-      <failure message="[ERROR] Fail">[ERROR] Fail
-Scenario Outline: BASE-SHP-4030 Mobile Unload and Unpick Shipment [Fail] - 32585 ms
-
---- Failure Point (Line 87923) ---
-Scenario Outline: BASE-SHP-4030 Mobile Unload and Unpick Shipment [Fail] - 32585 ms
-
---- Log Context ---
-     87828: 
-     87829: And I wait 1 ($wait_short) seconds - Pass - 1010 ms
-     87830: When I navigate to https://cycl-pdbd-wm202111-mobile.wm-servers.com/login ($mobile_ui) in web browser [Start]
-     87831: 
-     87832: When I navigate to https://cycl-pdbd-wm202111-mobile.wm-servers.com/login ($mobile_ui) in web browser - Pass - 153 ms
-     87833: Then I "login to the Mobile App UI" [Start]
-     87834: 
-     87835: Then I "login to the Mobile App UI" - Pass - 0 ms
-     87836: Then I execute scenario "Mobile Process Login Screen" [Start]
-     87837: 
-     87838: Given I "am on initial Mobile Login screen provide username / password" [Start]
-     87839: 
-     87840: Given I "am on initial Mobile Login screen provide username / password" - Pass - 0 ms
-     87841: Once I see element xPath://button[contains(@class,'submit-button') and contains(text(),'SIGN IN') and @name = 'submit' or @name = 'btnSubmit'] ($locator_mobile_login_submit_button) in web browser [Start]
-     87842: 
-     87843: Once I see element xPath://button[contains(@class,'submit-button') and contains(text(),'SIGN IN') and @name = 'submit' or @name = 'btnSubmit'] ($locator_mobile_login_submit_button) in web browser - Fail - 30102 ms
-     87844: [ERROR] org.openqa.selenium.TimeoutException: Expected condition failed: waiting until 'xPath://button[contains(@class,'submit-button') and contains(text(),'SIGN IN') and @name = 'submit' or @name = 'btnSubmit']' is displayed (tried for 30 second(s) with 500 milliseconds interval)
-     87845: Build info: version: '4.38.0', revision: '6b412e825c*'
-     87846: System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.8.0-1044-azure', java.version: '21.0.9'
-     87847: Driver info: driver.version: unknown
-     87848: at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:265)
-     87849: at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
-     87850: at io.cyclelabs.stepplugin.webdriver.service.WebDriverSession.waitUntilDisplayed(WebDriverSession.java:1052)
-     87851: at io.cyclelabs.stepplugin.webdriver.handlers.AppearanceApiHandler.lambda$elementDisplayed$3(AppearanceApiHandler.java:95)
-     87852: at io.cyclelabs.stepplugin.webdriver.facilitators.Attempt.with(Attempt.java:67)
-     87853: at io.cyclelabs.stepplugin.webdriver.handlers.AppearanceApiHandler.elementDisplayed(AppearanceApiHandler.java:92)
-     87854: at io.cyclelabs.stepplugin.webdriver.api.AppearanceApi.elementDisplayed(AppearanceApi.java:189)
-     87855: at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-     87856: at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-     87857: at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:360)
-     87858: at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
-     87859: at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
-     87860: at org.springframework.validation.beanvalidation.MethodValidationInterceptor.invoke(MethodValidationInterceptor.java:172)
-     87861: at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
-     87862: at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:728)
-     87863: at io.cyclelabs.stepplugin.webdriver.api.AppearanceApiController$$SpringCGLIB$$0.elementDisplayed(&lt;generated&gt;)
-     87864: at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-     87865: at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-     87866: at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258)
-     87867: at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:191)
-     87868: at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
-     87869: at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:991)
-     87870: at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:896)
-     87871: at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
-     87872: at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
-     87873: at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
-     87874: at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
-     87875: at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
-     87876: at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
-     87877: at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
-     87878: at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
-     87879: at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
-     87880: at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
-     87881: at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
-     87882: at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
-     87883: at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
-     87884: at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
-     87885: at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
-     87886: at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
-     87887: at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
-     87888: at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
-     87889: at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
-     87890: at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
-     87891: at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
-     87892: at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:110)
-     87893: at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
-     87894: at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
-     87895: at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
-     87896: at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
-     87897: at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
-     87898: at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
-     87899: at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
-     87900: at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
-     87901: at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:88)
-     87902: at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
-     87903: at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
-     87904: at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
-     87905: at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
-     87906: at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
-     87907: at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
-     87908: at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
-     87909: at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
-     87910: at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1774)
-     87911: at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
-     87912: at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:973)
-     87913: at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:491)
-     87914: at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
-     87915: at java.base/java.lang.Thread.run(Thread.java:1583)
-     87916: 
-     87917: Scenario: Mobile Process Login Screen [Fail] - 30103 ms
-     87918: Then I execute scenario "Mobile Process Login Screen" [Fail] - 30103 ms
-     87919: [ERROR] Fail
-     87920: Scenario: Mobile Login [Fail] - 32567 ms
-     87921: And I execute scenario "Mobile Login" [Fail] - 32567 ms
-     87922: [ERROR] Fail
-&gt;&gt;   87923: Scenario Outline: BASE-SHP-4030 Mobile Unload and Unpick Shipment [Fail] - 32585 ms
-     87924: After Scenario:  [Start]
-     87925: Given I "perform test completion activities including logging out of the interfaces" [Start]
-     87926: 
-     87927: Given I "perform test completion activities including logging out of the interfaces" - Pass - 0 ms
-     87928: Then I execute scenario "Test Completion" [Start]
-
---- Links ---
-View full report: verification_report.html</failure>
-      <system-out>[ERROR] Fail
-Scenario Outline: BASE-SHP-4030 Mobile Unload and Unpick Shipment [Fail] - 32585 ms
-
---- Failure Point (Line 87923) ---
-Scenario Outline: BASE-SHP-4030 Mobile Unload and Unpick Shipment [Fail] - 32585 ms
-
---- Log Context ---
-     87828: 
-     87829: And I wait 1 ($wait_short) seconds - Pass - 1010 ms
-     87830: When I navigate to https://cycl-pdbd-wm202111-mobile.wm-servers.com/login ($mobile_ui) in web browser [Start]
-     87831: 
-     87832: When I navigate to https://cycl-pdbd-wm202111-mobile.wm-servers.com/login ($mobile_ui) in web browser - Pass - 153 ms
-     87833: Then I "login to the Mobile App UI" [Start]
-     87834: 
-     87835: Then I "login to the Mobile App UI" - Pass - 0 ms
-     87836: Then I execute scenario "Mobile Process Login Screen" [Start]
-     87837: 
-     87838: Given I "am on initial Mobile Login screen provide username / password" [Start]
-     87839: 
-     87840: Given I "am on initial Mobile Login screen provide username / password" - Pass - 0 ms
-     87841: Once I see element xPath://button[contains(@class,'submit-button') and contains(text(),'SIGN IN') and @name = 'submit' or @name = 'btnSubmit'] ($locator_mobile_login_submit_button) in web browser [Start]
-     87842: 
-     87843: Once I see element xPath://button[contains(@class,'submit-button') and contains(text(),'SIGN IN') and @name = 'submit' or @name = 'btnSubmit'] ($locator_mobile_login_submit_button) in web browser - Fail - 30102 ms
-     87844: [ERROR] org.openqa.selenium.TimeoutException: Expected condition failed: waiting until 'xPath://button[contains(@class,'submit-button') and contains(text(),'SIGN IN') and @name = 'submit' or @name = 'btnSubmit']' is displayed (tried for 30 second(s) with 500 milliseconds interval)
-     87845: Build info: version: '4.38.0', revision: '6b412e825c*'
-     87846: System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.8.0-1044-azure', java.version: '21.0.9'
-     87847: Driver info: driver.version: unknown
-     87848: at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:265)
-     87849: at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
-     87850: at io.cyclelabs.stepplugin.webdriver.service.WebDriverSession.waitUntilDisplayed(WebDriverSession.java:1052)
-     87851: at io.cyclelabs.stepplugin.webdriver.handlers.AppearanceApiHandler.lambda$elementDisplayed$3(AppearanceApiHandler.java:95)
-     87852: at io.cyclelabs.stepplugin.webdriver.facilitators.Attempt.with(Attempt.java:67)
-     87853: at io.cyclelabs.stepplugin.webdriver.handlers.AppearanceApiHandler.elementDisplayed(AppearanceApiHandler.java:92)
-     87854: at io.cyclelabs.stepplugin.webdriver.api.AppearanceApi.elementDisplayed(AppearanceApi.java:189)
-     87855: at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-     87856: at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-     87857: at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:360)
-     87858: at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
-     87859: at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
-     87860: at org.springframework.validation.beanvalidation.MethodValidationInterceptor.invoke(MethodValidationInterceptor.java:172)
-     87861: at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
-     87862: at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:728)
-     87863: at io.cyclelabs.stepplugin.webdriver.api.AppearanceApiController$$SpringCGLIB$$0.elementDisplayed(&lt;generated&gt;)
-     87864: at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-     87865: at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-     87866: at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258)
-     87867: at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:191)
-     87868: at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
-     87869: at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:991)
-     87870: at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:896)
-     87871: at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
-     87872: at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
-     87873: at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
-     87874: at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
-     87875: at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
-     87876: at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
-     87877: at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
-     87878: at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
-     87879: at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
-     87880: at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
-     87881: at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
-     87882: at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
-     87883: at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
-     87884: at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
-     87885: at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
-     87886: at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
-     87887: at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
-     87888: at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
-     87889: at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
-     87890: at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
-     87891: at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
-     87892: at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:110)
-     87893: at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
-     87894: at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
-     87895: at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
-     87896: at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
-     87897: at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
-     87898: at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
-     87899: at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
-     87900: at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
-     87901: at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:88)
-     87902: at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
-     87903: at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
-     87904: at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
-     87905: at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
-     87906: at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
-     87907: at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
-     87908: at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
-     87909: at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
-     87910: at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1774)
-     87911: at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
-     87912: at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:973)
-     87913: at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:491)
-     87914: at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
-     87915: at java.base/java.lang.Thread.run(Thread.java:1583)
-     87916: 
-     87917: Scenario: Mobile Process Login Screen [Fail] - 30103 ms
-     87918: Then I execute scenario "Mobile Process Login Screen" [Fail] - 30103 ms
-     87919: [ERROR] Fail
-     87920: Scenario: Mobile Login [Fail] - 32567 ms
-     87921: And I execute scenario "Mobile Login" [Fail] - 32567 ms
-     87922: [ERROR] Fail
-&gt;&gt;   87923: Scenario Outline: BASE-SHP-4030 Mobile Unload and Unpick Shipment [Fail] - 32585 ms
-     87924: After Scenario:  [Start]
-     87925: Given I "perform test completion activities including logging out of the interfaces" [Start]
-     87926: 
-     87927: Given I "perform test completion activities including logging out of the interfaces" - Pass - 0 ms
-     87928: Then I execute scenario "Test Completion" [Start]
-
---- Links ---
-View full report: verification_report.html</system-out>
-    </testcase>
+  <testsuite name="BASE-SHP-4030 Mobile Unload and Unpick Shipment" tests="1" failures="0" time="129.214">
+    <testcase name="BASE-SHP-4030 Mobile Unload and Unpick Shipment" classname="Features.BASE-SHP-4030 Mobile Unload and Unpick Shipment" time="129.214"/>
   </testsuite>
-  <testsuite name="BASE-YRD-4010 Mobile Trailer Move" tests="1" failures="1" time="34.799">
-    <testcase name="BASE-YRD-4010 Mobile Trailer Move" classname="Features.BASE-YRD-4010 Mobile Trailer Move" time="34.799">
-      <failure message="[ERROR] Fail">[ERROR] Fail
-Scenario Outline: BASE-YRD-4010 Mobile Trailer Move [Fail] - 34799 ms
-
---- Failure Point (Line 92762) ---
-Scenario Outline: BASE-YRD-4010 Mobile Trailer Move [Fail] - 34799 ms
-
---- Log Context ---
-     92667: 
-     92668: And I wait 1 ($wait_short) seconds - Pass - 1013 ms
-     92669: When I navigate to https://cycl-pdbd-wm202111-mobile.wm-servers.com/login ($mobile_ui) in web browser [Start]
-     92670: 
-     92671: When I navigate to https://cycl-pdbd-wm202111-mobile.wm-servers.com/login ($mobile_ui) in web browser - Pass - 1234 ms
-     92672: Then I "login to the Mobile App UI" [Start]
-     92673: 
-     92674: Then I "login to the Mobile App UI" - Pass - 0 ms
-     92675: Then I execute scenario "Mobile Process Login Screen" [Start]
-     92676: 
-     92677: Given I "am on initial Mobile Login screen provide username / password" [Start]
-     92678: 
-     92679: Given I "am on initial Mobile Login screen provide username / password" - Pass - 0 ms
-     92680: Once I see element xPath://button[contains(@class,'submit-button') and contains(text(),'SIGN IN') and @name = 'submit' or @name = 'btnSubmit'] ($locator_mobile_login_submit_button) in web browser [Start]
-     92681: 
-     92682: Once I see element xPath://button[contains(@class,'submit-button') and contains(text(),'SIGN IN') and @name = 'submit' or @name = 'btnSubmit'] ($locator_mobile_login_submit_button) in web browser - Fail - 30150 ms
-     92683: [ERROR] org.openqa.selenium.TimeoutException: Expected condition failed: waiting until 'xPath://button[contains(@class,'submit-button') and contains(text(),'SIGN IN') and @name = 'submit' or @name = 'btnSubmit']' is displayed (tried for 30 second(s) with 500 milliseconds interval)
-     92684: Build info: version: '4.38.0', revision: '6b412e825c*'
-     92685: System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.8.0-1044-azure', java.version: '21.0.9'
-     92686: Driver info: driver.version: unknown
-     92687: at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:265)
-     92688: at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
-     92689: at io.cyclelabs.stepplugin.webdriver.service.WebDriverSession.waitUntilDisplayed(WebDriverSession.java:1052)
-     92690: at io.cyclelabs.stepplugin.webdriver.handlers.AppearanceApiHandler.lambda$elementDisplayed$3(AppearanceApiHandler.java:95)
-     92691: at io.cyclelabs.stepplugin.webdriver.facilitators.Attempt.with(Attempt.java:67)
-     92692: at io.cyclelabs.stepplugin.webdriver.handlers.AppearanceApiHandler.elementDisplayed(AppearanceApiHandler.java:92)
-     92693: at io.cyclelabs.stepplugin.webdriver.api.AppearanceApi.elementDisplayed(AppearanceApi.java:189)
-     92694: at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-     92695: at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-     92696: at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:360)
-     92697: at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
-     92698: at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
-     92699: at org.springframework.validation.beanvalidation.MethodValidationInterceptor.invoke(MethodValidationInterceptor.java:172)
-     92700: at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
-     92701: at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:728)
-     92702: at io.cyclelabs.stepplugin.webdriver.api.AppearanceApiController$$SpringCGLIB$$0.elementDisplayed(&lt;generated&gt;)
-     92703: at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-     92704: at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-     92705: at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258)
-     92706: at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:191)
-     92707: at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
-     92708: at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:991)
-     92709: at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:896)
-     92710: at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
-     92711: at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
-     92712: at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
-     92713: at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
-     92714: at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
-     92715: at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
-     92716: at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
-     92717: at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
-     92718: at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
-     92719: at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
-     92720: at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
-     92721: at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
-     92722: at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
-     92723: at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
-     92724: at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
-     92725: at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
-     92726: at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
-     92727: at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
-     92728: at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
-     92729: at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
-     92730: at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
-     92731: at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:110)
-     92732: at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
-     92733: at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
-     92734: at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
-     92735: at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
-     92736: at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
-     92737: at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
-     92738: at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
-     92739: at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
-     92740: at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:88)
-     92741: at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
-     92742: at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
-     92743: at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
-     92744: at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
-     92745: at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
-     92746: at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
-     92747: at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
-     92748: at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
-     92749: at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1774)
-     92750: at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
-     92751: at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:973)
-     92752: at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:491)
-     92753: at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
-     92754: at java.base/java.lang.Thread.run(Thread.java:1583)
-     92755: 
-     92756: Scenario: Mobile Process Login Screen [Fail] - 30151 ms
-     92757: Then I execute scenario "Mobile Process Login Screen" [Fail] - 30151 ms
-     92758: [ERROR] Fail
-     92759: Scenario: Mobile Login [Fail] - 34637 ms
-     92760: Then I execute scenario "Mobile Login" [Fail] - 34637 ms
-     92761: [ERROR] Fail
-&gt;&gt;   92762: Scenario Outline: BASE-YRD-4010 Mobile Trailer Move [Fail] - 34799 ms
-     92763: After Scenario:  [Start]
-     92764: Given I "perform test completion activities including logging out of the interfaces" [Start]
-     92765: 
-     92766: Given I "perform test completion activities including logging out of the interfaces" - Pass - 0 ms
-     92767: Then I execute scenario "Test Completion" [Start]
-
---- Links ---
-View full report: verification_report.html</failure>
-      <system-out>[ERROR] Fail
-Scenario Outline: BASE-YRD-4010 Mobile Trailer Move [Fail] - 34799 ms
-
---- Failure Point (Line 92762) ---
-Scenario Outline: BASE-YRD-4010 Mobile Trailer Move [Fail] - 34799 ms
-
---- Log Context ---
-     92667: 
-     92668: And I wait 1 ($wait_short) seconds - Pass - 1013 ms
-     92669: When I navigate to https://cycl-pdbd-wm202111-mobile.wm-servers.com/login ($mobile_ui) in web browser [Start]
-     92670: 
-     92671: When I navigate to https://cycl-pdbd-wm202111-mobile.wm-servers.com/login ($mobile_ui) in web browser - Pass - 1234 ms
-     92672: Then I "login to the Mobile App UI" [Start]
-     92673: 
-     92674: Then I "login to the Mobile App UI" - Pass - 0 ms
-     92675: Then I execute scenario "Mobile Process Login Screen" [Start]
-     92676: 
-     92677: Given I "am on initial Mobile Login screen provide username / password" [Start]
-     92678: 
-     92679: Given I "am on initial Mobile Login screen provide username / password" - Pass - 0 ms
-     92680: Once I see element xPath://button[contains(@class,'submit-button') and contains(text(),'SIGN IN') and @name = 'submit' or @name = 'btnSubmit'] ($locator_mobile_login_submit_button) in web browser [Start]
-     92681: 
-     92682: Once I see element xPath://button[contains(@class,'submit-button') and contains(text(),'SIGN IN') and @name = 'submit' or @name = 'btnSubmit'] ($locator_mobile_login_submit_button) in web browser - Fail - 30150 ms
-     92683: [ERROR] org.openqa.selenium.TimeoutException: Expected condition failed: waiting until 'xPath://button[contains(@class,'submit-button') and contains(text(),'SIGN IN') and @name = 'submit' or @name = 'btnSubmit']' is displayed (tried for 30 second(s) with 500 milliseconds interval)
-     92684: Build info: version: '4.38.0', revision: '6b412e825c*'
-     92685: System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.8.0-1044-azure', java.version: '21.0.9'
-     92686: Driver info: driver.version: unknown
-     92687: at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:265)
-     92688: at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
-     92689: at io.cyclelabs.stepplugin.webdriver.service.WebDriverSession.waitUntilDisplayed(WebDriverSession.java:1052)
-     92690: at io.cyclelabs.stepplugin.webdriver.handlers.AppearanceApiHandler.lambda$elementDisplayed$3(AppearanceApiHandler.java:95)
-     92691: at io.cyclelabs.stepplugin.webdriver.facilitators.Attempt.with(Attempt.java:67)
-     92692: at io.cyclelabs.stepplugin.webdriver.handlers.AppearanceApiHandler.elementDisplayed(AppearanceApiHandler.java:92)
-     92693: at io.cyclelabs.stepplugin.webdriver.api.AppearanceApi.elementDisplayed(AppearanceApi.java:189)
-     92694: at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-     92695: at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-     92696: at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:360)
-     92697: at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
-     92698: at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
-     92699: at org.springframework.validation.beanvalidation.MethodValidationInterceptor.invoke(MethodValidationInterceptor.java:172)
-     92700: at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
-     92701: at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:728)
-     92702: at io.cyclelabs.stepplugin.webdriver.api.AppearanceApiController$$SpringCGLIB$$0.elementDisplayed(&lt;generated&gt;)
-     92703: at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-     92704: at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-     92705: at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258)
-     92706: at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:191)
-     92707: at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
-     92708: at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:991)
-     92709: at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:896)
-     92710: at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
-     92711: at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
-     92712: at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
-     92713: at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
-     92714: at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
-     92715: at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
-     92716: at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
-     92717: at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
-     92718: at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
-     92719: at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
-     92720: at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
-     92721: at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
-     92722: at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
-     92723: at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
-     92724: at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
-     92725: at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
-     92726: at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
-     92727: at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
-     92728: at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
-     92729: at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
-     92730: at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
-     92731: at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:110)
-     92732: at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
-     92733: at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
-     92734: at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
-     92735: at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
-     92736: at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
-     92737: at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
-     92738: at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
-     92739: at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
-     92740: at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:88)
-     92741: at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
-     92742: at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
-     92743: at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
-     92744: at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
-     92745: at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
-     92746: at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
-     92747: at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
-     92748: at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
-     92749: at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1774)
-     92750: at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
-     92751: at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:973)
-     92752: at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:491)
-     92753: at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
-     92754: at java.base/java.lang.Thread.run(Thread.java:1583)
-     92755: 
-     92756: Scenario: Mobile Process Login Screen [Fail] - 30151 ms
-     92757: Then I execute scenario "Mobile Process Login Screen" [Fail] - 30151 ms
-     92758: [ERROR] Fail
-     92759: Scenario: Mobile Login [Fail] - 34637 ms
-     92760: Then I execute scenario "Mobile Login" [Fail] - 34637 ms
-     92761: [ERROR] Fail
-&gt;&gt;   92762: Scenario Outline: BASE-YRD-4010 Mobile Trailer Move [Fail] - 34799 ms
-     92763: After Scenario:  [Start]
-     92764: Given I "perform test completion activities including logging out of the interfaces" [Start]
-     92765: 
-     92766: Given I "perform test completion activities including logging out of the interfaces" - Pass - 0 ms
-     92767: Then I execute scenario "Test Completion" [Start]
-
---- Links ---
-View full report: verification_report.html</system-out>
-    </testcase>
+  <testsuite name="BASE-YRD-4010 Mobile Trailer Move" tests="1" failures="0" time="28.415">
+    <testcase name="BASE-YRD-4010 Mobile Trailer Move" classname="Features.BASE-YRD-4010 Mobile Trailer Move" time="28.415"/>
   </testsuite>
-  <testsuite name="BASE-YRD-4010 Mobile Trailer Move" tests="1" failures="1" time="54.371">
-    <testcase name="BASE-YRD-4010 Mobile Trailer Move" classname="Features.BASE-YRD-4010 Mobile Trailer Move" time="54.371">
-      <failure message="[ERROR] Fail">[ERROR] Fail
-Scenario Outline: BASE-YRD-4010 Mobile Trailer Move [Fail] - 54371 ms
-
---- Failure Point (Line 97447) ---
-Scenario Outline: BASE-YRD-4010 Mobile Trailer Move [Fail] - 54371 ms
-
---- Log Context ---
-     97352: 
-     97353: And I wait 1 ($wait_short) seconds - Pass - 1018 ms
-     97354: When I navigate to https://cycl-pdbd-wm202111-mobile.wm-servers.com/login ($mobile_ui) in web browser [Start]
-     97355: 
-     97356: When I navigate to https://cycl-pdbd-wm202111-mobile.wm-servers.com/login ($mobile_ui) in web browser - Pass - 145 ms
-     97357: Then I "login to the Mobile App UI" [Start]
-     97358: 
-     97359: Then I "login to the Mobile App UI" - Pass - 0 ms
-     97360: Then I execute scenario "Mobile Process Login Screen" [Start]
-     97361: 
-     97362: Given I "am on initial Mobile Login screen provide username / password" [Start]
-     97363: 
-     97364: Given I "am on initial Mobile Login screen provide username / password" - Pass - 0 ms
-     97365: Once I see element xPath://button[contains(@class,'submit-button') and contains(text(),'SIGN IN') and @name = 'submit' or @name = 'btnSubmit'] ($locator_mobile_login_submit_button) in web browser [Start]
-     97366: 
-     97367: Once I see element xPath://button[contains(@class,'submit-button') and contains(text(),'SIGN IN') and @name = 'submit' or @name = 'btnSubmit'] ($locator_mobile_login_submit_button) in web browser - Fail - 30483 ms
-     97368: [ERROR] org.openqa.selenium.TimeoutException: Expected condition failed: waiting until 'xPath://button[contains(@class,'submit-button') and contains(text(),'SIGN IN') and @name = 'submit' or @name = 'btnSubmit']' is displayed (tried for 30 second(s) with 500 milliseconds interval)
-     97369: Build info: version: '4.38.0', revision: '6b412e825c*'
-     97370: System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.8.0-1044-azure', java.version: '21.0.9'
-     97371: Driver info: driver.version: unknown
-     97372: at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:265)
-     97373: at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
-     97374: at io.cyclelabs.stepplugin.webdriver.service.WebDriverSession.waitUntilDisplayed(WebDriverSession.java:1052)
-     97375: at io.cyclelabs.stepplugin.webdriver.handlers.AppearanceApiHandler.lambda$elementDisplayed$3(AppearanceApiHandler.java:95)
-     97376: at io.cyclelabs.stepplugin.webdriver.facilitators.Attempt.with(Attempt.java:67)
-     97377: at io.cyclelabs.stepplugin.webdriver.handlers.AppearanceApiHandler.elementDisplayed(AppearanceApiHandler.java:92)
-     97378: at io.cyclelabs.stepplugin.webdriver.api.AppearanceApi.elementDisplayed(AppearanceApi.java:189)
-     97379: at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-     97380: at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-     97381: at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:360)
-     97382: at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
-     97383: at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
-     97384: at org.springframework.validation.beanvalidation.MethodValidationInterceptor.invoke(MethodValidationInterceptor.java:172)
-     97385: at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
-     97386: at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:728)
-     97387: at io.cyclelabs.stepplugin.webdriver.api.AppearanceApiController$$SpringCGLIB$$0.elementDisplayed(&lt;generated&gt;)
-     97388: at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-     97389: at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-     97390: at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258)
-     97391: at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:191)
-     97392: at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
-     97393: at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:991)
-     97394: at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:896)
-     97395: at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
-     97396: at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
-     97397: at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
-     97398: at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
-     97399: at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
-     97400: at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
-     97401: at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
-     97402: at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
-     97403: at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
-     97404: at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
-     97405: at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
-     97406: at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
-     97407: at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
-     97408: at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
-     97409: at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
-     97410: at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
-     97411: at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
-     97412: at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
-     97413: at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
-     97414: at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
-     97415: at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
-     97416: at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:110)
-     97417: at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
-     97418: at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
-     97419: at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
-     97420: at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
-     97421: at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
-     97422: at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
-     97423: at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
-     97424: at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
-     97425: at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:88)
-     97426: at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
-     97427: at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
-     97428: at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
-     97429: at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
-     97430: at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
-     97431: at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
-     97432: at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
-     97433: at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
-     97434: at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1774)
-     97435: at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
-     97436: at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:973)
-     97437: at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:491)
-     97438: at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
-     97439: at java.base/java.lang.Thread.run(Thread.java:1583)
-     97440: 
-     97441: Scenario: Mobile Process Login Screen [Fail] - 30483 ms
-     97442: Then I execute scenario "Mobile Process Login Screen" [Fail] - 30484 ms
-     97443: [ERROR] Fail
-     97444: Scenario: Mobile Login [Fail] - 54279 ms
-     97445: Then I execute scenario "Mobile Login" [Fail] - 54279 ms
-     97446: [ERROR] Fail
-&gt;&gt;   97447: Scenario Outline: BASE-YRD-4010 Mobile Trailer Move [Fail] - 54371 ms
-     97448: After Scenario:  [Start]
-     97449: Given I "perform test completion activities including logging out of the interfaces" [Start]
-     97450: 
-     97451: Given I "perform test completion activities including logging out of the interfaces" - Pass - 0 ms
-     97452: Then I execute scenario "Test Completion" [Start]
-
---- Links ---
-View full report: verification_report.html</failure>
-      <system-out>[ERROR] Fail
-Scenario Outline: BASE-YRD-4010 Mobile Trailer Move [Fail] - 54371 ms
-
---- Failure Point (Line 97447) ---
-Scenario Outline: BASE-YRD-4010 Mobile Trailer Move [Fail] - 54371 ms
-
---- Log Context ---
-     97352: 
-     97353: And I wait 1 ($wait_short) seconds - Pass - 1018 ms
-     97354: When I navigate to https://cycl-pdbd-wm202111-mobile.wm-servers.com/login ($mobile_ui) in web browser [Start]
-     97355: 
-     97356: When I navigate to https://cycl-pdbd-wm202111-mobile.wm-servers.com/login ($mobile_ui) in web browser - Pass - 145 ms
-     97357: Then I "login to the Mobile App UI" [Start]
-     97358: 
-     97359: Then I "login to the Mobile App UI" - Pass - 0 ms
-     97360: Then I execute scenario "Mobile Process Login Screen" [Start]
-     97361: 
-     97362: Given I "am on initial Mobile Login screen provide username / password" [Start]
-     97363: 
-     97364: Given I "am on initial Mobile Login screen provide username / password" - Pass - 0 ms
-     97365: Once I see element xPath://button[contains(@class,'submit-button') and contains(text(),'SIGN IN') and @name = 'submit' or @name = 'btnSubmit'] ($locator_mobile_login_submit_button) in web browser [Start]
-     97366: 
-     97367: Once I see element xPath://button[contains(@class,'submit-button') and contains(text(),'SIGN IN') and @name = 'submit' or @name = 'btnSubmit'] ($locator_mobile_login_submit_button) in web browser - Fail - 30483 ms
-     97368: [ERROR] org.openqa.selenium.TimeoutException: Expected condition failed: waiting until 'xPath://button[contains(@class,'submit-button') and contains(text(),'SIGN IN') and @name = 'submit' or @name = 'btnSubmit']' is displayed (tried for 30 second(s) with 500 milliseconds interval)
-     97369: Build info: version: '4.38.0', revision: '6b412e825c*'
-     97370: System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.8.0-1044-azure', java.version: '21.0.9'
-     97371: Driver info: driver.version: unknown
-     97372: at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:265)
-     97373: at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
-     97374: at io.cyclelabs.stepplugin.webdriver.service.WebDriverSession.waitUntilDisplayed(WebDriverSession.java:1052)
-     97375: at io.cyclelabs.stepplugin.webdriver.handlers.AppearanceApiHandler.lambda$elementDisplayed$3(AppearanceApiHandler.java:95)
-     97376: at io.cyclelabs.stepplugin.webdriver.facilitators.Attempt.with(Attempt.java:67)
-     97377: at io.cyclelabs.stepplugin.webdriver.handlers.AppearanceApiHandler.elementDisplayed(AppearanceApiHandler.java:92)
-     97378: at io.cyclelabs.stepplugin.webdriver.api.AppearanceApi.elementDisplayed(AppearanceApi.java:189)
-     97379: at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-     97380: at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-     97381: at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:360)
-     97382: at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
-     97383: at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
-     97384: at org.springframework.validation.beanvalidation.MethodValidationInterceptor.invoke(MethodValidationInterceptor.java:172)
-     97385: at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
-     97386: at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:728)
-     97387: at io.cyclelabs.stepplugin.webdriver.api.AppearanceApiController$$SpringCGLIB$$0.elementDisplayed(&lt;generated&gt;)
-     97388: at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-     97389: at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-     97390: at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258)
-     97391: at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:191)
-     97392: at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
-     97393: at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:991)
-     97394: at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:896)
-     97395: at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
-     97396: at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
-     97397: at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
-     97398: at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
-     97399: at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
-     97400: at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
-     97401: at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
-     97402: at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
-     97403: at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
-     97404: at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
-     97405: at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
-     97406: at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
-     97407: at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
-     97408: at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
-     97409: at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
-     97410: at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
-     97411: at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
-     97412: at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
-     97413: at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
-     97414: at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
-     97415: at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
-     97416: at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:110)
-     97417: at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
-     97418: at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
-     97419: at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
-     97420: at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
-     97421: at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
-     97422: at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
-     97423: at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
-     97424: at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
-     97425: at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:88)
-     97426: at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
-     97427: at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
-     97428: at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
-     97429: at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
-     97430: at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
-     97431: at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
-     97432: at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
-     97433: at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
-     97434: at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1774)
-     97435: at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
-     97436: at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:973)
-     97437: at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:491)
-     97438: at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
-     97439: at java.base/java.lang.Thread.run(Thread.java:1583)
-     97440: 
-     97441: Scenario: Mobile Process Login Screen [Fail] - 30483 ms
-     97442: Then I execute scenario "Mobile Process Login Screen" [Fail] - 30484 ms
-     97443: [ERROR] Fail
-     97444: Scenario: Mobile Login [Fail] - 54279 ms
-     97445: Then I execute scenario "Mobile Login" [Fail] - 54279 ms
-     97446: [ERROR] Fail
-&gt;&gt;   97447: Scenario Outline: BASE-YRD-4010 Mobile Trailer Move [Fail] - 54371 ms
-     97448: After Scenario:  [Start]
-     97449: Given I "perform test completion activities including logging out of the interfaces" [Start]
-     97450: 
-     97451: Given I "perform test completion activities including logging out of the interfaces" - Pass - 0 ms
-     97452: Then I execute scenario "Test Completion" [Start]
-
---- Links ---
-View full report: verification_report.html</system-out>
-    </testcase>
+  <testsuite name="BASE-YRD-4010 Mobile Trailer Move" tests="1" failures="0" time="29.543">
+    <testcase name="BASE-YRD-4010 Mobile Trailer Move" classname="Features.BASE-YRD-4010 Mobile Trailer Move" time="29.543"/>
   </testsuite>
 </testsuites>
