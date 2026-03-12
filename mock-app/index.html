@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cycle Test Local Page</title>
+    <style>
+        body { font-family: sans-serif; display: flex; justify-content: center; align-items: center; height: 100vh; background-color: #f0f2f5; }
+        .card { background: white; padding: 2rem; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); text-align: center; }
+        h1 { color: #1a73e8; }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h1>Local Test Page</h1>
+        <p id="status-message">If you can see this, your browser container reached the local web server!</p>
+        <button id="test-button" onclick="document.getElementById('status-message').innerText = 'Button clicked!'">Click Me</button>
+    </div>
+</body>
+</html>

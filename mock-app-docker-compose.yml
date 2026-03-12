@@ -1,0 +1,31 @@
+services:
+
+  mock-web-app:
+    image: nginx:alpine
+    volumes:
+      - ./mock-app:/usr/share/nginx/html
+    ports:
+      - "8080:80"
+    hostname: webapp
+
+  cycle-browser-test:
+    image: "docker.io/cyclelabs/cycle-cli:latest"
+    shm_size: 2g
+    volumes:
+      - .:/code
+    depends_on:
+      - "chrome"
+      - "mock-web-app"
+    # To test against the local app, use http://webapp as the URL in your Cycle tests
+    command: [ "--clientid", "${CI_CYCLE_AUTH}", "--client-credential", "${CI_CYCLE_AUTH_SECRET}", "-p", "/code", "combined/local-plumbing-test.feature" ]
+    env_file:
+      - secrets.env
+
+  chrome:
+    image: "selenium/standalone-chrome"
+    environment:
+      - CHROME_OPTS=--no-sandbox --disable-dev-shm-usage --headless
+    ports:
+      - "4444:4444"
+    hostname: chrome
+    shm_size: 2g
