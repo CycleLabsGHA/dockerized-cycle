@@ -88,6 +88,14 @@ jobs:
 
           cp "$GITHUB_WORKSPACE/secrets.env" "$GITHUB_WORKSPACE/.env"
 
+      - name: 🧪 Run Cycle Browser Test - Simple
+        run: |
+          docker compose -f simple-web-test-docker-compose.yml pull --quiet
+          docker compose -f simple-web-test-docker-compose.yml up --attach cycle-browser-test-chrome --abort-on-container-exit || true
+          docker compose -f simple-web-test-docker-compose.yml down
+        env:
+          DOCKER_HOST: tcp://127.0.0.1:2375
+
       - name: 🧪 Run Cycle API Test
         run: |
           docker compose -f api-test-docker-compose.yml pull --quiet
