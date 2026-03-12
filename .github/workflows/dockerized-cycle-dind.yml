@@ -11,6 +11,8 @@ jobs:
     services:
       docker:
         image: docker:dind
+        env:
+          DOCKER_TLS_CERTDIR: ""
         ports:
           - 2375:2375
         options: --privileged
@@ -27,13 +29,13 @@ jobs:
       - name: 🐋 Verify DinD Connectivity
         run: |
           # Wait for Docker to be ready
-          until docker -H tcp://localhost:2375 info; do
+          until docker -H tcp://127.0.0.1:2375 info; do
             echo "Waiting for Docker daemon..."
             sleep 1
           done
-          docker -H tcp://localhost:2375 info
+          docker -H tcp://127.0.0.1:2375 info
         env:
-          DOCKER_HOST: tcp://localhost:2375
+          DOCKER_HOST: tcp://127.0.0.1:2375
 
       - name: 🔐 Log in to Azure
         uses: azure/login@v1
@@ -90,7 +92,7 @@ jobs:
           docker compose -f version-docker-compose.yml up --attach cycle-version-test --abort-on-container-exit || true
           docker compose -f version-docker-compose.yml down
         env:
-          DOCKER_HOST: tcp://localhost:2375
+          DOCKER_HOST: tcp://127.0.0.1:2375
 
       - name: 🧪 Run Cycle API Test
         run: |
@@ -98,7 +100,7 @@ jobs:
           docker compose -f api-test-docker-compose.yml up --attach cycle-api-test --abort-on-container-exit || true
           docker compose -f api-test-docker-compose.yml down
         env:
-          DOCKER_HOST: tcp://localhost:2375
+          DOCKER_HOST: tcp://127.0.0.1:2375
 
       - name: 🧪 Run Cycle Browser Test - Chrome
         run: |
@@ -109,5 +111,5 @@ jobs:
           DOCKER_HOST: tcp://localhost:2375
 
       - name: 🧹 Clean up Docker Containers
-        run: docker -H tcp://localhost:2375 container prune -f
+        run: docker -H tcp://127.0.0.1:2375 container prune -f
         if: always()
